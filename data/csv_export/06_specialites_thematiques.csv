@@ -1,0 +1,629 @@
+﻿uid;nom;prenom;groupe_sigle;specialite_principale;top_5_themes;nb_themes_votes
+PA793214;Abadie-Amiel;Audrey;LIOT;Sante;Sante(254) | Economie & Finance(154) | Securite sociale & Protection(110) | Outre-mer(7) | Institutions(3);10
+PA795228;Abomangoli;Nadège;LFI-NFP;Immigration;Economie & Finance(1313) | Securite sociale & Protection(299) | Outre-mer(212) | Sante(209) | Institutions(148);16
+PA794278;Albertini;Xavier;HOR;Immigration;Economie & Finance(184) | Securite sociale & Protection(117) | Securite & Justice(61) | Sante(44) | Outre-mer(15);15
+PA793262;Alexandre;Laurent;LFI-NFP;Ecologie & Environnement;Economie & Finance(1469) | Securite sociale & Protection(405) | Sante(371) | Ecologie & Environnement(220) | Outre-mer(185);15
+PA793992;Alfandari;Henri;HOR;Ecologie & Environnement;Economie & Finance(160) | Ecologie & Environnement(76) | Social & Travail(27) | Securite sociale & Protection(24) | Securite & Justice(23);14
+PA841067;Allegret-Pilot;Alexandre;UDR;Securite & Justice;Economie & Finance(1362) | Sante(451) | Securite sociale & Protection(194) | Ecologie & Environnement(175) | Outre-mer(161);15
+PA840665;Allemand;Marie-José;SOC;Institutions;Economie & Finance(1528) | Securite sociale & Protection(506) | Sante(405) | Institutions(206) | Outre-mer(98);16
+PA793432;Allisio;Franck;RN;Transport;Economie & Finance(244) | Institutions(72) | Outre-mer(49) | Securite & Justice(34) | Securite sociale & Protection(32);14
+PA841207;Alloncle;Charles;UDR;Outre-mer;Economie & Finance(702) | Securite sociale & Protection(92) | Outre-mer(84) | Sante(45) | Institutions(21);15
+PA794906;Amard;Gabriel;LFI-NFP;Immigration;Economie & Finance(809) | Sante(458) | Securite sociale & Protection(273) | Culture(103) | Institutions(99);15
+PA841495;Amblard;Maxime;RN;Ecologie & Environnement;Economie & Finance(1475) | Securite sociale & Protection(451) | Ecologie & Environnement(248) | Securite & Justice(106) | Outre-mer(104);15
+PA795950;Amiel;David;EPR;Ecologie & Environnement;Economie & Finance(456) | Institutions(69) | Ecologie & Environnement(65) | Securite & Justice(23) | Education(14);14
+PA794138;Amiot;Ségolène;LFI-NFP;Logement & Urbanisme;Economie & Finance(1674) | Sante(573) | Securite sociale & Protection(533) | Institutions(188) | Ecologie & Environnement(144);16
+PA610968;Amirshahi;Pouria;EcoS;Defense;Economie & Finance(1553) | Securite sociale & Protection(343) | Sante(338) | Securite & Justice(175) | Institutions(132);15
+PA795588;Amrani;Farida;LFI-NFP;Education;Economie & Finance(1069) | Securite sociale & Protection(329) | Institutions(151) | Outre-mer(91) | Ecologie & Environnement(85);16
+PA721158;Anglade;Pieyre-Alexandre;EPR;Numerique & Technologies;Economie & Finance(710) | Securite sociale & Protection(339) | Sante(180) | Institutions(125) | Education(59);16
+PA795084;Arenas;Rodrigo;LFI-NFP;Education;Economie & Finance(445) | Securite sociale & Protection(94) | Institutions(73) | Outre-mer(66) | Education(49);15
+PA795144;Armand;Antoine;EPR;Ecologie & Environnement;Economie & Finance(346) | Ecologie & Environnement(201) | Securite sociale & Protection(64) | Culture(59) | Institutions(39);15
+PA842105;Arnault;Raphaël;LFI-NFP;Defense;Economie & Finance(1012) | Sante(325) | Securite sociale & Protection(220) | Institutions(117) | Outre-mer(110);15
+PA793780;Arrighi;Christine;EcoS;Ecologie & Environnement;Economie & Finance(1083) | Sante(141) | Ecologie & Environnement(111) | Institutions(107) | Securite & Justice(48);14
+PA722190;Attal;Gabriel;EPR;Numerique & Technologies;Economie & Finance(939) | Securite sociale & Protection(246) | Sante(161) | Securite & Justice(94) | Outre-mer(93);16
+PA588884;Autain;Clémentine;EcoS;Ecologie & Environnement;Economie & Finance(498) | Securite sociale & Protection(128) | Ecologie & Environnement(77) | Institutions(38) | Culture(31);14
+PA796118;Auzanot;Bénédicte;RN;Ecologie & Environnement;Economie & Finance(733) | Sante(185) | Securite sociale & Protection(119) | Ecologie & Environnement(107) | Institutions(101);15
+PA642764;Aviragnet;Joël;SOC;Education;Economie & Finance(422) | Securite sociale & Protection(265) | Sante(133) | Education(32) | Logement & Urbanisme(13);14
+PA841701;Balage El Mariky;Léa;EcoS;Defense;Economie & Finance(906) | Sante(200) | Outre-mer(172) | Securite sociale & Protection(136) | Securite & Justice(129);15
+PA719558;Balanant;Erwan;Dem;Institutions;Economie & Finance(789) | Securite sociale & Protection(211) | Institutions(110) | Sante(66) | Ecologie & Environnement(44);15
+PA794562;Ballard;Philippe;RN;Defense;Economie & Finance(896) | Securite sociale & Protection(201) | Sante(171) | Ecologie & Environnement(101) | Institutions(86);15
+PA842279;Bamana;Anchya;RN;Outre-mer;Economie & Finance(679) | Outre-mer(299) | Securite sociale & Protection(228) | Sante(224) | Securite & Justice(47);15
+PA720256;Bannier;Géraldine;Dem;Culture;Economie & Finance(779) | Securite sociale & Protection(316) | Sante(195) | Culture(183) | Ecologie & Environnement(71);16
+PA643143;Baptiste;Christian;SOC;Immigration;Economie & Finance(757) | Securite sociale & Protection(302) | Outre-mer(122) | Institutions(87) | Securite & Justice(64);14
+PA368;Barnier;Michel;DR;Culture;Economie & Finance(269) | Securite sociale & Protection(54) | Securite & Justice(14) | Culture(13) | Sante(12);9
+PA721836;Barrot;Jean-Noël;Dem;;;0
+PA793238;Barthès;Christophe;RN;Agriculture;Economie & Finance(1285) | Securite sociale & Protection(293) | Sante(207) | Outre-mer(166) | Ecologie & Environnement(125);15
+PA840829;Barusseau;Fabrice;SOC;Numerique & Technologies;Economie & Finance(1030) | Securite sociale & Protection(342) | Sante(315) | Ecologie & Environnement(99) | Culture(87);16
+PA267561;Barèges;Brigitte;NI;Securite & Justice;Economie & Finance(111) | Securite & Justice(79) | Sante(53) | Outre-mer(20) | Securite sociale & Protection(18);13
+PA267763;Bataille;Jean-Pierre;LIOT;Logement & Urbanisme;Economie & Finance(762) | Institutions(119) | Securite sociale & Protection(114) | Sante(41) | Logement & Urbanisme(34);15
+PA335999;Batho;Delphine;EcoS;Securite sociale & Protection;Economie & Finance(581) | Securite sociale & Protection(294) | Institutions(41) | Sante(36) | Social & Travail(34);15
+PA342415;Battistel;Marie-Noëlle;SOC;Institutions;Economie & Finance(1132) | Sante(458) | Securite sociale & Protection(355) | Institutions(209) | Ecologie & Environnement(145);15
+PA793374;Baubry;Romain;RN;Social & Travail;Economie & Finance(495) | Sante(105) | Outre-mer(97) | Securite & Justice(83) | Institutions(80);15
+PA606793;Baumel;Laurent;SOC;Economie & Finance;Economie & Finance(864) | Securite sociale & Protection(223) | Sante(135) | Outre-mer(55) | Securite & Justice(42);14
+PA841745;Bay;Pascale;DR;Economie & Finance;Economie & Finance(67) | Securite sociale & Protection(10) | Sante(4) | Outre-mer(1) | Agriculture(1);6
+PA642847;Bazin;Thibault;DR;Immigration;Economie & Finance(819) | Securite sociale & Protection(602) | Sante(578) | Outre-mer(82) | Institutions(76);14
+PA718884;Bazin-Malgras;Valérie;DR;Defense;Economie & Finance(1394) | Securite sociale & Protection(423) | Sante(318) | Culture(106) | Institutions(84);15
+PA793158;Beaurain;José;RN;Securite sociale & Protection;Economie & Finance(1051) | Securite sociale & Protection(390) | Sante(172) | Outre-mer(86) | Securite & Justice(84);15
+PA642935;Becht;Olivier;EPR;Securite sociale & Protection;Economie & Finance(123) | Securite sociale & Protection(71) | Sante(22) | Securite & Justice(11) | Culture(7);13
+PA720362;Belhaddad;Belkhir;SOC;Culture;Economie & Finance(859) | Culture(174) | Securite sociale & Protection(168) | Sante(117) | Ecologie & Environnement(97);16
+PA795278;Bellamy;Béatrice;HOR;Culture;Economie & Finance(1217) | Securite sociale & Protection(382) | Culture(181) | Securite & Justice(146) | Institutions(96);15
+PA842211;Bellay;Béatrice;SOC;Logement & Urbanisme;Economie & Finance(527) | Securite sociale & Protection(269) | Institutions(101) | Sante(44) | Outre-mer(39);15
+PA795362;Belluco;Lisa;EcoS;Transport;Economie & Finance(1349) | Securite sociale & Protection(261) | Ecologie & Environnement(176) | Outre-mer(134) | Education(93);16
+PA841657;Belouassa-Cherifi;Anaïs;LFI-NFP;Logement & Urbanisme;Economie & Finance(709) | Securite sociale & Protection(255) | Sante(253) | Outre-mer(101) | Social & Travail(92);14
+PA795454;Ben Cheikh;Karim;EcoS;Defense;Economie & Finance(1609) | Securite sociale & Protection(239) | Sante(149) | Securite & Justice(149) | Culture(83);15
+PA841315;Benbrahim;Karim;SOC;Immigration;Economie & Finance(1293) | Securite sociale & Protection(382) | Sante(155) | Ecologie & Environnement(142) | Institutions(104);15
+PA332228;Benoit;Thierry;HOR;Defense;Economie & Finance(1084) | Securite sociale & Protection(354) | Institutions(162) | Sante(154) | Outre-mer(123);16
+PA794434;Bentz;Christophe;RN;Numerique & Technologies;Economie & Finance(1919) | Sante(769) | Securite sociale & Protection(580) | Ecologie & Environnement(251) | Institutions(199);16
+PA805166;Bergantz;Anne;Dem;Numerique & Technologies;Economie & Finance(1408) | Sante(472) | Securite sociale & Protection(457) | Outre-mer(244) | Securite & Justice(222);16
+PA408578;Berger;Jean-Didier;DR;Defense;Economie & Finance(524) | Securite sociale & Protection(112) | Sante(85) | Outre-mer(65) | Securite & Justice(62);15
+PA722046;Bergé;Aurore;EPR;Social & Travail;Economie & Finance(30) | Social & Travail(24) | Securite sociale & Protection(6) | Sante(4) | Outre-mer(2);8
+PA720430;Bernalicis;Ugo;LFI-NFP;Immigration;Economie & Finance(495) | Securite & Justice(204) | Outre-mer(117) | Sante(108) | Ecologie & Environnement(79);15
+PA841645;Bernhardt;Théo;RN;Transport;Economie & Finance(1529) | Sante(434) | Securite sociale & Protection(396) | Outre-mer(195) | Ecologie & Environnement(183);16
+PA687214;Berrios;Sylvain;HOR;Transport;Economie & Finance(677) | Sante(144) | Securite sociale & Protection(106) | Institutions(86) | Outre-mer(56);15
+PA719218;Berville;Hervé;EPR;Numerique & Technologies;Economie & Finance(599) | Ecologie & Environnement(248) | Institutions(139) | Securite sociale & Protection(137) | Logement & Urbanisme(51);16
+PA309643;Besse;Véronique;NI;Institutions;Sante(137) | Economie & Finance(80) | Institutions(53) | Securite & Justice(25) | Outre-mer(19);12
+PA793772;Bex;Christophe;LFI-NFP;Outre-mer;Economie & Finance(1584) | Sante(411) | Outre-mer(318) | Securite sociale & Protection(180) | Ecologie & Environnement(169);16
+PA842001;Bigot;Guillaume;RN;Transport;Economie & Finance(656) | Securite sociale & Protection(230) | Institutions(91) | Sante(60) | Social & Travail(55);15
+PA720822;Bilde;Bruno;RN;Institutions;Economie & Finance(713) | Securite sociale & Protection(164) | Institutions(155) | Sante(119) | Outre-mer(86);15
+PA795616;Bilongo;Carlos Martens;LFI-NFP;Institutions;Economie & Finance(689) | Institutions(142) | Securite sociale & Protection(98) | Outre-mer(87) | Sante(62);15
+PA840997;Biteau;Benoît;EcoS;Outre-mer;Economie & Finance(840) | Outre-mer(239) | Sante(141) | Ecologie & Environnement(115) | Securite sociale & Protection(106);15
+PA720668;Blairy;Emmanuel;RN;Defense;Economie & Finance(766) | Securite sociale & Protection(224) | Sante(150) | Institutions(89) | Outre-mer(66);15
+PA794886;Blanc;Sophie;RN;Ecologie & Environnement;Economie & Finance(797) | Securite sociale & Protection(204) | Ecologie & Environnement(150) | Sante(141) | Outre-mer(133);15
+PA842183;Blanchard;Benoît;HOR;Numerique & Technologies;Economie & Finance(801) | Sante(201) | Securite sociale & Protection(175) | Culture(55) | Institutions(32);14
+PA719024;Blanchet;Christophe;Dem;Institutions;Economie & Finance(728) | Sante(197) | Securite sociale & Protection(173) | Institutions(152) | Culture(73);15
+PA774954;Blin;Anne-Laure;DR;Defense;Economie & Finance(845) | Sante(143) | Securite sociale & Protection(135) | Outre-mer(57) | Defense(41);14
+PA840889;Bloch;Matthieu;UDR;Immigration;Economie & Finance(710) | Sante(357) | Securite sociale & Protection(180) | Outre-mer(98) | Institutions(81);15
+PA796042;Boccaletti;Frédéric;RN;Immigration;Economie & Finance(1452) | Sante(260) | Ecologie & Environnement(202) | Outre-mer(178) | Securite sociale & Protection(154);15
+PA720162;Bolo;Philippe;Dem;Ecologie & Environnement;Economie & Finance(852) | Securite sociale & Protection(180) | Ecologie & Environnement(143) | Institutions(61) | Social & Travail(24);15
+PA793444;Bompard;Manuel;LFI-NFP;Defense;Economie & Finance(1246) | Securite sociale & Protection(233) | Sante(154) | Institutions(104) | Ecologie & Environnement(104);15
+PA569;Bonnecarrère;Philippe;NI;Culture;Economie & Finance(1143) | Securite sociale & Protection(232) | Culture(150) | Sante(107) | Ecologie & Environnement(92);16
+PA841885;Bonnet;Arnaud;EcoS;Defense;Economie & Finance(1372) | Sante(256) | Institutions(99) | Securite sociale & Protection(77) | Outre-mer(66);15
+PA841507;Bonnet;Nicolas;EcoS;Immigration;Economie & Finance(1383) | Securite sociale & Protection(303) | Sante(271) | Ecologie & Environnement(170) | Outre-mer(102);16
+PA719968;Bonnet;Sylvie;DR;Defense;Economie & Finance(476) | Sante(223) | Securite sociale & Protection(214) | Institutions(49) | Outre-mer(48);16
+PA721410;Bonnivard;Émilie;DR;Culture;Economie & Finance(1330) | Securite sociale & Protection(347) | Sante(293) | Culture(146) | Outre-mer(93);16
+PA266793;Bony;Jean-Yves;DR;Securite sociale & Protection;Economie & Finance(697) | Securite sociale & Protection(262) | Sante(113) | Ecologie & Environnement(51) | Institutions(42);14
+PA793844;Bordes;Pascale;RN;Transport;Economie & Finance(1049) | Sante(234) | Securite sociale & Protection(208) | Outre-mer(160) | Securite & Justice(146);15
+PA717161;Borne;Élisabeth;EPR;Social & Travail;Economie & Finance(225) | Securite sociale & Protection(80) | Sante(40) | Social & Travail(26) | Education(12);12
+PA642695;Bothorel;Éric;EPR;Ecologie & Environnement;Economie & Finance(1032) | Securite sociale & Protection(423) | Sante(351) | Ecologie & Environnement(169) | Outre-mer(70);15
+PA721816;Boucard;Ian;DR;Transport;Economie & Finance(754) | Securite sociale & Protection(161) | Outre-mer(95) | Transport(48) | Defense(46);15
+PA606507;Boudié;Florent;EPR;Transport;Securite & Justice(151) | Economie & Finance(147) | Institutions(117) | Securite sociale & Protection(102) | Outre-mer(58);16
+PA841487;Boulogne;Anthony;RN;Defense;Economie & Finance(1267) | Sante(211) | Outre-mer(167) | Securite & Justice(162) | Ecologie & Environnement(148);15
+PA794094;Bouloux;Mickaël;SOC;Ecologie & Environnement;Economie & Finance(1762) | Sante(535) | Securite sociale & Protection(313) | Ecologie & Environnement(220) | Outre-mer(105);15
+PA794938;Boumertit;Idir;LFI-NFP;Institutions;Economie & Finance(957) | Securite sociale & Protection(290) | Institutions(209) | Sante(165) | Ecologie & Environnement(124);15
+PA841131;Bouquin;Manon;RN;Ecologie & Environnement;Economie & Finance(1560) | Sante(537) | Ecologie & Environnement(231) | Securite sociale & Protection(226) | Outre-mer(180);15
+PA342240;Bourgeaux;Jean-Luc;DR;Defense;Economie & Finance(560) | Securite sociale & Protection(178) | Ecologie & Environnement(62) | Sante(61) | Institutions(58);15
+PA720838;Bourouaha;Soumya;GDR;Culture;Economie & Finance(458) | Culture(139) | Sante(69) | Institutions(68) | Securite sociale & Protection(60);15
+PA719032;Bouyx;Bertrand;HOR;Logement & Urbanisme;Economie & Finance(1015) | Securite sociale & Protection(328) | Sante(275) | Outre-mer(87) | Ecologie & Environnement(66);15
+PA793182;Bovet;Jorys;RN;Immigration;Economie & Finance(1588) | Securite sociale & Protection(418) | Sante(331) | Ecologie & Environnement(110) | Securite & Justice(102);15
+PA795318;Boyard;Louis;LFI-NFP;Education;Economie & Finance(1061) | Securite sociale & Protection(302) | Sante(200) | Institutions(73) | Outre-mer(70);14
+PA841339;Brard;Jean-Michel;HOR;Ecologie & Environnement;Economie & Finance(637) | Securite sociale & Protection(226) | Sante(195) | Institutions(93) | Ecologie & Environnement(91);16
+PA721908;Braun-Pivet;Yaël;EPR;Institutions;Institutions(46) | Economie & Finance(18) | Sante(15) | Securite sociale & Protection(13) | Outre-mer(6);8
+PA795990;Bregeon;Maud;EPR;Education;Outre-mer(22) | Education(15) | Securite & Justice(14) | Sante(10) | Institutions(6);11
+PA330008;Breton;Xavier;DR;Defense;Economie & Finance(389) | Sante(189) | Securite sociale & Protection(83) | Defense(46) | Outre-mer(44);15
+PA793508;Brigand;Hubert;DR;Defense;Economie & Finance(321) | Securite sociale & Protection(124) | Sante(96) | Outre-mer(37) | Institutions(33);15
+PA721336;Brocard;Blandine;Dem;Sante;Economie & Finance(390) | Sante(328) | Securite sociale & Protection(136) | Institutions(107) | Ecologie & Environnement(52);15
+PA794330;Brosse;Anthony;EPR;Numerique & Technologies;Economie & Finance(1838) | Sante(618) | Securite sociale & Protection(489) | Culture(185) | Outre-mer(159);16
+PA794710;Brugerolles;Julien;GDR;Numerique & Technologies;Economie & Finance(186) | Ecologie & Environnement(145) | Securite sociale & Protection(93) | Institutions(53) | Logement & Urbanisme(51);14
+PA719890;Brulebois;Danielle;EPR;Transport;Economie & Finance(1453) | Securite sociale & Protection(392) | Sante(151) | Outre-mer(101) | Institutions(95);15
+PA718838;Brun;Fabrice;DR;Securite sociale & Protection;Economie & Finance(301) | Securite sociale & Protection(197) | Institutions(49) | Sante(35) | Ecologie & Environnement(17);14
+PA793624;Brun;Philippe;SOC;Logement & Urbanisme;Economie & Finance(1269) | Securite sociale & Protection(289) | Ecologie & Environnement(109) | Institutions(72) | Outre-mer(51);15
+PA840817;Bruneau;Joël;LIOT;Numerique & Technologies;Economie & Finance(1538) | Securite sociale & Protection(243) | Ecologie & Environnement(217) | Culture(169) | Sante(141);16
+PA722000;Buchou;Stéphane;EPR;Education;Economie & Finance(863) | Securite sociale & Protection(310) | Ecologie & Environnement(84) | Sante(57) | Education(55);16
+PA794798;Buffet;Françoise;EPR;Culture;Economie & Finance(1518) | Securite sociale & Protection(430) | Culture(162) | Ecologie & Environnement(126) | Institutions(122);16
+PA793134;Buisson;Jérôme;RN;Outre-mer;Economie & Finance(1115) | Securite sociale & Protection(322) | Outre-mer(137) | Ecologie & Environnement(105) | Sante(101);15
+PA796106;Bénard;Édouard;GDR;Transport;Economie & Finance(614) | Securite sociale & Protection(136) | Sante(134) | Outre-mer(104) | Institutions(50);15
+PA841023;Cadalen;Pierre-Yves;LFI-NFP;Defense;Economie & Finance(997) | Sante(298) | Securite sociale & Protection(236) | Outre-mer(109) | Social & Travail(65);16
+PA795762;Califer;Elie;SOC;Logement & Urbanisme;Economie & Finance(911) | Securite sociale & Protection(356) | Outre-mer(237) | Sante(124) | Institutions(110);13
+PA721750;Calvez;Céline;EPR;Numerique & Technologies;Economie & Finance(992) | Securite sociale & Protection(312) | Sante(245) | Ecologie & Environnement(101) | Institutions(48);16
+PA608264;Capdevielle;Colette;SOC;Immigration;Economie & Finance(1375) | Securite sociale & Protection(350) | Sante(273) | Outre-mer(180) | Ecologie & Environnement(144);15
+PA841973;Carbonnel;Pierre-Henri;UDR;Defense;Economie & Finance(875) | Securite sociale & Protection(294) | Sante(127) | Culture(57) | Defense(46);15
+PA795330;Caroit;Eléonore;NI;Ecologie & Environnement;Sante(280) | Ecologie & Environnement(207) | Economie & Finance(154) | Outre-mer(47) | Securite & Justice(38);14
+PA796090;Caron;Aymeric;LFI-NFP;Institutions;Economie & Finance(980) | Securite sociale & Protection(234) | Sante(221) | Institutions(99) | Outre-mer(40);15
+PA793912;Carrière;Sylvain;LFI-NFP;Immigration;Economie & Finance(1429) | Sante(474) | Securite sociale & Protection(354) | Institutions(174) | Ecologie & Environnement(157);16
+PA841801;Carteron;Danièle;EPR;Social & Travail;Economie & Finance(82) | Securite sociale & Protection(43) | Social & Travail(36) | Outre-mer(28) | Sante(21);10
+PA719138;Castellani;Michel;LIOT;Logement & Urbanisme;Economie & Finance(206) | Securite sociale & Protection(16) | Logement & Urbanisme(13) | Outre-mer(11) | Institutions(9);13
+PA840075;Casterman;Eddy;RN;Numerique & Technologies;Economie & Finance(1154) | Securite sociale & Protection(260) | Ecologie & Environnement(142) | Sante(128) | Securite & Justice(81);16
+PA794554;Castiglione;Salvatore;LIOT;Logement & Urbanisme;Ecologie & Environnement(70) | Economie & Finance(42) | Logement & Urbanisme(37) | Outre-mer(29) | Securite & Justice(28);12
+PA795868;Castor;Jean-Victor;GDR;Culture;Economie & Finance(406) | Culture(50) | Securite sociale & Protection(48) | Outre-mer(45) | Institutions(39);14
+PA842187;Cathala;Gabrielle;LFI-NFP;Numerique & Technologies;Economie & Finance(1364) | Securite sociale & Protection(298) | Sante(291) | Securite & Justice(219) | Outre-mer(169);16
+PA842311;Caure;Vincent;EPR;Immigration;Economie & Finance(647) | Securite sociale & Protection(264) | Sante(258) | Securite & Justice(186) | Outre-mer(150);16
+PA719922;Causse;Lionel;EPR;Logement & Urbanisme;Economie & Finance(609) | Securite sociale & Protection(232) | Sante(33) | Logement & Urbanisme(21) | Ecologie & Environnement(17);14
+PA793940;Cazenave;Thomas;EPR;Culture;Economie & Finance(345) | Securite sociale & Protection(92) | Sante(70) | Culture(58) | Social & Travail(46);15
+PA719472;Cazeneuve;Jean-René;EPR;Agriculture;Economie & Finance(1100) | Securite sociale & Protection(167) | Sante(92) | Institutions(59) | Ecologie & Environnement(58);16
+PA795864;Cazeneuve;Pierre;EPR;Numerique & Technologies;Economie & Finance(915) | Securite sociale & Protection(203) | Sante(135) | Outre-mer(109) | Securite & Justice(84);16
+PA841047;Ceccoli;François-Xavier;DR;Immigration;Economie & Finance(279) | Institutions(93) | Ecologie & Environnement(90) | Securite & Justice(86) | Securite sociale & Protection(67);15
+PA842037;Cernon;Bérenger;LFI-NFP;Immigration;Economie & Finance(1573) | Securite sociale & Protection(312) | Sante(221) | Institutions(172) | Securite & Justice(127);15
+PA840701;Chaix;Bernard;UDR;Logement & Urbanisme;Economie & Finance(454) | Sante(204) | Securite sociale & Protection(138) | Ecologie & Environnement(108) | Outre-mer(100);15
+PA267306;Chassaigne;André;GDR;Agriculture;Economie & Finance(56) | Agriculture(30) | Securite sociale & Protection(16) | Sante(12) | Institutions(10);8
+PA794008;Chatelain;Cyrielle;EcoS;Defense;Economie & Finance(1297) | Securite sociale & Protection(281) | Sante(202) | Ecologie & Environnement(139) | Institutions(93);16
+PA840721;Chavent;Marc;UDR;Transport;Economie & Finance(719) | Securite sociale & Protection(212) | Sante(204) | Outre-mer(129) | Institutions(67);15
+PA795908;Chenevard;Yannick;EPR;Transport;Economie & Finance(749) | Securite sociale & Protection(282) | Culture(92) | Social & Travail(46) | Sante(37);16
+PA720468;Chenu;Sébastien;RN;Outre-mer;Economie & Finance(473) | Securite sociale & Protection(128) | Outre-mer(112) | Sante(84) | Institutions(64);15
+PA791812;Chikirou;Sophia;LFI-NFP;Securite & Justice;Economie & Finance(703) | Securite sociale & Protection(173) | Securite & Justice(133) | Ecologie & Environnement(100) | Outre-mer(91);14
+PA642868;Christophe;Paul;HOR;Social & Travail;Economie & Finance(733) | Securite sociale & Protection(270) | Securite & Justice(104) | Sante(79) | Social & Travail(76);15
+PA840903;Christophle;Paul;SOC;Transport;Economie & Finance(735) | Securite sociale & Protection(201) | Outre-mer(99) | Securite & Justice(87) | Institutions(50);15
+PA794198;Chudeau;Roger;RN;Numerique & Technologies;Economie & Finance(730) | Sante(221) | Outre-mer(204) | Securite sociale & Protection(181) | Institutions(92);16
+PA330240;Ciotti;Éric;UDR;Agriculture;Economie & Finance(183) | Securite sociale & Protection(118) | Institutions(43) | Culture(29) | Securite & Justice(26);15
+PA840159;Clavet;Bruno;RN;Outre-mer;Economie & Finance(810) | Outre-mer(137) | Securite sociale & Protection(91) | Institutions(71) | Culture(45);15
+PA793736;Clouet;Hadrien;LFI-NFP;Sante;Economie & Finance(871) | Sante(647) | Securite sociale & Protection(432) | Institutions(93) | Education(72);16
+PA795402;Coggia;Nathalie;EPR;Numerique & Technologies;Economie & Finance(906) | Securite sociale & Protection(299) | Sante(102) | Outre-mer(55) | Culture(47);15
+PA841431;Colin-Oesterlé;Nathalie;HOR;Immigration;Economie & Finance(807) | Securite sociale & Protection(467) | Sante(281) | Institutions(108) | Securite & Justice(95);14
+PA719286;Colombani;Paul-André;LIOT;Logement & Urbanisme;Economie & Finance(399) | Securite sociale & Protection(301) | Social & Travail(36) | Logement & Urbanisme(32) | Securite & Justice(19);13
+PA793548;Colombier;Caroline;RN;Defense;Economie & Finance(1687) | Securite sociale & Protection(461) | Sante(357) | Ecologie & Environnement(216) | Institutions(113);15
+PA721202;Coquerel;Éric;LFI-NFP;Economie & Finance;Economie & Finance(1161) | Securite sociale & Protection(70) | Ecologie & Environnement(53) | Outre-mer(53) | Institutions(46);14
+PA721210;Corbière;Alexis;EcoS;Agriculture;Economie & Finance(942) | Securite sociale & Protection(321) | Ecologie & Environnement(77) | Sante(62) | Institutions(56);15
+PA718850;Cordier;Pierre;DR;Defense;Economie & Finance(405) | Securite sociale & Protection(136) | Institutions(51) | Securite & Justice(35) | Culture(31);15
+PA719118;Cormier-Bouligeon;François;EPR;Sante;Economie & Finance(692) | Sante(350) | Securite sociale & Protection(309) | Outre-mer(64) | Education(42);15
+PA722390;Corneloup;Josiane;DR;Defense;Economie & Finance(748) | Securite sociale & Protection(355) | Sante(191) | Institutions(106) | Ecologie & Environnement(90);16
+PA793520;Cosson;Mickaël;Dem;Logement & Urbanisme;Economie & Finance(963) | Securite sociale & Protection(259) | Sante(133) | Logement & Urbanisme(90) | Institutions(60);15
+PA795136;Coulomme;Jean-François;LFI-NFP;Numerique & Technologies;Economie & Finance(1603) | Securite sociale & Protection(434) | Sante(357) | Securite & Justice(167) | Culture(165);16
+PA841295;Courbon;Pierrick;SOC;Culture;Economie & Finance(1045) | Sante(228) | Securite sociale & Protection(191) | Culture(186) | Outre-mer(98);15
+PA794430;Criaud;Michel;HOR;Defense;Economie & Finance(378) | Culture(101) | Securite sociale & Protection(78) | Outre-mer(48) | Defense(45);12
+PA793716;Croizier;Laurent;Dem;Immigration;Economie & Finance(504) | Securite sociale & Protection(197) | Sante(49) | Outre-mer(43) | Culture(37);15
+PA793322;D'Intorni;Christelle;UDR;Ecologie & Environnement;Economie & Finance(291) | Securite sociale & Protection(224) | Ecologie & Environnement(140) | Sante(102) | Culture(38);16
+PA795644;Da Conceicao Carvalho;Nathalie;RN;Defense;Economie & Finance(1739) | Securite sociale & Protection(507) | Sante(429) | Ecologie & Environnement(125) | Outre-mer(89);15
+PA332523;Dalloz;Marie-Christine;DR;Education;Economie & Finance(892) | Ecologie & Environnement(85) | Education(34) | Outre-mer(31) | Sante(31);14
+PA607846;Darmanin;Gérald;EPR;Securite sociale & Protection;Economie & Finance(24) | Securite sociale & Protection(11) | Social & Travail(5) | Agriculture(4) | Sante(1);6
+PA719914;Darrieussecq;Geneviève;Dem;Securite sociale & Protection;Economie & Finance(719) | Securite sociale & Protection(419) | Sante(248) | Outre-mer(139) | Ecologie & Environnement(104);14
+PA793122;Daubié;Romain;Dem;Culture;Economie & Finance(707) | Securite sociale & Protection(185) | Culture(136) | Institutions(104) | Ecologie & Environnement(83);15
+PA793452;Davi;Hendrik;EcoS;Immigration;Economie & Finance(940) | Securite sociale & Protection(540) | Sante(226) | Institutions(119) | Securite & Justice(105);15
+PA1008;David;Alain;SOC;Logement & Urbanisme;Economie & Finance(185) | Sante(50) | Securite sociale & Protection(47) | Culture(26) | Securite & Justice(24);15
+PA840119;Delannoy;Sandra;NI;Logement & Urbanisme;Economie & Finance(955) | Sante(366) | Securite sociale & Protection(328) | Outre-mer(133) | Institutions(61);14
+PA793394;Delaporte;Arthur;SOC;Culture;Economie & Finance(1774) | Securite sociale & Protection(588) | Sante(320) | Culture(164) | Securite & Justice(124);15
+PA795430;Delautrette;Stéphane;SOC;Sante;Economie & Finance(1045) | Sante(657) | Securite sociale & Protection(376) | Institutions(219) | Logement & Urbanisme(46);15
+PA793464;Delogu;Sébastien;LFI-NFP;Defense;Economie & Finance(559) | Securite sociale & Protection(134) | Outre-mer(79) | Institutions(65) | Securite & Justice(55);15
+PA840713;Delorme Duret;Sophie;EPR;Outre-mer;Economie & Finance(99) | Securite sociale & Protection(67) | Outre-mer(42) | Sante(17) | Social & Travail(12);12
+PA794982;Delpech;Julie;EPR;Numerique & Technologies;Economie & Finance(577) | Securite sociale & Protection(195) | Sante(121) | Securite & Justice(84) | Agriculture(45);15
+PA330909;Descoeur;Vincent;DR;Securite sociale & Protection;Economie & Finance(959) | Securite sociale & Protection(382) | Sante(80) | Ecologie & Environnement(60) | Institutions(51);15
+PA793166;Dessigny;Jocelyn;RN;Defense;Economie & Finance(1815) | Securite sociale & Protection(400) | Sante(330) | Securite & Justice(186) | Institutions(103);15
+PA794042;Dezarnaud;Sylvie;DR;Transport;Economie & Finance(292) | Outre-mer(66) | Sante(62) | Securite & Justice(51) | Transport(37);13
+PA720386;Di Filippo;Fabien;DR;Securite sociale & Protection;Economie & Finance(580) | Securite sociale & Protection(312) | Sante(97) | Outre-mer(59) | Culture(40);15
+PA793928;Diaz;Edwige;RN;Outre-mer;Economie & Finance(2116) | Sante(365) | Securite sociale & Protection(349) | Outre-mer(308) | Securite & Justice(195);15
+PA841919;Diop;Dieynaba;SOC;Defense;Economie & Finance(993) | Sante(286) | Securite sociale & Protection(282) | Outre-mer(120) | Institutions(92);15
+PA842155;Diouara;Aly;LFI-NFP;Defense;Economie & Finance(735) | Securite sociale & Protection(184) | Ecologie & Environnement(122) | Outre-mer(81) | Institutions(79);15
+PA722382;Dirx;Benjamin;EPR;Immigration;Economie & Finance(697) | Securite sociale & Protection(109) | Culture(67) | Securite & Justice(32) | Institutions(30);16
+PA712015;Dive;Julien;DR;Defense;Economie & Finance(362) | Securite sociale & Protection(109) | Outre-mer(84) | Institutions(66) | Defense(46);15
+PA794762;Dogor-Such;Sandrine;RN;Sante;Economie & Finance(1309) | Sante(722) | Securite sociale & Protection(412) | Outre-mer(245) | Securite & Justice(137);15
+PA606573;Dombre Coste;Fanny;SOC;Social & Travail;Economie & Finance(811) | Securite sociale & Protection(425) | Sante(344) | Social & Travail(76) | Institutions(32);14
+PA793146;Dragon;Nicolas;RN;Defense;Economie & Finance(1923) | Sante(470) | Securite sociale & Protection(390) | Ecologie & Environnement(180) | Securite & Justice(167);15
+PA720154;Dubré-Chirat;Nicole;EPR;Numerique & Technologies;Sante(776) | Economie & Finance(662) | Securite sociale & Protection(321) | Institutions(165) | Outre-mer(128);16
+PA608826;Duby-Muller;Virginie;DR;Culture;Economie & Finance(462) | Culture(137) | Securite sociale & Protection(91) | Institutions(63) | Sante(58);14
+PA841633;Dufau;Peio;SOC;Logement & Urbanisme;Economie & Finance(1358) | Securite sociale & Protection(419) | Sante(340) | Outre-mer(93) | Logement & Urbanisme(71);15
+PA840135;Dufosset;Alexandre;RN;Transport;Economie & Finance(1190) | Securite sociale & Protection(245) | Sante(227) | Outre-mer(132) | Ecologie & Environnement(122);15
+PA795200;Dufour;Alma;LFI-NFP;Logement & Urbanisme;Economie & Finance(826) | Securite sociale & Protection(209) | Sante(142) | Outre-mer(66) | Institutions(64);15
+PA870009;Duparay;Lionel;DR;Social & Travail;Economie & Finance(701) | Securite sociale & Protection(199) | Sante(149) | Institutions(62) | Culture(41);14
+PA841351;Duplessy;Emmanuel;EcoS;Institutions;Economie & Finance(510) | Institutions(207) | Sante(157) | Outre-mer(129) | Securite & Justice(97);14
+PA643175;Dupont;Stella;NI;Numerique & Technologies;Economie & Finance(1062) | Securite sociale & Protection(364) | Sante(331) | Institutions(71) | Ecologie & Environnement(61);16
+PA842073;Dussausaye;Gaëtan;RN;Immigration;Economie & Finance(1646) | Securite sociale & Protection(499) | Sante(373) | Outre-mer(156) | Securite & Justice(125);15
+PA841761;Dutremble;Aurélien;RN;Ecologie & Environnement;Economie & Finance(1134) | Securite sociale & Protection(339) | Ecologie & Environnement(132) | Outre-mer(102) | Institutions(99);15
+PA794854;Echaniz;Inaki;SOC;Logement & Urbanisme;Economie & Finance(1621) | Securite sociale & Protection(418) | Sante(144) | Outre-mer(109) | Ecologie & Environnement(108);15
+PA794718;Engrand;Christine;NI;Transport;Economie & Finance(507) | Securite sociale & Protection(172) | Sante(62) | Outre-mer(49) | Transport(33);15
+PA795844;Erodi;Karen;LFI-NFP;Sante;Economie & Finance(1311) | Sante(704) | Securite sociale & Protection(465) | Outre-mer(161) | Institutions(89);15
+PA607193;Errante;Sophie;NI;Sante;Sante(348) | Economie & Finance(117) | Outre-mer(40) | Social & Travail(28) | Institutions(17);13
+PA842195;Eskenazi;Romain;SOC;Education;Economie & Finance(1185) | Securite sociale & Protection(329) | Sante(127) | Education(75) | Institutions(72);14
+PA841621;Evrard;Auguste;RN;Ecologie & Environnement;Economie & Finance(803) | Securite sociale & Protection(198) | Ecologie & Environnement(122) | Institutions(104) | Sante(102);15
+PA794658;Fait;Philippe;HOR;Transport;Economie & Finance(319) | Sante(187) | Securite sociale & Protection(68) | Outre-mer(53) | Transport(49);15
+PA793246;Falcon;Frédéric;RN;Ecologie & Environnement;Economie & Finance(1046) | Securite sociale & Protection(302) | Ecologie & Environnement(201) | Sante(116) | Outre-mer(109);15
+PA605694;Falorni;Olivier;Dem;Sante;Sante(613) | Economie & Finance(328) | Securite sociale & Protection(142) | Institutions(10) | Outre-mer(10);13
+PA721896;Faucillon;Elsa;GDR;Immigration;Economie & Finance(444) | Securite & Justice(195) | Outre-mer(93) | Securite sociale & Protection(73) | Sante(52);15
+PA609332;Faure;Olivier;SOC;Logement & Urbanisme;Economie & Finance(532) | Securite sociale & Protection(211) | Outre-mer(46) | Securite & Justice(22) | Logement & Urbanisme(22);15
+PA267042;Favennec-Bécot;Yannick;LIOT;Logement & Urbanisme;Economie & Finance(455) | Securite sociale & Protection(326) | Sante(124) | Agriculture(29) | Logement & Urbanisme(29);15
+PA840773;Fayssat;Olivier;UDR;Logement & Urbanisme;Economie & Finance(1816) | Sante(401) | Securite sociale & Protection(329) | Outre-mer(280) | Institutions(251);16
+PA841251;Feld;Mathilde;LFI-NFP;Outre-mer;Economie & Finance(1745) | Sante(307) | Outre-mer(173) | Securite sociale & Protection(101) | Ecologie & Environnement(92);15
+PA794786;Fernandes;Emmanuel;LFI-NFP;Culture;Economie & Finance(1909) | Sante(570) | Securite sociale & Protection(337) | Outre-mer(201) | Culture(197);15
+PA795884;Ferracci;Marc;EPR;Numerique & Technologies;Economie & Finance(351) | Securite sociale & Protection(181) | Education(37) | Sante(26) | Culture(23);13
+PA795120;Ferrari;Marina;Dem;Immigration;Outre-mer(146) | Ecologie & Environnement(93) | Institutions(89) | Sante(88) | Securite & Justice(57);14
+PA794870;Ferrer;Sylvie;LFI-NFP;Immigration;Economie & Finance(1110) | Sante(318) | Ecologie & Environnement(134) | Outre-mer(122) | Institutions(118);15
+PA719938;Fesneau;Marc;Dem;Institutions;Economie & Finance(807) | Securite sociale & Protection(267) | Sante(105) | Institutions(88) | Outre-mer(61);15
+PA267780;Firmin Le Bodo;Agnès;HOR;Sante;Sante(525) | Economie & Finance(464) | Outre-mer(190) | Securite sociale & Protection(143) | Institutions(141);16
+PA722134;Fiévet;Jean-Marie;EPR;Transport;Economie & Finance(922) | Securite sociale & Protection(382) | Ecologie & Environnement(202) | Sante(138) | Outre-mer(57);16
+PA840143;Florquin;Guillaume;RN;Defense;Economie & Finance(1539) | Securite sociale & Protection(489) | Sante(185) | Outre-mer(114) | Ecologie & Environnement(102);15
+PA1327;Forissier;Nicolas;DR;Agriculture;Economie & Finance(55) | Institutions(53) | Ecologie & Environnement(48) | Outre-mer(44) | Sante(37);13
+PA840801;Fouquart;Emmanuel;RN;Immigration;Economie & Finance(1272) | Outre-mer(205) | Securite sociale & Protection(173) | Ecologie & Environnement(168) | Institutions(140);15
+PA793980;Fournier;Charles;EcoS;Defense;Economie & Finance(799) | Securite sociale & Protection(137) | Institutions(93) | Sante(77) | Ecologie & Environnement(58);15
+PA794678;Frappé;Thierry;RN;Transport;Economie & Finance(1529) | Securite sociale & Protection(561) | Sante(544) | Outre-mer(163) | Ecologie & Environnement(127);15
+PA822617;Froger;Martine;SOC;Securite sociale & Protection;Economie & Finance(1006) | Securite sociale & Protection(461) | Institutions(101) | Sante(55) | Social & Travail(37);14
+PA841151;Fruchon;Alix;DR;Securite sociale & Protection;Economie & Finance(382) | Securite sociale & Protection(151) | Sante(104) | Social & Travail(3) | Institutions(2);11
+PA840235;Frébault;Moerani;EPR;Transport;Economie & Finance(139) | Securite & Justice(62) | Institutions(41) | Social & Travail(37) | Outre-mer(28);14
+PA722284;Fuchs;Bruno;Dem;Culture;Economie & Finance(300) | Securite sociale & Protection(89) | Sante(54) | Ecologie & Environnement(32) | Institutions(31);15
+PA722366;Fugit;Jean-Luc;EPR;Numerique & Technologies;Economie & Finance(1836) | Securite sociale & Protection(388) | Sante(245) | Ecologie & Environnement(220) | Institutions(126);16
+PA841665;Fégné;Denis;SOC;Immigration;Economie & Finance(1316) | Securite sociale & Protection(384) | Sante(369) | Securite & Justice(125) | Ecologie & Environnement(124);16
+PA841139;Gabarron;Julien;RN;Logement & Urbanisme;Economie & Finance(837) | Outre-mer(145) | Sante(136) | Securite sociale & Protection(114) | Securite & Justice(81);14
+PA796070;Gaillard;Perceval;LFI-NFP;Immigration;Economie & Finance(1382) | Sante(501) | Securite sociale & Protection(282) | Ecologie & Environnement(89) | Education(75);14
+PA719736;Galliard-Minier;Camille;EPR;Sante;Economie & Finance(566) | Securite sociale & Protection(428) | Sante(385) | Social & Travail(51) | Education(38);14
+PA793892;Galzy;Stéphanie;RN;Transport;Economie & Finance(807) | Sante(207) | Securite sociale & Protection(148) | Culture(46) | Social & Travail(45);14
+PA795010;Garin;Marie-Charlotte;EcoS;Defense;Economie & Finance(1011) | Securite sociale & Protection(250) | Sante(146) | Institutions(115) | Outre-mer(83);15
+PA333285;Garot;Guillaume;SOC;Education;Economie & Finance(862) | Securite sociale & Protection(410) | Sante(231) | Outre-mer(96) | Education(64);15
+PA722358;Gassilloud;Thomas;EPR;Agriculture;Economie & Finance(199) | Securite sociale & Protection(68) | Sante(63) | Institutions(17) | Social & Travail(17);15
+PA721024;Genetet;Anne;EPR;Transport;Economie & Finance(794) | Securite sociale & Protection(336) | Ecologie & Environnement(98) | Securite & Justice(67) | Education(62);15
+PA605991;Genevard;Annie;DR;;;0
+PA794234;Gernigon;François;HOR;Transport;Economie & Finance(728) | Securite sociale & Protection(383) | Sante(364) | Outre-mer(85) | Social & Travail(79);15
+PA841737;Gery;Jonathan;RN;Immigration;Economie & Finance(1539) | Securite sociale & Protection(387) | Outre-mer(266) | Sante(181) | Institutions(119);15
+PA796034;Giletti;Frank;RN;Outre-mer;Economie & Finance(724) | Sante(328) | Outre-mer(196) | Securite sociale & Protection(126) | Institutions(72);15
+PA793832;Gillet;Yoann;RN;Outre-mer;Economie & Finance(1330) | Outre-mer(341) | Sante(259) | Ecologie & Environnement(216) | Securite & Justice(208);15
+PA793102;Girard;Christian;RN;Defense;Economie & Finance(2054) | Securite sociale & Protection(514) | Sante(399) | Institutions(166) | Outre-mer(139);16
+PA841419;Girard;Damien;EcoS;Institutions;Economie & Finance(354) | Securite sociale & Protection(113) | Institutions(69) | Sante(51) | Ecologie & Environnement(34);14
+PA718674;Givernet;Olga;EPR;Culture;Economie & Finance(757) | Securite sociale & Protection(262) | Culture(153) | Sante(131) | Ecologie & Environnement(104);15
+PA840939;Godard;Océane;SOC;Sante;Economie & Finance(694) | Sante(529) | Securite sociale & Protection(386) | Social & Travail(90) | Outre-mer(76);15
+PA841539;Gokel;Julien;SOC;Transport;Economie & Finance(448) | Sante(82) | Securite sociale & Protection(60) | Outre-mer(56) | Institutions(47);15
+PA841605;Golliot;Antoine;RN;Transport;Economie & Finance(1262) | Sante(234) | Securite sociale & Protection(227) | Outre-mer(177) | Ecologie & Environnement(163);15
+PA841869;Gonord;Michel;NI;Social & Travail;Social & Travail(37) | Economie & Finance(33) | Outre-mer(26) | Securite sociale & Protection(5) | Agriculture(1);6
+PA793362;Gonzalez;José;RN;Immigration;Economie & Finance(1367) | Securite sociale & Protection(307) | Sante(244) | Ecologie & Environnement(156) | Institutions(92);15
+PA266797;Gosselin;Philippe;DR;Immigration;Sante(349) | Economie & Finance(231) | Outre-mer(172) | Institutions(133) | Securite sociale & Protection(60);16
+PA331973;Got;Pascale;SOC;Social & Travail;Economie & Finance(857) | Securite sociale & Protection(334) | Sante(313) | Outre-mer(82) | Social & Travail(65);15
+PA721296;Gouffier Valente;Guillaume;EPR;Transport;Economie & Finance(1138) | Securite sociale & Protection(328) | Sante(274) | Institutions(121) | Ecologie & Environnement(113);15
+PA794418;Goulet;Florence;RN;Defense;Economie & Finance(1908) | Securite sociale & Protection(472) | Sante(216) | Ecologie & Environnement(211) | Outre-mer(168);15
+PA720560;Goulet;Perrine;Dem;Immigration;Economie & Finance(610) | Sante(135) | Securite sociale & Protection(77) | Social & Travail(63) | Outre-mer(49);15
+PA793592;Grangier;Géraldine;RN;Immigration;Economie & Finance(1301) | Securite sociale & Protection(405) | Outre-mer(162) | Sante(152) | Ecologie & Environnement(152);15
+PA267318;Grelier;Jean-Carles;Dem;Securite sociale & Protection;Economie & Finance(138) | Securite sociale & Protection(124) | Sante(28) | Social & Travail(17) | Agriculture(10);13
+PA795540;Grenon;Daniel;NI;Sante;Economie & Finance(182) | Sante(113) | Outre-mer(43) | Institutions(37) | Ecologie & Environnement(29);12
+PA840757;Griseti;Monique;RN;Transport;Economie & Finance(1637) | Securite sociale & Protection(475) | Sante(229) | Institutions(177) | Outre-mer(161);15
+PA794058;Gruet;Justine;DR;Defense;Economie & Finance(610) | Sante(566) | Securite sociale & Protection(397) | Outre-mer(67) | Social & Travail(62);15
+PA840171;Grégoire;Emmanuel;SOC;Logement & Urbanisme;Economie & Finance(1119) | Sante(245) | Securite sociale & Protection(218) | Institutions(111) | Securite & Justice(85);15
+PA721764;Grégoire;Olivia;EPR;Numerique & Technologies;Economie & Finance(574) | Securite sociale & Protection(101) | Ecologie & Environnement(79) | Institutions(69) | Education(43);15
+PA1567;Guedj;Jérôme;SOC;Securite sociale & Protection;Economie & Finance(916) | Securite sociale & Protection(469) | Sante(194) | Securite & Justice(101) | Outre-mer(78);15
+PA841833;Guerin;David;HOR;Social & Travail;Economie & Finance(51) | Securite sociale & Protection(19) | Social & Travail(16) | Outre-mer(10) | Sante(5);7
+PA795310;Guetté;Clémence;LFI-NFP;Ecologie & Environnement;Economie & Finance(1163) | Ecologie & Environnement(187) | Institutions(184) | Outre-mer(171) | Securite sociale & Protection(163);15
+PA841451;Guibert;Julien;RN;Defense;Economie & Finance(1675) | Securite sociale & Protection(484) | Sante(235) | Outre-mer(184) | Ecologie & Environnement(181);16
+PA721612;Guillerm;Carole;Dem;;Outre-mer(1) | Institutions(1);2
+PA794734;Guiniot;Michel;RN;Defense;Economie & Finance(1096) | Securite sociale & Protection(265) | Outre-mer(105) | Sante(94) | Institutions(70);15
+PA794478;Guiraud;David;LFI-NFP;Institutions;Economie & Finance(560) | Institutions(118) | Ecologie & Environnement(76) | Securite sociale & Protection(62) | Securite & Justice(60);15
+PA793218;Guitton;Jordan;RN;Logement & Urbanisme;Economie & Finance(1386) | Securite sociale & Protection(333) | Sante(306) | Ecologie & Environnement(208) | Institutions(151);15
+PA795258;Gumbs;Frantz;Dem;Outre-mer;Economie & Finance(631) | Outre-mer(270) | Securite sociale & Protection(244) | Institutions(80) | Sante(46);14
+PA842013;Gustave;Steevy;EcoS;Culture;Economie & Finance(1656) | Sante(427) | Securite sociale & Protection(309) | Outre-mer(235) | Institutions(229);15
+PA794470;Gérard;Félicie;HOR;Logement & Urbanisme;Economie & Finance(1493) | Securite sociale & Protection(133) | Securite & Justice(70) | Outre-mer(63) | Ecologie & Environnement(61);14
+PA1592;Habib;David;LIOT;Securite sociale & Protection;Economie & Finance(183) | Securite sociale & Protection(154) | Institutions(34) | Outre-mer(9) | Sante(9);15
+PA841471;Hablot;Stéphane;SOC;Logement & Urbanisme;Economie & Finance(548) | Securite sociale & Protection(288) | Sante(63) | Logement & Urbanisme(52) | Social & Travail(34);14
+PA795958;Haddad;Benjamin;EPR;;;0
+PA842263;Hadizadeh;Ayda;SOC;Education;Economie & Finance(1020) | Sante(447) | Securite sociale & Protection(296) | Ecologie & Environnement(80) | Education(74);15
+PA841947;Hamdane;Zahia;LFI-NFP;Social & Travail;Economie & Finance(1209) | Securite sociale & Protection(481) | Sante(301) | Institutions(141) | Outre-mer(137);15
+PA795900;Hamelet;Marine;RN;Numerique & Technologies;Economie & Finance(2403) | Sante(750) | Securite sociale & Protection(516) | Ecologie & Environnement(276) | Institutions(245);16
+PA722070;Henriet;Pierre;HOR;Education;Economie & Finance(727) | Sante(130) | Securite sociale & Protection(107) | Securite & Justice(70) | Institutions(62);15
+PA1630;Herbillon;Michel;DR;Immigration;Economie & Finance(378) | Securite & Justice(72) | Securite sociale & Protection(55) | Immigration(22) | Defense(21);13
+PA841813;Herouin-Léautey;Florence;SOC;Social & Travail;Economie & Finance(1068) | Securite sociale & Protection(274) | Sante(137) | Outre-mer(107) | Social & Travail(45);15
+PA840947;Hervieu;Catherine;EcoS;Outre-mer;Economie & Finance(1045) | Sante(219) | Outre-mer(215) | Securite sociale & Protection(187) | Institutions(156);15
+PA841853;Hervieu;Céline;SOC;Immigration;Economie & Finance(657) | Securite sociale & Protection(126) | Institutions(111) | Sante(106) | Securite & Justice(91);14
+PA608416;Hetzel;Patrick;DR;Sante;Economie & Finance(834) | Sante(709) | Securite sociale & Protection(195) | Institutions(90) | Securite & Justice(63);14
+PA794082;Hignet;Mathilde;LFI-NFP;Culture;Economie & Finance(1782) | Securite sociale & Protection(416) | Sante(316) | Outre-mer(239) | Institutions(174);15
+PA841709;Hoffman;Emmanuelle;EPR;Ecologie & Environnement;Economie & Finance(411) | Sante(116) | Ecologie & Environnement(83) | Institutions(80) | Securite & Justice(51);15
+PA1654;Hollande;François;SOC;Securite sociale & Protection;Economie & Finance(514) | Securite sociale & Protection(236) | Sante(61) | Institutions(27) | Securite & Justice(24);15
+PA722150;Houlié;Sacha;SOC;Securite sociale & Protection;Economie & Finance(604) | Securite sociale & Protection(263) | Sante(83) | Securite & Justice(63) | Institutions(47);15
+PA793632;Houssin;Timothée;RN;Immigration;Economie & Finance(1749) | Securite sociale & Protection(368) | Sante(305) | Institutions(151) | Ecologie & Environnement(144);15
+PA842085;Humbert;Sébastien;RN;Immigration;Economie & Finance(2147) | Securite sociale & Protection(558) | Sante(493) | Outre-mer(263) | Ecologie & Environnement(211);16
+PA841017;Huwart;Harold;LIOT;Logement & Urbanisme;Economie & Finance(367) | Securite sociale & Protection(103) | Institutions(80) | Logement & Urbanisme(42) | Securite & Justice(40);14
+PA267200;Huyghe;Sébastien;EPR;Securite & Justice;Economie & Finance(1232) | Securite sociale & Protection(471) | Sante(249) | Securite & Justice(216) | Institutions(158);15
+PA795954;Ibled;Catherine;EPR;Numerique & Technologies;Economie & Finance(419) | Securite sociale & Protection(100) | Culture(75) | Logement & Urbanisme(32) | Education(30);12
+PA794022;Iordanoff;Jérémie;EcoS;Immigration;Economie & Finance(886) | Sante(155) | Securite sociale & Protection(152) | Institutions(130) | Ecologie & Environnement(114);16
+PA722374;Isaac-Sibille;Cyrille;Dem;Securite sociale & Protection;Economie & Finance(625) | Securite sociale & Protection(393) | Sante(306) | Institutions(85) | Education(35);15
+PA794598;Jacobelli;Laurent;RN;Defense;Economie & Finance(1015) | Sante(168) | Securite sociale & Protection(165) | Ecologie & Environnement(145) | Outre-mer(117);16
+PA720354;Jacques;Jean-Michel;EPR;Agriculture;Economie & Finance(271) | Securite sociale & Protection(123) | Agriculture(18) | Sante(16) | Outre-mer(13);15
+PA842117;Jeanbrun;Vincent;DR;Logement & Urbanisme;Ecologie & Environnement(56) | Outre-mer(44) | Economie & Finance(30) | Logement & Urbanisme(27) | Institutions(22);14
+PA841439;Jenft;Pascal;RN;Transport;Economie & Finance(1446) | Securite sociale & Protection(425) | Sante(373) | Outre-mer(191) | Ecologie & Environnement(171);15
+PA719778;Jolivet;François;HOR;Logement & Urbanisme;Economie & Finance(760) | Securite sociale & Protection(155) | Logement & Urbanisme(59) | Sante(53) | Institutions(36);14
+PA794030;Jolly;Alexis;RN;Culture;Economie & Finance(1121) | Securite sociale & Protection(212) | Culture(201) | Sante(107) | Outre-mer(81);15
+PA841749;Joncour;Tiffany;RN;Outre-mer;Economie & Finance(1283) | Sante(364) | Outre-mer(321) | Securite sociale & Protection(274) | Ecologie & Environnement(216);15
+PA841075;Josserand;Sylvie;RN;Outre-mer;Economie & Finance(1286) | Securite sociale & Protection(461) | Outre-mer(231) | Sante(138) | Ecologie & Environnement(134);15
+PA720038;Josso;Sandrine;Dem;Culture;Economie & Finance(994) | Securite sociale & Protection(370) | Securite & Justice(125) | Culture(111) | Institutions(88);15
+PA840869;Joubert;Florence;RN;Ecologie & Environnement;Economie & Finance(1592) | Securite sociale & Protection(489) | Sante(283) | Outre-mer(177) | Ecologie & Environnement(164);15
+PA643192;Jourdan;Chantal;SOC;Immigration;Economie & Finance(1624) | Securite sociale & Protection(494) | Sante(298) | Outre-mer(138) | Institutions(133);15
+PA346782;Juvin;Philippe;DR;Sante;Economie & Finance(1180) | Sante(568) | Securite sociale & Protection(84) | Outre-mer(60) | Securite & Justice(58);14
+PA795998;K/Bidi;Émeline;GDR;Outre-mer;Economie & Finance(448) | Securite sociale & Protection(211) | Outre-mer(145) | Education(37) | Sante(27);15
+PA335054;Karamanli;Marietta;SOC;Institutions;Economie & Finance(623) | Sante(218) | Securite sociale & Protection(200) | Institutions(143) | Securite & Justice(92);15
+PA719372;Kasbarian;Guillaume;EPR;Numerique & Technologies;Economie & Finance(833) | Securite sociale & Protection(167) | Ecologie & Environnement(102) | Education(67) | Securite & Justice(35);16
+PA795156;Keloua Hachi;Fatiha;SOC;Logement & Urbanisme;Economie & Finance(829) | Securite sociale & Protection(187) | Sante(139) | Outre-mer(66) | Institutions(50);15
+PA794130;Kerbrat;Andy;LFI-NFP;Immigration;Economie & Finance(1049) | Securite sociale & Protection(190) | Sante(167) | Securite & Justice(110) | Outre-mer(109);16
+PA719052;Kervran;Loïc;HOR;Numerique & Technologies;Economie & Finance(1141) | Securite sociale & Protection(272) | Outre-mer(89) | Sante(83) | Logement & Urbanisme(73);16
+PA643184;Klinkert;Brigitte;EPR;Education;Economie & Finance(963) | Securite sociale & Protection(347) | Sante(159) | Outre-mer(73) | Institutions(60);16
+PA722328;Kremer;Eliane;DR;Outre-mer;Economie & Finance(108) | Securite sociale & Protection(40) | Outre-mer(20) | Social & Travail(8) | Sante(8);7
+PA719798;Labaronne;Daniel;EPR;Numerique & Technologies;Economie & Finance(1302) | Securite sociale & Protection(114) | Sante(65) | Education(56) | Institutions(53);16
+PA720846;Lachaud;Bastien;LFI-NFP;Defense;Economie & Finance(1108) | Sante(225) | Securite sociale & Protection(161) | Outre-mer(127) | Institutions(114);15
+PA719282;Lacombe;Xavier;HOR;Immigration;Ecologie & Environnement(93) | Securite & Justice(60) | Economie & Finance(43) | Institutions(38) | Outre-mer(26);13
+PA794146;Laernoes;Julie;EcoS;Ecologie & Environnement;Economie & Finance(870) | Sante(385) | Ecologie & Environnement(181) | Securite & Justice(123) | Securite sociale & Protection(56);15
+PA841223;Lahais;Tristan;EcoS;Defense;Economie & Finance(1406) | Sante(272) | Securite sociale & Protection(178) | Ecologie & Environnement(134) | Securite & Justice(117);15
+PA841729;Lahmar;Abdelkader;LFI-NFP;Defense;Economie & Finance(694) | Securite sociale & Protection(141) | Sante(108) | Ecologie & Environnement(104) | Outre-mer(80);15
+PA719918;Lainé;Fabien;Dem;Social & Travail;Economie & Finance(10) | Social & Travail(10) | Securite sociale & Protection(4) | Outre-mer(1) | Agriculture(1);6
+PA795516;Laisney;Maxime;LFI-NFP;Logement & Urbanisme;Economie & Finance(1702) | Sante(514) | Securite sociale & Protection(269) | Ecologie & Environnement(231) | Securite & Justice(141);15
+PA721004;Lakrafi;Amélia;EPR;Social & Travail;Economie & Finance(467) | Social & Travail(51) | Education(39) | Culture(28) | Agriculture(20);15
+PA795390;Lalanne;Sandrine;EPR;Numerique & Technologies;Economie & Finance(526) | Securite sociale & Protection(154) | Culture(144) | Sante(99) | Defense(43);13
+PA842125;Lam;Thomas;HOR;Culture;Economie & Finance(1733) | Sante(435) | Securite sociale & Protection(266) | Institutions(157) | Culture(144);16
+PA794354;Laporte;Hélène;RN;Ecologie & Environnement;Economie & Finance(1016) | Sante(320) | Securite sociale & Protection(164) | Ecologie & Environnement(142) | Outre-mer(106);15
+PA795334;Larrouquis;Benoît;EPR;Education;Economie & Finance(174) | Securite sociale & Protection(69) | Education(36) | Ecologie & Environnement(25) | Sante(11);11
+PA721984;Latombe;Philippe;Dem;Culture;Economie & Finance(128) | Securite sociale & Protection(108) | Culture(105) | Ecologie & Environnement(54) | Transport(33);15
+PA857021;Latrèche;Alim;EPR;Economie & Finance;Economie & Finance(22);1
+PA841693;Laussucq;Jean;EPR;Education;Economie & Finance(101) | Institutions(72) | Securite & Justice(41) | Education(30) | Outre-mer(14);14
+PA720022;Lauzzana;Michel;EPR;Logement & Urbanisme;Economie & Finance(885) | Sante(613) | Securite sociale & Protection(486) | Logement & Urbanisme(66) | Outre-mer(59);15
+PA795912;Lavalette;Laure;RN;Ecologie & Environnement;Economie & Finance(257) | Ecologie & Environnement(195) | Institutions(73) | Outre-mer(57) | Sante(41);15
+PA841837;Le Bourgeois;Robert;RN;Defense;Economie & Finance(1546) | Securite sociale & Protection(384) | Sante(324) | Outre-mer(244) | Ecologie & Environnement(128);15
+PA841515;Le Coq;Aurélien;LFI-NFP;Economie & Finance;Economie & Finance(1389) | Sante(126) | Outre-mer(110) | Securite sociale & Protection(88) | Institutions(50);16
+PA719412;Le Feur;Sandrine;EPR;Culture;Economie & Finance(1077) | Securite sociale & Protection(341) | Culture(136) | Ecologie & Environnement(131) | Sante(41);15
+PA840979;Le Fur;Corentin;DR;Defense;Economie & Finance(1265) | Securite sociale & Protection(206) | Sante(147) | Outre-mer(75) | Culture(73);15
+PA719404;Le Gac;Didier;EPR;Institutions;Economie & Finance(379) | Sante(246) | Securite sociale & Protection(224) | Institutions(167) | Education(29);13
+PA795672;Le Gall;Arnaud;LFI-NFP;Defense;Economie & Finance(1336) | Securite sociale & Protection(392) | Sante(172) | Outre-mer(129) | Institutions(76);15
+PA345722;Le Grip;Constance;EPR;Education;Economie & Finance(922) | Securite sociale & Protection(167) | Outre-mer(81) | Education(80) | Ecologie & Environnement(76);16
+PA794426;Le Hénanff;Anne;HOR;Transport;Economie & Finance(115) | Securite & Justice(54) | Sante(42) | Institutions(34) | Securite sociale & Protection(26);14
+PA719388;Le Meur;Annaïg;EPR;Logement & Urbanisme;Economie & Finance(772) | Securite sociale & Protection(200) | Ecologie & Environnement(98) | Logement & Urbanisme(59) | Institutions(59);16
+PA719756;Le Nabour;Christine;EPR;Social & Travail;Economie & Finance(957) | Securite sociale & Protection(466) | Sante(259) | Social & Travail(106) | Outre-mer(103);16
+PA720342;Le Peih;Nicole;EPR;Immigration;Economie & Finance(1135) | Securite sociale & Protection(234) | Sante(171) | Institutions(107) | Outre-mer(90);16
+PA720614;Le Pen;Marine;RN;Ecologie & Environnement;Economie & Finance(529) | Securite sociale & Protection(97) | Ecologie & Environnement(88) | Outre-mer(55) | Securite & Justice(28);15
+PA721852;Lebec;Marie;EPR;Numerique & Technologies;Economie & Finance(1247) | Securite sociale & Protection(229) | Outre-mer(110) | Institutions(61) | Securite & Justice(61);16
+PA774962;Lebon;Karine;GDR;Securite sociale & Protection;Economie & Finance(795) | Securite sociale & Protection(273) | Sante(96) | Outre-mer(58) | Social & Travail(39);15
+PA795108;Leboucher;Élise;LFI-NFP;Sante;Economie & Finance(1390) | Sante(684) | Securite sociale & Protection(551) | Culture(117) | Ecologie & Environnement(116);15
+PA795374;Lecamp;Pascal;Dem;Defense;Economie & Finance(695) | Sante(242) | Securite sociale & Protection(207) | Outre-mer(78) | Culture(71);15
+PA796026;Lechanteux;Julie;RN;Outre-mer;Economie & Finance(751) | Outre-mer(189) | Securite sociale & Protection(122) | Sante(96) | Institutions(70);15
+PA840857;Lechon;Nadine;RN;Immigration;Economie & Finance(1425) | Securite sociale & Protection(513) | Sante(217) | Ecologie & Environnement(205) | Outre-mer(157);15
+PA335612;Lecoq;Jean-Paul;GDR;Securite & Justice;Economie & Finance(636) | Securite sociale & Protection(226) | Sante(123) | Outre-mer(120) | Securite & Justice(105);15
+PA712014;Ledoux;Vincent;EPR;Securite sociale & Protection;Economie & Finance(346) | Securite sociale & Protection(157) | Sante(51) | Securite & Justice(35) | Outre-mer(26);13
+PA795386;Lefèvre;Mathieu;EPR;Immigration;Economie & Finance(416) | Securite & Justice(83) | Ecologie & Environnement(65) | Institutions(64) | Outre-mer(59);13
+PA795298;Legavre;Jérôme;LFI-NFP;Defense;Economie & Finance(1183) | Securite sociale & Protection(131) | Sante(111) | Outre-mer(97) | Institutions(74);15
+PA791824;Legrain;Sarah;LFI-NFP;Logement & Urbanisme;Economie & Finance(1895) | Securite sociale & Protection(417) | Sante(358) | Culture(149) | Institutions(127);14
+PA842029;Lejeune;Claire;LFI-NFP;Ecologie & Environnement;Economie & Finance(1864) | Sante(368) | Securite sociale & Protection(193) | Ecologie & Environnement(176) | Institutions(133);15
+PA793290;Lelouis;Gisèle;RN;Transport;Economie & Finance(1104) | Securite sociale & Protection(366) | Sante(308) | Institutions(157) | Securite & Justice(144);15
+PA794838;Lemaire;Didier;HOR;Culture;Economie & Finance(418) | Securite sociale & Protection(123) | Culture(103) | Sante(73) | Securite & Justice(62);13
+PA840983;Lenoir;Bartolomé;UDR;Agriculture;Economie & Finance(879) | Securite sociale & Protection(352) | Sante(175) | Institutions(80) | Outre-mer(56);15
+PA795244;Lenormand;Stéphane;LIOT;Logement & Urbanisme;Economie & Finance(332) | Securite sociale & Protection(150) | Sante(131) | Institutions(68) | Logement & Urbanisme(25);15
+PA695512;Lepers;Guillaume;DR;Defense;Economie & Finance(546) | Institutions(105) | Ecologie & Environnement(97) | Sante(88) | Securite sociale & Protection(86);15
+PA793532;Lepvraud;Murielle;LFI-NFP;Immigration;Economie & Finance(1823) | Securite sociale & Protection(477) | Sante(410) | Ecologie & Environnement(176) | Outre-mer(137);16
+PA721134;Lescure;Roland;EPR;Social & Travail;Economie & Finance(88) | Sante(32) | Social & Travail(27) | Securite & Justice(24) | Institutions(22);14
+PA774958;Leseul;Gérard;SOC;Logement & Urbanisme;Economie & Finance(1917) | Securite sociale & Protection(412) | Sante(411) | Outre-mer(128) | Culture(84);15
+PA841601;Levasseur;Pauline;EPR;Transport;Sante(225) | Economie & Finance(94) | Securite sociale & Protection(53) | Outre-mer(46) | Transport(40);12
+PA793608;Levavasseur;Katiana;RN;Numerique & Technologies;Economie & Finance(1550) | Securite sociale & Protection(480) | Sante(341) | Ecologie & Environnement(156) | Logement & Urbanisme(80);15
+PA840765;Lhardit;Laurent;SOC;Culture;Economie & Finance(1392) | Securite sociale & Protection(340) | Culture(203) | Institutions(124) | Securite & Justice(100);15
+PA794750;Liger;Thierry;DR;Transport;Economie & Finance(228) | Institutions(46) | Securite & Justice(44) | Sante(41) | Transport(38);14
+PA841873;Limongi;Julien;RN;Logement & Urbanisme;Economie & Finance(1591) | Securite sociale & Protection(443) | Sante(410) | Outre-mer(179) | Ecologie & Environnement(160);16
+PA794702;Lingemann;Delphine;Dem;Education;Economie & Finance(924) | Securite sociale & Protection(320) | Sante(314) | Institutions(108) | Outre-mer(76);15
+PA840967;Lioret;René;RN;Agriculture;Economie & Finance(941) | Securite sociale & Protection(302) | Sante(140) | Ecologie & Environnement(132) | Outre-mer(113);15
+PA720446;Liso;Brigitte;EPR;Sante;Sante(661) | Economie & Finance(580) | Securite sociale & Protection(348) | Outre-mer(122) | Institutions(41);13
+PA642725;Liégeon;Eric;DR;Defense;Economie & Finance(1024) | Securite sociale & Protection(328) | Securite & Justice(138) | Outre-mer(131) | Sante(127);14
+PA793672;Loir;Christine;RN;Numerique & Technologies;Economie & Finance(1909) | Sante(701) | Securite sociale & Protection(530) | Outre-mer(166) | Ecologie & Environnement(151);16
+PA793904;Lopez-Liguori;Aurélien;RN;Sante;Economie & Finance(780) | Sante(428) | Securite sociale & Protection(204) | Ecologie & Environnement(95) | Securite & Justice(73);15
+PA721932;Lorho;Marie-France;RN;Defense;Economie & Finance(1445) | Sante(493) | Securite sociale & Protection(346) | Outre-mer(278) | Social & Travail(99);15
+PA795974;Lottiaux;Philippe;RN;Defense;Economie & Finance(1838) | Securite sociale & Protection(282) | Sante(190) | Outre-mer(188) | Institutions(126);15
+PA794590;Loubet;Alexandre;RN;Ecologie & Environnement;Economie & Finance(1213) | Securite sociale & Protection(248) | Ecologie & Environnement(185) | Outre-mer(73) | Institutions(50);15
+PA608016;Louwagie;Véronique;DR;Social & Travail;Economie & Finance(579) | Social & Travail(26) | Securite sociale & Protection(23) | Culture(20) | Sante(17);11
+PA879389;Lubet;Marie-Philippe;EPR;Economie & Finance;Economie & Finance(125) | Ecologie & Environnement(4) | Agriculture(4) | Sante(1) | Outre-mer(1);6
+PA795636;Lucas-Lundy;Benjamin;EcoS;Defense;Economie & Finance(1090) | Securite sociale & Protection(230) | Institutions(90) | Outre-mer(84) | Securite & Justice(63);14
+PA794578;Ludmann;Véronique;HOR;Economie & Finance;Economie & Finance(26) | Outre-mer(1) | Institutions(1);3
+PA795746;Léaument;Antoine;LFI-NFP;Immigration;Economie & Finance(1133) | Securite sociale & Protection(227) | Securite & Justice(220) | Outre-mer(189) | Sante(122);16
+PA227089;Létard;Valérie;LIOT;Sante;Economie & Finance(44) | Sante(16) | Securite sociale & Protection(10) | Institutions(2) | Culture(2);7
+PA841587;Magnier;David;RN;Numerique & Technologies;Economie & Finance(2028) | Sante(515) | Securite sociale & Protection(494) | Ecologie & Environnement(258) | Institutions(204);16
+PA720230;Magnier;Lise;HOR;Sante;Economie & Finance(737) | Sante(555) | Securite sociale & Protection(139) | Outre-mer(87) | Institutions(73);15
+PA717379;Maillard;Sylvain;EPR;Transport;Economie & Finance(724) | Securite sociale & Protection(117) | Institutions(94) | Ecologie & Environnement(84) | Outre-mer(59);16
+PA796010;Maillot;Frédéric;GDR;Outre-mer;Economie & Finance(238) | Outre-mer(116) | Securite sociale & Protection(114) | Sante(45) | Institutions(29);13
+PA794114;Mandon;Emmanuel;Dem;Transport;Economie & Finance(807) | Securite sociale & Protection(131) | Institutions(107) | Sante(105) | Transport(23);15
+PA841183;Mansouri;Hanane;UDR;Sante;Economie & Finance(504) | Sante(370) | Securite sociale & Protection(79) | Outre-mer(51) | Logement & Urbanisme(36);15
+PA841563;Marais-Beuil;Claire;RN;Numerique & Technologies;Economie & Finance(2281) | Sante(669) | Outre-mer(338) | Ecologie & Environnement(280) | Securite sociale & Protection(273);16
+PA605782;Marcangeli;Laurent;HOR;Education;Economie & Finance(300) | Securite sociale & Protection(137) | Education(31) | Social & Travail(29) | Institutions(10);11
+PA794530;Marchio;Matthieu;RN;Culture;Economie & Finance(1167) | Securite sociale & Protection(340) | Culture(175) | Sante(98) | Outre-mer(90);15
+PA795730;Marchive;Bastien;EPR;Immigration;Economie & Finance(598) | Sante(323) | Securite sociale & Protection(135) | Outre-mer(103) | Ecologie & Environnement(98);15
+PA794206;Marion;Christophe;EPR;Numerique & Technologies;Economie & Finance(1136) | Sante(578) | Securite sociale & Protection(339) | Institutions(187) | Culture(154);16
+PA840837;Markowsky;Pascal;RN;Defense;Economie & Finance(1620) | Sante(365) | Securite sociale & Protection(350) | Ecologie & Environnement(226) | Outre-mer(160);16
+PA794518;Marle;Pierre;HOR;Social & Travail;Economie & Finance(97) | Securite sociale & Protection(45) | Social & Travail(44) | Outre-mer(43) | Sante(11);8
+PA606098;Marleix;Olivier;DR;Immigration;Securite & Justice(155) | Economie & Finance(96) | Institutions(39) | Outre-mer(37) | Sante(32);12
+PA719080;Marsaud;Sandra;EPR;Transport;Economie & Finance(1048) | Securite sociale & Protection(309) | Outre-mer(79) | Institutions(67) | Sante(45);15
+PA793342;Martin;Alexandra;DR;Defense;Economie & Finance(415) | Securite sociale & Protection(117) | Securite & Justice(71) | Outre-mer(62) | Institutions(50);13
+PA841825;Martin;Patrice;RN;Numerique & Technologies;Economie & Finance(1725) | Sante(455) | Securite sociale & Protection(454) | Outre-mer(193) | Ecologie & Environnement(192);16
+PA870010;Martin;Sébastien;DR;Institutions;Institutions(43) | Social & Travail(11) | Ecologie & Environnement(8) | Economie & Finance(8) | Securite & Justice(6);11
+PA342384;Martin;Élisa;LFI-NFP;Culture;Economie & Finance(1110) | Securite sociale & Protection(374) | Sante(235) | Securite & Justice(157) | Culture(157);16
+PA795100;Martineau;Éric;Dem;Numerique & Technologies;Economie & Finance(1444) | Securite sociale & Protection(359) | Sante(345) | Institutions(173) | Securite & Justice(157);16
+PA794770;Martinez;Michèle;RN;Transport;Economie & Finance(933) | Securite sociale & Protection(258) | Outre-mer(126) | Institutions(84) | Sante(60);15
+PA793314;Masson;Alexandra;RN;Agriculture;Economie & Finance(420) | Institutions(58) | Outre-mer(51) | Ecologie & Environnement(30) | Securite sociale & Protection(29);14
+PA793330;Masson;Bryan;RN;Transport;Economie & Finance(283) | Institutions(115) | Sante(80) | Outre-mer(73) | Securite & Justice(63);15
+PA720146;Masséglia;Denis;EPR;Immigration;Economie & Finance(1338) | Securite sociale & Protection(147) | Institutions(64) | Sante(49) | Securite & Justice(41);15
+PA720976;Mathiasin;Max;LIOT;Logement & Urbanisme;Economie & Finance(122) | Outre-mer(50) | Logement & Urbanisme(30) | Securite sociale & Protection(28) | Institutions(10);14
+PA720728;Mattei;Jean-Paul;Dem;Culture;Economie & Finance(1359) | Sante(217) | Securite sociale & Protection(144) | Institutions(126) | Culture(79);15
+PA795422;Maudet;Damien;LFI-NFP;Securite sociale & Protection;Economie & Finance(1004) | Securite sociale & Protection(440) | Outre-mer(98) | Sante(78) | Institutions(56);14
+PA842271;Maurel;Emmanuel;GDR;Logement & Urbanisme;Economie & Finance(997) | Securite sociale & Protection(93) | Institutions(62) | Logement & Urbanisme(33) | Outre-mer(29);14
+PA793616;Mauvieux;Kévin;RN;Defense;Economie & Finance(1732) | Securite sociale & Protection(400) | Sante(241) | Outre-mer(175) | Ecologie & Environnement(158);15
+PA794686;Maximi;Marianne;LFI-NFP;Defense;Economie & Finance(993) | Outre-mer(115) | Securite sociale & Protection(87) | Ecologie & Environnement(75) | Sante(69);14
+PA677483;Mazars;Stéphane;EPR;Education;Economie & Finance(663) | Sante(278) | Securite sociale & Protection(244) | Ecologie & Environnement(93) | Securite & Justice(75);15
+PA841931;Mazaury;Laurent;LIOT;Logement & Urbanisme;Economie & Finance(487) | Sante(137) | Securite sociale & Protection(110) | Institutions(62) | Logement & Urbanisme(54);15
+PA719436;Meizonnet;Nicolas;RN;Immigration;Economie & Finance(1232) | Securite sociale & Protection(239) | Ecologie & Environnement(194) | Outre-mer(193) | Social & Travail(63);15
+PA719338;Melchior;Graziella;EPR;Culture;Economie & Finance(891) | Securite sociale & Protection(327) | Sante(238) | Culture(169) | Outre-mer(78);16
+PA720370;Mendes;Ludovic;EPR;Education;Economie & Finance(509) | Securite sociale & Protection(197) | Institutions(51) | Education(40) | Securite & Justice(18);15
+PA841463;Mercier;Estelle;SOC;Securite & Justice;Economie & Finance(1626) | Securite sociale & Protection(329) | Sante(324) | Securite & Justice(117) | Institutions(97);14
+PA841215;Mesmeur;Marie;LFI-NFP;Logement & Urbanisme;Economie & Finance(1275) | Securite sociale & Protection(299) | Sante(246) | Outre-mer(146) | Ecologie & Environnement(138);16
+PA841013;Mesnard;Isabelle;HOR;Social & Travail;Economie & Finance(59) | Social & Travail(38) | Sante(11) | Securite sociale & Protection(5) | Agriculture(4);7
+PA719640;Mette;Sophie;Dem;Culture;Economie & Finance(1311) | Securite sociale & Protection(332) | Sante(297) | Outre-mer(237) | Culture(156);16
+PA795176;Metzdorf;Nicolas;EPR;Numerique & Technologies;Economie & Finance(494) | Sante(163) | Securite sociale & Protection(119) | Outre-mer(88) | Culture(43);15
+PA719272;Meunier;Frédérique;DR;Defense;Economie & Finance(420) | Sante(204) | Securite sociale & Protection(73) | Outre-mer(58) | Defense(44);15
+PA795482;Meunier;Manon;LFI-NFP;Defense;Economie & Finance(1617) | Securite sociale & Protection(280) | Sante(102) | Ecologie & Environnement(85) | Outre-mer(78);15
+PA793852;Meurin;Pierre;RN;Securite sociale & Protection;Economie & Finance(1691) | Securite sociale & Protection(532) | Sante(204) | Outre-mer(156) | Institutions(132);15
+PA841395;Michelet;Maxime;UDR;Transport;Economie & Finance(1497) | Securite sociale & Protection(430) | Sante(160) | Institutions(94) | Securite & Justice(78);15
+PA841769;Michoux;Éric;UDR;Transport;Economie & Finance(1315) | Securite sociale & Protection(365) | Institutions(175) | Sante(169) | Ecologie & Environnement(143);15
+PA795664;Midy;Paul;EPR;Numerique & Technologies;Economie & Finance(1399) | Securite sociale & Protection(234) | Sante(55) | Education(44) | Securite & Justice(33);16
+PA817203;Miller;Laure;EPR;Education;Economie & Finance(544) | Securite sociale & Protection(173) | Outre-mer(98) | Sante(98) | Education(74);15
+PA643104;Minard;Christelle;DR;Defense;Economie & Finance(553) | Sante(212) | Securite sociale & Protection(135) | Culture(112) | Defense(41);12
+PA795962;Missoffe;Joséphine;EPR;Numerique & Technologies;Economie & Finance(860) | Securite sociale & Protection(339) | Sante(256) | Institutions(103) | Social & Travail(76);16
+PA607619;Molac;Paul;LIOT;Logement & Urbanisme;Economie & Finance(639) | Securite sociale & Protection(255) | Sante(98) | Securite & Justice(43) | Outre-mer(42);15
+PA842147;Mongardien;Christophe;EPR;Numerique & Technologies;Economie & Finance(1334) | Sante(268) | Securite sociale & Protection(251) | Culture(74) | Social & Travail(65);15
+PA793174;Monnet;Yannick;GDR;Sante;Sante(443) | Economie & Finance(437) | Securite sociale & Protection(359) | Institutions(33) | Social & Travail(30);14
+PA840915;Monnier;Thibaut;RN;Sante;Economie & Finance(921) | Sante(507) | Outre-mer(111) | Securite sociale & Protection(106) | Ecologie & Environnement(104);15
+PA794810;Morel;Louise;Dem;Social & Travail;Economie & Finance(1376) | Securite sociale & Protection(314) | Sante(206) | Outre-mer(167) | Ecologie & Environnement(138);15
+PA794466;Moulliere;Jean;HOR;Transport;Economie & Finance(1125) | Sante(391) | Securite sociale & Protection(318) | Securite & Justice(214) | Institutions(172);15
+PA720908;Moutchou;Naïma;HOR;Immigration;Securite & Justice(119) | Economie & Finance(78) | Outre-mer(46) | Education(31) | Culture(25);12
+PA793696;Muller;Serge;RN;Defense;Economie & Finance(1740) | Securite sociale & Protection(554) | Sante(201) | Outre-mer(152) | Ecologie & Environnement(118);16
+PA793354;Mélin;Joëlle;RN;Securite sociale & Protection;Economie & Finance(1060) | Securite sociale & Protection(548) | Sante(208) | Outre-mer(72) | Institutions(59);15
+PA795786;Ménaché;Yaël;RN;Logement & Urbanisme;Economie & Finance(988) | Securite sociale & Protection(248) | Sante(202) | Outre-mer(75) | Institutions(58);14
+PA794322;Ménagé;Thomas;RN;Securite sociale & Protection;Economie & Finance(1182) | Securite sociale & Protection(440) | Sante(318) | Outre-mer(89) | Ecologie & Environnement(64);15
+PA795820;Nadeau;Marcellin;GDR;Outre-mer;Economie & Finance(228) | Outre-mer(75) | Institutions(38) | Ecologie & Environnement(24) | Culture(22);15
+PA721486;Naegelen;Christophe;LIOT;Transport;Economie & Finance(527) | Securite sociale & Protection(99) | Ecologie & Environnement(65) | Outre-mer(52) | Sante(47);15
+PA643157;Naillet;Philippe;SOC;Outre-mer;Economie & Finance(855) | Securite sociale & Protection(273) | Outre-mer(212) | Sante(110) | Social & Travail(52);15
+PA794038;Neuder;Yannick;DR;Defense;Economie & Finance(187) | Securite sociale & Protection(177) | Defense(46) | Sante(33) | Securite & Justice(15);9
+PA610654;Nilor;Jean-Philippe;LFI-NFP;Outre-mer;Economie & Finance(381) | Outre-mer(104) | Securite sociale & Protection(92) | Sante(42) | Social & Travail(24);15
+PA841191;Nosbé;Sandrine;LFI-NFP;Logement & Urbanisme;Economie & Finance(1377) | Outre-mer(321) | Securite sociale & Protection(264) | Sante(247) | Ecologie & Environnement(142);16
+PA720644;Nury;Jérôme;DR;Ecologie & Environnement;Economie & Finance(143) | Ecologie & Environnement(138) | Outre-mer(57) | Institutions(52) | Securite sociale & Protection(49);15
+PA841107;Oberti;Jacques;SOC;Culture;Economie & Finance(2478) | Sante(624) | Securite sociale & Protection(562) | Ecologie & Environnement(215) | Institutions(192);16
+PA721960;Obono;Danièle;LFI-NFP;Culture;Economie & Finance(866) | Securite sociale & Protection(239) | Outre-mer(122) | Sante(122) | Institutions(93);14
+PA795552;Odoul;Julien;RN;Education;Economie & Finance(184) | Sante(109) | Ecologie & Environnement(63) | Securite sociale & Protection(47) | Education(34);14
+PA795722;Olive;Karl;EPR;Education;Economie & Finance(208) | Securite sociale & Protection(52) | Securite & Justice(43) | Outre-mer(40) | Institutions(34);16
+PA794830;Ott;Hubert;Dem;Culture;Economie & Finance(681) | Securite sociale & Protection(279) | Culture(124) | Sante(105) | Outre-mer(86);15
+PA842045;Ozenne;Julie;EcoS;Logement & Urbanisme;Economie & Finance(1561) | Securite sociale & Protection(228) | Ecologie & Environnement(192) | Culture(160) | Outre-mer(156);15
+PA793872;Oziol;Nathalie;LFI-NFP;Institutions;Economie & Finance(534) | Securite sociale & Protection(135) | Sante(126) | Institutions(102) | Outre-mer(69);13
+PA795124;Padey;Didier;Dem;Culture;Economie & Finance(128) | Culture(54) | Securite sociale & Protection(54) | Social & Travail(27) | Securite & Justice(16);12
+PA720334;Pahun;Jimmy;Dem;Social & Travail;Economie & Finance(1020) | Securite sociale & Protection(179) | Institutions(70) | Social & Travail(61) | Securite & Justice(55);15
+PA793210;Panifous;Laurent;LIOT;Logement & Urbanisme;Sante(327) | Economie & Finance(69) | Securite sociale & Protection(46) | Logement & Urbanisme(39) | Institutions(16);14
+PA759832;Pannier-Runacher;Agnès;EPR;Defense;Economie & Finance(400) | Sante(134) | Securite sociale & Protection(121) | Institutions(32) | Defense(18);12
+PA719632;Panonacle;Sophie;EPR;Education;Economie & Finance(627) | Sante(93) | Securite sociale & Protection(39) | Education(38) | Outre-mer(28);15
+PA795050;Panosyan-Bouvet;Astrid;EPR;Sante;Economie & Finance(210) | Sante(109) | Securite sociale & Protection(48) | Institutions(23) | Education(11);11
+PA720892;Panot;Mathilde;LFI-NFP;Defense;Economie & Finance(1226) | Securite sociale & Protection(302) | Sante(238) | Outre-mer(117) | Securite & Justice(106);16
+PA841381;Pantel;Sophie;SOC;Numerique & Technologies;Economie & Finance(1564) | Sante(512) | Securite sociale & Protection(440) | Culture(182) | Institutions(168);16
+PA794670;Parmentier;Caroline;RN;Transport;Economie & Finance(1141) | Securite sociale & Protection(228) | Sante(125) | Institutions(80) | Outre-mer(75);15
+PA720480;Parmentier-Lecocq;Charlotte;HOR;;;0
+PA793398;Patrier-Leitus;Jérémie;HOR;Logement & Urbanisme;Economie & Finance(1066) | Sante(378) | Securite sociale & Protection(287) | Securite & Justice(185) | Outre-mer(165);15
+PA718784;Pauget;Éric;DR;Defense;Securite & Justice(146) | Economie & Finance(107) | Defense(46) | Transport(39) | Sante(38);15
+PA840793;Pena;Marc;SOC;Securite & Justice;Economie & Finance(808) | Securite sociale & Protection(319) | Securite & Justice(145) | Institutions(112) | Culture(64);15
+PA841199;Perez;Thierry;RN;Defense;Economie & Finance(1410) | Securite sociale & Protection(480) | Sante(145) | Outre-mer(99) | Securite & Justice(79);15
+PA721442;Petex;Christelle;DR;Transport;Economie & Finance(276) | Securite sociale & Protection(76) | Outre-mer(58) | Sante(39) | Institutions(29);11
+PA721182;Petit;Frédéric;Dem;Outre-mer;Economie & Finance(891) | Securite sociale & Protection(284) | Outre-mer(171) | Institutions(104) | Ecologie & Environnement(83);15
+PA721234;Petit;Maud;Dem;Immigration;Economie & Finance(871) | Sante(305) | Outre-mer(249) | Securite sociale & Protection(237) | Securite & Justice(91);15
+PA721270;Peu;Stéphane;GDR;Institutions;Economie & Finance(627) | Institutions(142) | Securite sociale & Protection(133) | Sante(101) | Ecologie & Environnement(80);15
+PA793708;Peytavie;Sébastien;EcoS;Culture;Economie & Finance(1694) | Securite sociale & Protection(546) | Sante(420) | Culture(180) | Institutions(155);14
+PA794582;Pfeffer;Kévin;RN;Defense;Economie & Finance(1388) | Securite sociale & Protection(312) | Sante(201) | Ecologie & Environnement(150) | Outre-mer(136);16
+PA794270;Pic;Anna;SOC;Immigration;Economie & Finance(623) | Sante(219) | Securite sociale & Protection(208) | Outre-mer(96) | Social & Travail(70);15
+PA817211;Pilato;René;LFI-NFP;Immigration;Economie & Finance(1004) | Sante(706) | Securite sociale & Protection(193) | Outre-mer(148) | Institutions(115);15
+PA793756;Piquemal;François;LFI-NFP;Transport;Economie & Finance(462) | Outre-mer(68) | Sante(51) | Securite sociale & Protection(50) | Social & Travail(48);15
+PA721844;Piron;Béatrice;HOR;Numerique & Technologies;Economie & Finance(1230) | Sante(378) | Securite sociale & Protection(348) | Institutions(143) | Outre-mer(123);16
+PA608172;Pirès Beaune;Christine;SOC;Logement & Urbanisme;Economie & Finance(1084) | Securite sociale & Protection(340) | Sante(332) | Institutions(94) | Ecologie & Environnement(69);15
+PA793572;Plassard;Christophe;HOR;Sante;Economie & Finance(475) | Sante(200) | Securite sociale & Protection(79) | Institutions(54) | Outre-mer(39);15
+PA793664;Pochon;Marie;EcoS;Culture;Economie & Finance(774) | Securite sociale & Protection(150) | Institutions(126) | Outre-mer(74) | Culture(70);14
+PA793656;Pollet;Lisette;RN;Numerique & Technologies;Economie & Finance(2009) | Sante(702) | Securite sociale & Protection(487) | Outre-mer(269) | Ecologie & Environnement(175);16
+PA719528;Portarrieu;Jean-François;HOR;Transport;Economie & Finance(96) | Sante(44) | Securite & Justice(29) | Securite sociale & Protection(17) | Outre-mer(13);14
+PA796062;Portes;Thomas;LFI-NFP;Defense;Economie & Finance(1481) | Securite sociale & Protection(299) | Sante(163) | Institutions(106) | Outre-mer(91);16
+PA794994;Portier;Alexandre;DR;Culture;Economie & Finance(219) | Culture(170) | Sante(92) | Education(72) | Securite sociale & Protection(71);14
+PA607553;Potier;Dominique;SOC;Ecologie & Environnement;Economie & Finance(1121) | Sante(334) | Securite sociale & Protection(266) | Ecologie & Environnement(158) | Securite & Justice(70);15
+PA720720;Poueyto;Josy;Dem;Securite sociale & Protection;Economie & Finance(747) | Securite sociale & Protection(440) | Sante(296) | Outre-mer(62) | Institutions(45);13
+PA795270;Poussier-Winsback;Marie-Agnès;HOR;Immigration;Economie & Finance(593) | Securite sociale & Protection(195) | Sante(160) | Ecologie & Environnement(123) | Institutions(92);15
+PA721916;Pouzyreff;Natalia;EPR;Numerique & Technologies;Economie & Finance(738) | Securite sociale & Protection(167) | Sante(113) | Ecologie & Environnement(72) | Education(50);16
+PA720100;Pradié;Aurélien;NI;Securite sociale & Protection;Economie & Finance(70) | Securite sociale & Protection(66) | Sante(36) | Institutions(9) | Agriculture(8);14
+PA841167;Prevost;Hugo;LFI-NFP;;Institutions(1);1
+PA840955;Pribetich;Pierre;SOC;Numerique & Technologies;Economie & Finance(1586) | Securite sociale & Protection(451) | Sante(404) | Institutions(195) | Outre-mer(157);16
+PA841367;Proença;Christophe;SOC;Culture;Economie & Finance(1165) | Securite sociale & Protection(362) | Sante(237) | Culture(174) | Outre-mer(93);15
+PA842323;Provendier;Remi;EPR;Social & Travail;Economie & Finance(46) | Social & Travail(37) | Securite sociale & Protection(35) | Sante(2) | Immigration(1);9
+PA719578;Prud'homme;Loïc;LFI-NFP;Outre-mer;Economie & Finance(612) | Sante(210) | Outre-mer(148) | Securite sociale & Protection(115) | Institutions(51);15
+PA795966;Rambaud;Stéphane;RN;Defense;Economie & Finance(1242) | Securite sociale & Protection(413) | Outre-mer(176) | Sante(154) | Securite & Justice(116);15
+PA720092;Ramos;Richard;Dem;Agriculture;Economie & Finance(138) | Securite sociale & Protection(70) | Agriculture(23) | Sante(22) | Institutions(19);14
+PA793230;Ranc;Angélique;RN;Culture;Economie & Finance(941) | Sante(308) | Securite sociale & Protection(305) | Outre-mer(109) | Ecologie & Environnement(108);15
+PA793254;Rancoule;Julien;RN;Transport;Economie & Finance(1428) | Sante(434) | Securite sociale & Protection(401) | Outre-mer(197) | Institutions(158);16
+PA721062;Ratenon;Jean-Hugues;LFI-NFP;Outre-mer;Economie & Finance(799) | Securite sociale & Protection(270) | Sante(163) | Outre-mer(148) | Education(43);14
+PA720552;Rauch;Isabelle;HOR;Ecologie & Environnement;Economie & Finance(539) | Securite sociale & Protection(159) | Sante(86) | Ecologie & Environnement(85) | Institutions(64);15
+PA794154;Raux;Jean-Claude;EcoS;Culture;Economie & Finance(916) | Sante(232) | Culture(202) | Securite sociale & Protection(145) | Ecologie & Environnement(122);16
+PA793094;Ray;Nicolas;DR;Immigration;Economie & Finance(1401) | Securite sociale & Protection(165) | Securite & Justice(85) | Sante(83) | Institutions(75);15
+PA794778;Regol;Sandra;EcoS;Transport;Economie & Finance(1847) | Sante(400) | Securite sociale & Protection(373) | Securite & Justice(222) | Institutions(158);16
+PA795240;Reid Arbelot;Mereana;GDR;Outre-mer;Economie & Finance(129) | Outre-mer(31) | Securite sociale & Protection(17) | Institutions(16) | Ecologie & Environnement(12);13
+PA841955;Renault;Matthias;RN;Ecologie & Environnement;Economie & Finance(1993) | Sante(347) | Securite sociale & Protection(294) | Ecologie & Environnement(242) | Outre-mer(144);15
+PA840657;Ricourt Vaginay;Sophie;UDR;Defense;Economie & Finance(705) | Sante(179) | Securite sociale & Protection(144) | Ecologie & Environnement(124) | Institutions(117);16
+PA335758;Riester;Franck;EPR;Education;Economie & Finance(329) | Securite sociale & Protection(129) | Ecologie & Environnement(52) | Securite & Justice(51) | Outre-mer(50);15
+PA795876;Rimane;Davy;GDR;Outre-mer;Outre-mer(102) | Economie & Finance(69) | Institutions(21) | Sante(10) | Securite sociale & Protection(10);14
+PA841981;Rimbert;Catherine;RN;Defense;Economie & Finance(1643) | Securite sociale & Protection(391) | Sante(351) | Outre-mer(152) | Ecologie & Environnement(144);15
+PA721426;Riotton;Véronique;EPR;Culture;Economie & Finance(686) | Securite sociale & Protection(269) | Culture(100) | Sante(78) | Institutions(77);15
+PA720066;Rist;Stéphanie;EPR;Transport;Economie & Finance(179) | Securite & Justice(160) | Sante(118) | Securite sociale & Protection(78) | Institutions(65);14
+PA842227;Rivière;Joseph;RN;Logement & Urbanisme;Economie & Finance(815) | Sante(230) | Outre-mer(147) | Securite sociale & Protection(108) | Logement & Urbanisme(72);15
+PA722252;Rixain;Marie-Pierre;EPR;Education;Economie & Finance(275) | Securite sociale & Protection(86) | Sante(60) | Education(12) | Institutions(7);12
+PA794442;Robert-Dehault;Laurence;RN;Transport;Economie & Finance(965) | Securite sociale & Protection(206) | Sante(194) | Outre-mer(151) | Institutions(132);15
+PA795528;Rodwell;Charles;EPR;Immigration;Economie & Finance(705) | Securite sociale & Protection(133) | Sante(133) | Securite & Justice(63) | Institutions(52);14
+PA266808;Rolland;Vincent;DR;Culture;Culture(144) | Economie & Finance(141) | Outre-mer(47) | Sante(39) | Securite & Justice(32);14
+PA841927;Ronceret;Anne-Sophie;EPR;Numerique & Technologies;Economie & Finance(926) | Securite sociale & Protection(255) | Securite & Justice(104) | Ecologie & Environnement(98) | Sante(74);16
+PA721458;Roseren;Xavier;HOR;Securite & Justice;Economie & Finance(329) | Securite & Justice(66) | Sante(48) | Outre-mer(44) | Securite sociale & Protection(25);15
+PA840673;Rossi;Valérie;SOC;Numerique & Technologies;Economie & Finance(1814) | Securite sociale & Protection(496) | Sante(224) | Culture(180) | Ecologie & Environnement(134);16
+PA342196;Rouaux;Claudia;SOC;Sante;Economie & Finance(1069) | Sante(510) | Securite sociale & Protection(255) | Institutions(95) | Outre-mer(79);16
+PA795410;Roullaud;Béatrice;RN;Immigration;Economie & Finance(1795) | Securite sociale & Protection(495) | Outre-mer(254) | Sante(199) | Securite & Justice(180);15
+PA606545;Roumégas;Jean-Louis;EcoS;Immigration;Economie & Finance(659) | Securite sociale & Protection(118) | Institutions(106) | Securite & Justice(66) | Social & Travail(61);15
+PA826635;Rousseau;Aurélien;SOC;Sante;Economie & Finance(1133) | Sante(338) | Securite sociale & Protection(269) | Securite & Justice(82) | Outre-mer(38);15
+PA795076;Rousseau;Sandrine;EcoS;Sante;Economie & Finance(1112) | Sante(569) | Securite sociale & Protection(485) | Outre-mer(138) | Ecologie & Environnement(105);15
+PA841327;Roussel;Fabrice;SOC;Ecologie & Environnement;Economie & Finance(1561) | Securite sociale & Protection(455) | Sante(234) | Ecologie & Environnement(149) | Institutions(106);15
+PA795888;Rousselot;Marie-Ange;EPR;Agriculture;Economie & Finance(142) | Sante(113) | Institutions(37) | Agriculture(26) | Outre-mer(23);15
+PA793270;Rousset;Jean-François;EPR;Numerique & Technologies;Economie & Finance(1228) | Sante(630) | Securite sociale & Protection(579) | Ecologie & Environnement(166) | Outre-mer(113);16
+PA842097;Roy;Sophie-Laurence;RN;Defense;Economie & Finance(1196) | Securite sociale & Protection(351) | Sante(317) | Ecologie & Environnement(154) | Institutions(91);15
+PA722142;Ruffin;François;EcoS;Culture;Economie & Finance(350) | Sante(49) | Institutions(40) | Outre-mer(33) | Securite sociale & Protection(28);14
+PA841717;Runel;Sandrine;SOC;Immigration;Economie & Finance(1101) | Sante(500) | Securite sociale & Protection(498) | Institutions(135) | Outre-mer(101);16
+PA341981;Récalde;Marie;SOC;Securite sociale & Protection;Economie & Finance(551) | Securite sociale & Protection(280) | Sante(169) | Outre-mer(44) | Social & Travail(21);14
+PA794894;Sabatini;Anaïs;RN;Logement & Urbanisme;Economie & Finance(1699) | Securite sociale & Protection(413) | Sante(394) | Outre-mer(265) | Ecologie & Environnement(214);16
+PA794570;Sabatou;Alexandre;RN;Defense;Economie & Finance(1238) | Securite sociale & Protection(270) | Ecologie & Environnement(104) | Sante(97) | Institutions(78);15
+PA841845;Saint-Martin;Arnaud;LFI-NFP;Education;Economie & Finance(1352) | Securite sociale & Protection(245) | Sante(245) | Institutions(154) | Securite & Justice(128);15
+PA841243;Saint-Pasteur;Sébastien;SOC;Immigration;Economie & Finance(846) | Sante(280) | Securite sociale & Protection(182) | Institutions(103) | Outre-mer(83);15
+PA720138;Saint-Paul;Laetitia;HOR;Ecologie & Environnement;Economie & Finance(696) | Ecologie & Environnement(150) | Institutions(135) | Sante(81) | Securite sociale & Protection(79);15
+PA795982;Saintoul;Aurélien;LFI-NFP;Numerique & Technologies;Economie & Finance(1369) | Securite sociale & Protection(380) | Sante(305) | Outre-mer(203) | Institutions(122);16
+PA794954;Salmon;Emeric;RN;Culture;Economie & Finance(2408) | Sante(528) | Securite sociale & Protection(411) | Outre-mer(325) | Institutions(229);15
+PA721110;Sanquer;Nicole;LIOT;Logement & Urbanisme;Economie & Finance(225) | Institutions(55) | Securite sociale & Protection(42) | Logement & Urbanisme(41) | Ecologie & Environnement(33);15
+PA605745;Sansu;Nicolas;GDR;Immigration;Economie & Finance(1087) | Sante(296) | Securite sociale & Protection(88) | Outre-mer(84) | Securite & Justice(59);15
+PA774960;Santiago;Isabelle;SOC;Culture;Economie & Finance(769) | Securite sociale & Protection(337) | Sante(232) | Culture(163) | Institutions(42);15
+PA841777;Sanvert;Arnaud;RN;Transport;Economie & Finance(437) | Outre-mer(104) | Sante(85) | Securite sociale & Protection(64) | Transport(51);15
+PA610002;Sas;Eva;EcoS;Defense;Economie & Finance(1528) | Securite sociale & Protection(190) | Sante(173) | Institutions(106) | Outre-mer(103);15
+PA340343;Saulignac;Hervé;SOC;Numerique & Technologies;Economie & Finance(542) | Securite sociale & Protection(155) | Institutions(86) | Sante(85) | Securite & Justice(61);16
+PA721314;Schellenberger;Raphaël;NI;Ecologie & Environnement;Economie & Finance(331) | Ecologie & Environnement(56) | Outre-mer(50) | Securite sociale & Protection(26) | Institutions(15);9
+PA796050;Schreck;Philippe;RN;Sante;Economie & Finance(823) | Sante(442) | Securite sociale & Protection(159) | Outre-mer(133) | Ecologie & Environnement(86);15
+PA795808;Sebaihi;Sabrina;EcoS;Securite & Justice;Economie & Finance(1001) | Securite sociale & Protection(265) | Securite & Justice(140) | Ecologie & Environnement(99) | Institutions(86);16
+PA757225;Seo;Mikaele;EPR;Education;Economie & Finance(300) | Securite sociale & Protection(64) | Outre-mer(28) | Ecologie & Environnement(19) | Sante(17);13
+PA793416;Sertin;Freddy;EPR;Logement & Urbanisme;Economie & Finance(138) | Institutions(51) | Outre-mer(27) | Securite & Justice(26) | Education(21);15
+PA720960;Serva;Olivier;LIOT;Logement & Urbanisme;Economie & Finance(35) | Logement & Urbanisme(29) | Securite sociale & Protection(22) | Institutions(13) | Outre-mer(6);14
+PA842255;Sicard;Anne;RN;Ecologie & Environnement;Economie & Finance(1489) | Sante(537) | Securite sociale & Protection(365) | Ecologie & Environnement(212) | Institutions(112);16
+PA841091;Simion;Arnaud;SOC;Logement & Urbanisme;Economie & Finance(1025) | Sante(449) | Securite sociale & Protection(382) | Ecologie & Environnement(108) | Outre-mer(72);15
+PA796018;Simonnet;Danielle;EcoS;Sante;Economie & Finance(954) | Sante(470) | Securite sociale & Protection(294) | Institutions(108) | Outre-mer(61);15
+PA794802;Sitzenstuhl;Charles;EPR;Numerique & Technologies;Economie & Finance(1915) | Sante(651) | Securite sociale & Protection(435) | Ecologie & Environnement(229) | Securite & Justice(205);16
+PA720190;Sorre;Bertrand;EPR;Culture;Economie & Finance(534) | Securite sociale & Protection(263) | Culture(180) | Sante(161) | Outre-mer(61);14
+PA841681;Sother;Thierry;SOC;Transport;Economie & Finance(879) | Securite sociale & Protection(365) | Sante(240) | Ecologie & Environnement(81) | Institutions(73);15
+PA795466;Soudais;Ersilia;LFI-NFP;Immigration;Economie & Finance(934) | Sante(289) | Securite sociale & Protection(252) | Outre-mer(131) | Securite & Justice(119);15
+PA794486;Spillebout;Violette;EPR;Education;Economie & Finance(371) | Securite sociale & Protection(146) | Institutions(84) | Sante(63) | Education(58);15
+PA793744;Stambach-Terrenoir;Anne;LFI-NFP;Logement & Urbanisme;Economie & Finance(1967) | Sante(457) | Securite sociale & Protection(357) | Ecologie & Environnement(197) | Outre-mer(133);16
+PA842137;Séjourné;Stéphane;EPR;;Economie & Finance(2);1
+PA267794;Tabarot;Michèle;DR;Defense;Economie & Finance(247) | Securite sociale & Protection(72) | Defense(45) | Outre-mer(45) | Transport(29);14
+PA720952;Taché;Aurélien;LFI-NFP;Outre-mer;Economie & Finance(289) | Outre-mer(209) | Institutions(71) | Securite sociale & Protection(34) | Social & Travail(28);14
+PA793382;Taché;Emmanuel;RN;Transport;Economie & Finance(389) | Outre-mer(124) | Securite sociale & Protection(107) | Sante(81) | Institutions(73);15
+PA736201;Taillé-Polian;Sophie;EcoS;Defense;Economie & Finance(628) | Sante(203) | Securite sociale & Protection(100) | Institutions(61) | Social & Travail(59);15
+PA794178;Taite;Jean-Pierre;DR;Defense;Economie & Finance(322) | Institutions(102) | Securite sociale & Protection(70) | Outre-mer(57) | Defense(45);14
+PA795778;Tanguy;Jean-Philippe;RN;Ecologie & Environnement;Economie & Finance(1818) | Securite sociale & Protection(289) | Ecologie & Environnement(225) | Outre-mer(118) | Institutions(102);16
+PA719550;Tanguy;Liliana;EPR;Numerique & Technologies;Economie & Finance(1226) | Sante(496) | Securite sociale & Protection(298) | Culture(212) | Outre-mer(134);16
+PA793796;Taupiac;David;LIOT;Logement & Urbanisme;Economie & Finance(436) | Securite sociale & Protection(85) | Sante(48) | Logement & Urbanisme(46) | Agriculture(28);15
+PA794106;Taurinya;Andrée;LFI-NFP;Numerique & Technologies;Economie & Finance(1307) | Sante(351) | Securite sociale & Protection(266) | Outre-mer(161) | Institutions(160);16
+PA794166;Tavel;Matthias;LFI-NFP;Ecologie & Environnement;Economie & Finance(1076) | Securite sociale & Protection(278) | Sante(276) | Ecologie & Environnement(225) | Institutions(101);15
+PA794502;Taverne;Michaël;RN;Immigration;Economie & Finance(1087) | Securite sociale & Protection(257) | Sante(207) | Securite & Justice(195) | Ecologie & Environnement(108);15
+PA841713;Tavernier;Boris;EcoS;Immigration;Economie & Finance(903) | Securite sociale & Protection(269) | Sante(192) | Institutions(146) | Outre-mer(103);16
+PA721584;Terlier;Jean;EPR;Agriculture;Economie & Finance(710) | Securite sociale & Protection(276) | Outre-mer(72) | Ecologie & Environnement(71) | Sante(69);14
+PA840737;Termet;Flavien;RN;;;0
+PA841553;Tesson;Thierry;RN;Economie & Finance;Economie & Finance(1587) | Securite sociale & Protection(294) | Sante(184) | Outre-mer(100) | Ecologie & Environnement(98);15
+PA795920;Thevenot;Prisca;EPR;Numerique & Technologies;Economie & Finance(1323) | Securite sociale & Protection(391) | Sante(267) | Outre-mer(152) | Securite & Justice(149);16
+PA793948;Thierry;Nicolas;EcoS;Social & Travail;Economie & Finance(763) | Sante(171) | Securite sociale & Protection(134) | Institutions(110) | Social & Travail(54);16
+PA719822;Thillaye;Sabine;Dem;Social & Travail;Economie & Finance(886) | Securite sociale & Protection(235) | Sante(150) | Outre-mer(89) | Institutions(85);16
+PA841893;Thiébault-Martinez;Céline;SOC;Transport;Economie & Finance(1177) | Securite sociale & Protection(244) | Sante(226) | Securite & Justice(109) | Institutions(72);15
+PA722336;Thiébaut;Vincent;HOR;Securite sociale & Protection;Economie & Finance(356) | Securite sociale & Protection(233) | Sante(101) | Ecologie & Environnement(45) | Outre-mer(36);15
+PA643089;Thiériot;Jean-Louis;DR;Logement & Urbanisme;Economie & Finance(162) | Outre-mer(40) | Securite & Justice(35) | Institutions(32) | Securite sociale & Protection(19);14
+PA793816;Thomin;Mélanie;SOC;Social & Travail;Economie & Finance(909) | Securite sociale & Protection(366) | Outre-mer(98) | Social & Travail(62) | Institutions(46);15
+PA793298;Tivoli;Lionel;RN;Ecologie & Environnement;Economie & Finance(1317) | Securite sociale & Protection(344) | Ecologie & Environnement(227) | Sante(145) | Outre-mer(94);15
+PA842299;Tjibaou;Emmanuel;GDR;Outre-mer;Economie & Finance(246) | Outre-mer(53) | Sante(35) | Institutions(32) | Securite sociale & Protection(15);13
+PA840781;Tonussi;Romain;RN;Defense;Economie & Finance(1273) | Securite sociale & Protection(218) | Outre-mer(164) | Institutions(121) | Sante(108);15
+PA607395;Travert;Stéphane;EPR;Logement & Urbanisme;Economie & Finance(848) | Securite sociale & Protection(110) | Ecologie & Environnement(72) | Logement & Urbanisme(57) | Outre-mer(51);14
+PA793334;Tribuiani;Cyril;RN;;;0
+PA795164;Trouvé;Aurélie;LFI-NFP;Ecologie & Environnement;Economie & Finance(824) | Ecologie & Environnement(196) | Securite sociale & Protection(158) | Outre-mer(116) | Institutions(83);14
+PA842121;Tryzna;Nicolas;DR;Defense;Economie & Finance(398) | Securite sociale & Protection(90) | Institutions(56) | Sante(53) | Defense(36);11
+PA840685;Trébuchet;Vincent;UDR;Sante;Economie & Finance(894) | Securite sociale & Protection(316) | Sante(292) | Outre-mer(78) | Securite & Justice(28);15
+PA722162;Turquois;Nicolas;Dem;Social & Travail;Economie & Finance(544) | Securite sociale & Protection(422) | Sante(324) | Social & Travail(95) | Institutions(73);15
+PA878242;Valentin;Antoine;UDR;Ecologie & Environnement;Sante(30) | Ecologie & Environnement(19) | Economie & Finance(9) | Immigration(1) | Culture(1);6
+PA719930;Vallaud;Boris;SOC;Securite & Justice;Economie & Finance(1315) | Securite sociale & Protection(394) | Ecologie & Environnement(134) | Securite & Justice(118) | Outre-mer(71);15
+PA795350;Valletoux;Frédéric;HOR;Sante;Economie & Finance(812) | Sante(673) | Securite sociale & Protection(534) | Social & Travail(113) | Outre-mer(55);13
+PA795596;Vannier;Paul;LFI-NFP;Defense;Economie & Finance(937) | Securite sociale & Protection(190) | Sante(90) | Outre-mer(65) | Securite & Justice(48);15
+PA794118;Vermorel-Marques;Antoine;DR;Defense;Economie & Finance(382) | Institutions(54) | Securite sociale & Protection(50) | Outre-mer(43) | Education(36);15
+PA840809;Verny;Gérault;UDR;Sante;Economie & Finance(577) | Sante(291) | Securite sociale & Protection(53) | Outre-mer(47) | Institutions(19);15
+PA794494;Vicot;Roger;SOC;Securite & Justice;Economie & Finance(701) | Securite sociale & Protection(248) | Securite & Justice(95) | Sante(53) | Ecologie & Environnement(53);15
+PA722102;Vidal;Annie;EPR;Sante;Economie & Finance(862) | Sante(602) | Securite sociale & Protection(496) | Social & Travail(57) | Education(55);15
+PA607090;Vigier;Jean-Pierre;DR;Defense;Economie & Finance(645) | Securite sociale & Protection(187) | Ecologie & Environnement(79) | Sante(72) | Institutions(49);15
+PA331582;Vigier;Philippe;Dem;Outre-mer;Economie & Finance(648) | Securite sociale & Protection(478) | Sante(424) | Outre-mer(228) | Ecologie & Environnement(67);13
+PA719512;Vignon;Corinne;EPR;Numerique & Technologies;Economie & Finance(849) | Securite sociale & Protection(346) | Sante(265) | Ecologie & Environnement(84) | Outre-mer(64);15
+PA794946;Villedieu;Antoine;RN;Defense;Economie & Finance(1749) | Securite sociale & Protection(459) | Sante(285) | Ecologie & Environnement(221) | Securite & Justice(143);15
+PA795026;Violland;Anne-Cécile;HOR;Defense;Economie & Finance(755) | Securite sociale & Protection(174) | Sante(100) | Outre-mer(61) | Social & Travail(53);14
+PA721474;Viry;Stéphane;LIOT;Social & Travail;Economie & Finance(123) | Social & Travail(82) | Securite sociale & Protection(82) | Sante(27) | Education(27);15
+PA721170;Vojetta;Stéphane;EPR;Institutions;Institutions(85) | Economie & Finance(61) | Sante(59) | Outre-mer(33) | Securite & Justice(19);14
+PA841575;Vos;Frédéric-Pierre;RN;Logement & Urbanisme;Economie & Finance(760) | Securite sociale & Protection(83) | Institutions(65) | Logement & Urbanisme(63) | Securite & Justice(48);16
+PA2940;Voynet;Dominique;EcoS;Outre-mer;Economie & Finance(921) | Outre-mer(309) | Sante(243) | Ecologie & Environnement(185) | Securite sociale & Protection(164);15
+PA793194;Vuibert;Lionel;NI;Transport;Economie & Finance(670) | Securite sociale & Protection(295) | Sante(198) | Outre-mer(100) | Education(38);15
+PA2952;Warsmann;Jean-Luc;LIOT;Logement & Urbanisme;Economie & Finance(859) | Securite sociale & Protection(228) | Logement & Urbanisme(38) | Institutions(23) | Culture(14);14
+PA267285;Wauquiez;Laurent;DR;Defense;Economie & Finance(411) | Securite sociale & Protection(106) | Defense(46) | Outre-mer(45) | Securite & Justice(25);14
+PA841479;Weber;Frédéric;RN;Outre-mer;Economie & Finance(1638) | Securite sociale & Protection(305) | Sante(210) | Outre-mer(206) | Ecologie & Environnement(165);16
+PA795326;Weissberg;Christopher;EPR;Education;Economie & Finance(140) | Education(35) | Securite sociale & Protection(30) | Sante(11) | Outre-mer(8);11
+PA720992;William;Jiovanny;SOC;Securite & Justice;Economie & Finance(175) | Securite & Justice(70) | Securite sociale & Protection(69) | Logement & Urbanisme(22) | Education(15);15
+PA2960;Woerth;Éric;EPR;Numerique & Technologies;Economie & Finance(1433) | Securite sociale & Protection(434) | Culture(152) | Ecologie & Environnement(88) | Outre-mer(58);16
+PA795046;Yadan;Caroline;EPR;Education;Economie & Finance(596) | Securite & Justice(159) | Institutions(95) | Securite sociale & Protection(91) | Education(88);15
+PA796078;Youssouffa;Estelle;LIOT;Outre-mer;Outre-mer(273) | Economie & Finance(218) | Securite sociale & Protection(35) | Institutions(16) | Logement & Urbanisme(10);13
+PA942;de Courson;Charles;LIOT;Economie & Finance;Economie & Finance(1057) | Securite sociale & Protection(101) | Sante(59) | Institutions(42) | Outre-mer(29);13
+PA841613;de Fleurian;Marc;RN;Transport;Economie & Finance(2018) | Securite sociale & Protection(511) | Sante(441) | Institutions(227) | Securite & Justice(223);16
+PA642988;de Lépinau;Hervé;RN;Defense;Economie & Finance(1017) | Sante(337) | Securite sociale & Protection(259) | Outre-mer(148) | Institutions(70);15
+PA842141;de Maistre;Élisabeth;DR;Education;Economie & Finance(742) | Sante(325) | Securite sociale & Protection(230) | Securite & Justice(109) | Education(78);16
+PA841359;de Pélichy;Constance;LIOT;Immigration;Economie & Finance(636) | Sante(198) | Securite sociale & Protection(163) | Institutions(109) | Securite & Justice(98);15

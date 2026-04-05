@@ -1,0 +1,354 @@
+﻿uid;nom;prenom;groupe;theme;z_score;direction;taux_pour_depute;taux_pour_groupe;taux_contre_depute;taux_contre_groupe;nb_votes_theme
+PA720952;Taché;Aurélien;LFI-NFP;Securite sociale & Protection;5.99;vote CONTRE plus que son groupe (56% vs 31%);0.4118;0.609;0.5588;0.3086;34
+PA857021;Latrèche;Alim;EPR;Economie & Finance;5.97;vote POUR plus que son groupe (41% vs 28%);0.4091;0.2775;0.3182;0.6969;22
+PA840159;Clavet;Bruno;RN;Sante;4.99;vote CONTRE plus que son groupe (55% vs 21%);0.3871;0.7084;0.5484;0.2142;31
+PA840159;Clavet;Bruno;RN;Economie & Finance;2.38;vote POUR plus que son groupe (52% vs 45%);0.5173;0.4539;0.4222;0.4528;810
+PA840159;Clavet;Bruno;RN;Agriculture;2.38;vote CONTRE plus que son groupe (29% vs 20%);0.7083;0.7633;0.2917;0.2007;24
+PA795144;Armand;Antoine;EPR;Securite sociale & Protection;4.63;vote POUR plus que son groupe (48% vs 31%);0.4844;0.3108;0.3438;0.6559;64
+PA795176;Metzdorf;Nicolas;EPR;Ecologie & Environnement;4.59;vote POUR plus que son groupe (81% vs 26%);0.8095;0.2592;0.1905;0.7311;21
+PA795912;Lavalette;Laure;RN;Securite sociale & Protection;4.57;vote POUR plus que son groupe (70% vs 44%);0.7;0.44;0.15;0.4475;40
+PA795912;Lavalette;Laure;RN;Outre-mer;2.51;vote CONTRE plus que son groupe (60% vs 32%);0.386;0.6529;0.5965;0.3184;57
+PA795912;Lavalette;Laure;RN;Sante;2.11;vote POUR plus que son groupe (83% vs 71%);0.8293;0.7084;0.0732;0.2142;41
+PA842117;Jeanbrun;Vincent;DR;Economie & Finance;4.2;vote POUR plus que son groupe (63% vs 34%);0.6333;0.3431;0.3;0.5902;30
+PA842117;Jeanbrun;Vincent;DR;Securite & Justice;2.82;vote POUR plus que son groupe (65% vs 37%);0.65;0.3654;0.35;0.6112;20
+PA793432;Allisio;Franck;RN;Securite sociale & Protection;4.06;vote POUR plus que son groupe (66% vs 44%);0.6562;0.44;0.1562;0.4475;32
+PA793432;Allisio;Franck;RN;Institutions;3.45;vote CONTRE plus que son groupe (44% vs 24%);0.5;0.7036;0.4444;0.2443;72
+PA794426;Le Hénanff;Anne;HOR;Securite sociale & Protection;4.0;vote POUR plus que son groupe (65% vs 33%);0.6538;0.3306;0.3077;0.5902;26
+PA794426;Le Hénanff;Anne;HOR;Economie & Finance;2.21;vote POUR plus que son groupe (46% vs 29%);0.4609;0.29;0.5217;0.6542;115
+PA840781;Tonussi;Romain;RN;Ecologie & Environnement;3.96;vote POUR plus que son groupe (82% vs 50%);0.8214;0.4962;0.1071;0.4672;28
+PA720908;Moutchou;Naïma;HOR;Economie & Finance;3.87;vote POUR plus que son groupe (59% vs 29%);0.5897;0.29;0.359;0.6542;78
+PA842001;Bigot;Guillaume;RN;Defense;3.85;vote POUR plus que son groupe (18% vs 8%);0.1818;0.0794;0.8182;0.9206;22
+PA842001;Bigot;Guillaume;RN;Outre-mer;2.11;vote POUR plus que son groupe (88% vs 65%);0.875;0.6529;0.0833;0.3184;48
+PA842001;Bigot;Guillaume;RN;Securite & Justice;2.02;vote CONTRE plus que son groupe (73% vs 53%);0.2727;0.4439;0.7273;0.5288;22
+PA795334;Larrouquis;Benoît;EPR;Economie & Finance;3.82;vote POUR plus que son groupe (47% vs 28%);0.4713;0.2775;0.5172;0.6969;174
+PA720992;William;Jiovanny;SOC;Economie & Finance;3.82;vote POUR plus que son groupe (59% vs 54%);0.5943;0.5416;0.2286;0.3771;175
+PA720992;William;Jiovanny;SOC;Securite sociale & Protection;3.32;vote POUR plus que son groupe (65% vs 59%);0.6522;0.5937;0.2029;0.315;69
+PA721764;Grégoire;Olivia;EPR;Sante;3.8;vote POUR plus que son groupe (55% vs 29%);0.5455;0.2924;0.0909;0.6812;22
+PA841539;Gokel;Julien;SOC;Securite sociale & Protection;3.72;vote POUR plus que son groupe (75% vs 59%);0.75;0.5937;0.25;0.315;60
+PA841539;Gokel;Julien;SOC;Economie & Finance;3.67;vote CONTRE plus que son groupe (52% vs 38%);0.4174;0.5416;0.5201;0.3771;448
+PA607553;Potier;Dominique;SOC;Sante;3.62;vote POUR plus que son groupe (67% vs 31%);0.6677;0.3087;0.2485;0.6646;334
+PA607553;Potier;Dominique;SOC;Agriculture;2.69;vote POUR plus que son groupe (69% vs 53%);0.6923;0.5267;0.3077;0.4637;26
+PA607553;Potier;Dominique;SOC;Education;2.51;vote POUR plus que son groupe (62% vs 48%);0.625;0.4831;0.2812;0.4721;32
+PA793382;Taché;Emmanuel;RN;Ecologie & Environnement;3.62;vote POUR plus que son groupe (79% vs 50%);0.7931;0.4962;0.1379;0.4672;29
+PA793382;Taché;Emmanuel;RN;Securite & Justice;2.77;vote POUR plus que son groupe (69% vs 44%);0.6923;0.4439;0.2564;0.5288;39
+PA793382;Taché;Emmanuel;RN;Agriculture;2.11;vote CONTRE plus que son groupe (28% vs 20%);0.6897;0.7633;0.2759;0.2007;29
+PA842141;de Maistre;Élisabeth;DR;Defense;3.6;vote POUR plus que son groupe (15% vs 7%);0.1481;0.0693;0.8519;0.9307;27
+PA609332;Faure;Olivier;SOC;Securite & Justice;3.58;vote CONTRE plus que son groupe (64% vs 37%);0.3636;0.5797;0.6364;0.3667;22
+PA841777;Sanvert;Arnaud;RN;Securite sociale & Protection;3.53;vote POUR plus que son groupe (64% vs 44%);0.6406;0.44;0.2031;0.4475;64
+PA841777;Sanvert;Arnaud;RN;Economie & Finance;2.64;vote POUR plus que son groupe (52% vs 45%);0.524;0.4539;0.4073;0.4528;437
+PA841777;Sanvert;Arnaud;RN;Sante;2.07;vote CONTRE plus que son groupe (35% vs 21%);0.5294;0.7084;0.3529;0.2142;85
+PA720230;Magnier;Lise;HOR;Securite & Justice;3.5;vote POUR plus que son groupe (64% vs 38%);0.6389;0.3809;0.2778;0.5918;36
+PA794322;Ménagé;Thomas;RN;Sante;3.43;vote CONTRE plus que son groupe (44% vs 21%);0.4025;0.7084;0.4434;0.2142;318
+PA719404;Le Gac;Didier;EPR;Securite & Justice;3.42;vote POUR plus que son groupe (73% vs 43%);0.7308;0.4259;0.2692;0.5704;26
+PA795124;Padey;Didier;Dem;Economie & Finance;3.41;vote POUR plus que son groupe (49% vs 31%);0.4922;0.3133;0.5;0.6468;128
+PA795124;Padey;Didier;Dem;Securite sociale & Protection;2.09;vote POUR plus que son groupe (48% vs 37%);0.4815;0.3666;0.5;0.5998;54
+PA795326;Weissberg;Christopher;EPR;Securite sociale & Protection;3.37;vote POUR plus que son groupe (50% vs 31%);0.5;0.3108;0.5;0.6559;30
+PA720846;Lachaud;Bastien;LFI-NFP;Defense;3.33;vote CONTRE plus que son groupe (14% vs 8%);0.8214;0.9151;0.1429;0.0813;28
+PA720846;Lachaud;Bastien;LFI-NFP;Education;2.89;vote CONTRE plus que son groupe (70% vs 45%);0.25;0.5272;0.7;0.4454;20
+PA610654;Nilor;Jean-Philippe;LFI-NFP;Ecologie & Environnement;3.33;vote CONTRE plus que son groupe (85% vs 55%);0.1;0.4136;0.85;0.5511;20
+PA610654;Nilor;Jean-Philippe;LFI-NFP;Institutions;2.88;vote POUR plus que son groupe (81% vs 53%);0.8095;0.5308;0.1905;0.4576;21
+PA610654;Nilor;Jean-Philippe;LFI-NFP;Economie & Finance;2.6;vote CONTRE plus que son groupe (52% vs 42%);0.4436;0.5147;0.5171;0.4239;381
+PA793816;Thomin;Mélanie;SOC;Sante;3.31;vote POUR plus que son groupe (66% vs 31%);0.6562;0.3087;0.3438;0.6646;32
+PA794146;Laernoes;Julie;EcoS;Securite sociale & Protection;3.3;vote POUR plus que son groupe (77% vs 66%);0.7679;0.6551;0.1607;0.264;56
+PA794146;Laernoes;Julie;EcoS;Economie & Finance;2.44;vote CONTRE plus que son groupe (49% vs 40%);0.4736;0.5395;0.4874;0.4001;870
+PA1327;Forissier;Nicolas;DR;Institutions;3.24;vote CONTRE plus que son groupe (70% vs 32%);0.3019;0.6348;0.6981;0.3226;53
+PA1327;Forissier;Nicolas;DR;Agriculture;2.58;vote CONTRE plus que son groupe (42% vs 29%);0.375;0.6486;0.4167;0.2912;24
+PA840915;Monnier;Thibaut;RN;Institutions;3.18;vote POUR plus que son groupe (91% vs 70%);0.9149;0.7036;0.0851;0.2443;47
+PA840915;Monnier;Thibaut;RN;Economie & Finance;2.07;vote POUR plus que son groupe (50% vs 45%);0.4951;0.4539;0.3931;0.4528;921
+PA840915;Monnier;Thibaut;RN;Logement & Urbanisme;2.04;vote CONTRE plus que son groupe (39% vs 28%);0.5278;0.6445;0.3889;0.2751;36
+PA720092;Ramos;Richard;Dem;Securite sociale & Protection;3.18;vote POUR plus que son groupe (53% vs 37%);0.5286;0.3666;0.4;0.5998;70
+PA720092;Ramos;Richard;Dem;Economie & Finance;2.22;vote POUR plus que son groupe (43% vs 31%);0.4275;0.3133;0.529;0.6468;138
+PA794118;Vermorel-Marques;Antoine;DR;Defense;3.17;vote CONTRE plus que son groupe (100% vs 93%);0.0;0.0693;1.0;0.9307;20
+PA841339;Brard;Jean-Michel;HOR;Sante;3.15;vote POUR plus que son groupe (73% vs 34%);0.7282;0.3429;0.2667;0.5891;195
+PA794042;Dezarnaud;Sylvie;DR;Securite sociale & Protection;3.13;vote CONTRE plus que son groupe (76% vs 54%);0.1905;0.3734;0.7619;0.5358;21
+PA794042;Dezarnaud;Sylvie;DR;Economie & Finance;2.45;vote CONTRE plus que son groupe (78% vs 59%);0.1781;0.3431;0.7842;0.5902;292
+PA795386;Lefèvre;Mathieu;EPR;Education;3.1;vote POUR plus que son groupe (53% vs 28%);0.5263;0.2834;0.4474;0.7069;38
+PA774958;Leseul;Gérard;SOC;Ecologie & Environnement;3.09;vote POUR plus que son groupe (70% vs 34%);0.7031;0.3426;0.2188;0.5665;64
+PA793230;Ranc;Angélique;RN;Social & Travail;3.09;vote POUR plus que son groupe (63% vs 31%);0.6296;0.307;0.2963;0.6308;27
+PA841709;Hoffman;Emmanuelle;EPR;Outre-mer;3.05;vote POUR plus que son groupe (62% vs 33%);0.625;0.33;0.2917;0.6457;24
+PA841709;Hoffman;Emmanuelle;EPR;Securite sociale & Protection;2.01;vote CONTRE plus que son groupe (79% vs 66%);0.2083;0.3108;0.7917;0.6559;48
+PA842255;Sicard;Anne;RN;Culture;3.05;vote CONTRE plus que son groupe (81% vs 47%);0.0476;0.37;0.8095;0.4653;21
+PA795362;Belluco;Lisa;EcoS;Sante;3.04;vote POUR plus que son groupe (71% vs 34%);0.7059;0.3373;0.2794;0.64;68
+PA795050;Panosyan-Bouvet;Astrid;EPR;Sante;3.04;vote POUR plus que son groupe (70% vs 29%);0.6972;0.2924;0.211;0.6812;109
+PA795050;Panosyan-Bouvet;Astrid;EPR;Institutions;2.53;vote CONTRE plus que son groupe (87% vs 53%);0.1304;0.4567;0.8696;0.5273;23
+PA795050;Panosyan-Bouvet;Astrid;EPR;Securite sociale & Protection;2.0;vote POUR plus que son groupe (40% vs 31%);0.3958;0.3108;0.5208;0.6559;48
+PA719778;Jolivet;François;HOR;Institutions;3.02;vote CONTRE plus que son groupe (69% vs 37%);0.2778;0.4328;0.6944;0.3735;36
+PA842073;Dussausaye;Gaëtan;RN;Sante;2.96;vote CONTRE plus que son groupe (36% vs 21%);0.3995;0.7084;0.3592;0.2142;373
+PA793102;Girard;Christian;RN;Logement & Urbanisme;2.96;vote CONTRE plus que son groupe (44% vs 28%);0.52;0.6445;0.44;0.2751;25
+PA793102;Girard;Christian;RN;Securite & Justice;2.12;vote CONTRE plus que son groupe (74% vs 53%);0.2375;0.4439;0.7375;0.5288;80
+PA720976;Mathiasin;Max;LIOT;Securite sociale & Protection;2.95;vote POUR plus que son groupe (82% vs 51%);0.8214;0.5125;0.1071;0.4117;28
+PA841207;Alloncle;Charles;UDR;Securite sociale & Protection;2.94;vote CONTRE plus que son groupe (65% vs 52%);0.1739;0.3466;0.6522;0.5156;92
+PA841207;Alloncle;Charles;UDR;Sante;2.52;vote CONTRE plus que son groupe (27% vs 19%);0.7111;0.7572;0.2667;0.1923;45
+PA840869;Joubert;Florence;RN;Education;2.92;vote CONTRE plus que son groupe (68% vs 41%);0.3182;0.563;0.6818;0.4066;22
+PA794582;Pfeffer;Kévin;RN;Sante;2.92;vote CONTRE plus que son groupe (39% vs 21%);0.403;0.7084;0.393;0.2142;201
+PA794582;Pfeffer;Kévin;RN;Institutions;2.03;vote CONTRE plus que son groupe (36% vs 24%);0.5748;0.7036;0.3622;0.2443;127
+PA794178;Taite;Jean-Pierre;DR;Sante;2.92;vote CONTRE plus que son groupe (72% vs 32%);0.15;0.6031;0.725;0.3173;40
+PA842097;Roy;Sophie-Laurence;RN;Outre-mer;2.91;vote CONTRE plus que son groupe (64% vs 32%);0.3571;0.6529;0.6429;0.3184;70
+PA795762;Califer;Elie;SOC;Sante;2.9;vote POUR plus que son groupe (57% vs 31%);0.5726;0.3087;0.3306;0.6646;124
+PA721234;Petit;Maud;Dem;Ecologie & Environnement;2.9;vote POUR plus que son groupe (50% vs 26%);0.5;0.2568;0.4231;0.7171;26
+PA721234;Petit;Maud;Dem;Culture;2.07;vote POUR plus que son groupe (79% vs 42%);0.7857;0.4213;0.2143;0.5758;28
+PA721234;Petit;Maud;Dem;Logement & Urbanisme;2.05;vote POUR plus que son groupe (76% vs 56%);0.76;0.5597;0.24;0.4244;25
+PA794570;Sabatou;Alexandre;RN;Outre-mer;2.89;vote POUR plus que son groupe (96% vs 65%);0.96;0.6529;0.04;0.3184;25
+PA719080;Marsaud;Sandra;EPR;Education;2.87;vote POUR plus que son groupe (52% vs 28%);0.5238;0.2834;0.4762;0.7069;21
+PA841605;Golliot;Antoine;RN;Institutions;2.86;vote CONTRE plus que son groupe (41% vs 24%);0.5574;0.7036;0.4098;0.2443;61
+PA796050;Schreck;Philippe;RN;Logement & Urbanisme;2.85;vote POUR moins que son groupe (46% vs 64%);0.4643;0.6445;0.3214;0.2751;28
+PA794906;Amard;Gabriel;LFI-NFP;Agriculture;2.84;vote POUR plus que son groupe (64% vs 37%);0.64;0.3733;0.36;0.6148;25
+PA720614;Le Pen;Marine;RN;Securite sociale & Protection;2.84;vote CONTRE plus que son groupe (65% vs 45%);0.2784;0.44;0.6495;0.4475;97
+PA720614;Le Pen;Marine;RN;Securite & Justice;2.68;vote POUR plus que son groupe (71% vs 44%);0.7143;0.4439;0.2857;0.5288;28
+PA720614;Le Pen;Marine;RN;Economie & Finance;2.56;vote CONTRE plus que son groupe (51% vs 45%);0.3856;0.4539;0.5104;0.4528;529
+PA720614;Le Pen;Marine;RN;Outre-mer;2.53;vote CONTRE plus que son groupe (60% vs 32%);0.4;0.6529;0.6;0.3184;55
+PA608172;Pirès Beaune;Christine;SOC;Education;2.82;vote POUR plus que son groupe (64% vs 48%);0.6429;0.4831;0.3214;0.4721;28
+PA796090;Caron;Aymeric;LFI-NFP;Outre-mer;2.81;vote POUR plus que son groupe (65% vs 40%);0.65;0.3986;0.3;0.5612;40
+PA793290;Lelouis;Gisèle;RN;Culture;2.81;vote POUR plus que son groupe (67% vs 37%);0.6667;0.37;0.1905;0.4653;21
+PA793290;Lelouis;Gisèle;RN;Social & Travail;2.38;vote POUR plus que son groupe (56% vs 31%);0.5556;0.307;0.3333;0.6308;36
+PA840997;Biteau;Benoît;EcoS;Securite sociale & Protection;2.8;vote CONTRE plus que son groupe (31% vs 26%);0.5377;0.6551;0.3113;0.264;106
+PA817203;Miller;Laure;EPR;Ecologie & Environnement;2.8;vote POUR plus que son groupe (53% vs 26%);0.5294;0.2592;0.3824;0.7311;34
+PA817203;Miller;Laure;EPR;Agriculture;2.01;vote POUR plus que son groupe (62% vs 43%);0.619;0.4264;0.381;0.5624;21
+PA719272;Meunier;Frédérique;DR;Sante;2.79;vote CONTRE plus que son groupe (74% vs 32%);0.2402;0.6031;0.7402;0.3173;204
+PA722328;Kremer;Eliane;DR;Outre-mer;2.78;vote POUR plus que son groupe (75% vs 36%);0.75;0.3558;0.1;0.516;20
+PA793608;Levavasseur;Katiana;RN;Outre-mer;2.78;vote POUR plus que son groupe (95% vs 65%);0.9483;0.6529;0.0517;0.3184;58
+PA793608;Levavasseur;Katiana;RN;Securite & Justice;2.14;vote POUR plus que son groupe (64% vs 44%);0.6364;0.4439;0.3182;0.5288;44
+PA840793;Pena;Marc;SOC;Sante;2.78;vote POUR plus que son groupe (57% vs 31%);0.5738;0.3087;0.3443;0.6646;61
+PA840793;Pena;Marc;SOC;Ecologie & Environnement;2.3;vote POUR plus que son groupe (61% vs 34%);0.6111;0.3426;0.3056;0.5665;36
+PA841471;Hablot;Stéphane;SOC;Logement & Urbanisme;2.77;vote POUR plus que son groupe (58% vs 26%);0.5769;0.2613;0.4038;0.7029;52
+PA795390;Lalanne;Sandrine;EPR;Outre-mer;2.77;vote CONTRE plus que son groupe (95% vs 65%);0.0;0.33;0.9474;0.6457;38
+PA267200;Huyghe;Sébastien;EPR;Sante;2.75;vote POUR plus que son groupe (66% vs 29%);0.6586;0.2924;0.3092;0.6812;249
+PA267200;Huyghe;Sébastien;EPR;Transport;2.51;vote POUR plus que son groupe (67% vs 52%);0.6667;0.5181;0.3;0.468;30
+PA267200;Huyghe;Sébastien;EPR;Ecologie & Environnement;2.25;vote POUR plus que son groupe (50% vs 26%);0.5;0.2592;0.45;0.7311;100
+PA721984;Latombe;Philippe;Dem;Institutions;2.74;vote POUR plus que son groupe (63% vs 42%);0.6296;0.4243;0.3333;0.5324;27
+PA721984;Latombe;Philippe;Dem;Economie & Finance;2.22;vote POUR plus que son groupe (43% vs 31%);0.4297;0.3133;0.5391;0.6468;128
+PA721984;Latombe;Philippe;Dem;Sante;2.04;vote POUR plus que son groupe (65% vs 35%);0.65;0.3489;0.35;0.6039;20
+PA794670;Parmentier;Caroline;RN;Logement & Urbanisme;2.74;vote POUR plus que son groupe (82% vs 64%);0.8182;0.6445;0.1364;0.2751;22
+PA794670;Parmentier;Caroline;RN;Securite & Justice;2.56;vote CONTRE plus que son groupe (77% vs 53%);0.186;0.4439;0.7674;0.5288;43
+PA796070;Gaillard;Perceval;LFI-NFP;Securite & Justice;2.7;vote CONTRE plus que son groupe (56% vs 38%);0.44;0.5863;0.56;0.3767;25
+PA796070;Gaillard;Perceval;LFI-NFP;Economie & Finance;2.1;vote POUR plus que son groupe (59% vs 51%);0.5876;0.5147;0.3509;0.4239;1382
+PA842183;Blanchard;Benoît;HOR;Securite & Justice;2.69;vote CONTRE plus que son groupe (81% vs 59%);0.1481;0.3809;0.8148;0.5918;27
+PA842183;Blanchard;Benoît;HOR;Ecologie & Environnement;2.26;vote POUR plus que son groupe (62% vs 36%);0.6154;0.358;0.3077;0.5889;26
+PA842183;Blanchard;Benoît;HOR;Institutions;2.13;vote POUR plus que son groupe (75% vs 43%);0.75;0.4328;0.25;0.3735;32
+PA794486;Spillebout;Violette;EPR;Agriculture;2.67;vote POUR plus que son groupe (68% vs 43%);0.6818;0.4264;0.3182;0.5624;22
+PA841853;Hervieu;Céline;SOC;Securite sociale & Protection;2.66;vote CONTRE plus que son groupe (40% vs 32%);0.5476;0.5937;0.4048;0.315;126
+PA720668;Blairy;Emmanuel;RN;Defense;2.65;vote POUR plus que son groupe (15% vs 8%);0.15;0.0794;0.85;0.9206;20
+PA720668;Blairy;Emmanuel;RN;Securite & Justice;2.43;vote POUR plus que son groupe (68% vs 44%);0.6842;0.4439;0.2895;0.5288;38
+PA1008;David;Alain;SOC;Securite sociale & Protection;2.64;vote CONTRE plus que son groupe (40% vs 32%);0.5745;0.5937;0.4043;0.315;47
+PA1008;David;Alain;SOC;Economie & Finance;2.29;vote POUR plus que son groupe (63% vs 54%);0.627;0.5416;0.3459;0.3771;185
+PA1008;David;Alain;SOC;Culture;2.04;vote POUR plus que son groupe (58% vs 30%);0.5769;0.2974;0.4231;0.6069;26
+PA1008;David;Alain;SOC;Institutions;2.03;vote POUR plus que son groupe (76% vs 51%);0.7619;0.5137;0.2381;0.4798;21
+PA793756;Piquemal;François;LFI-NFP;Institutions;2.64;vote POUR plus que son groupe (79% vs 53%);0.7857;0.5308;0.2143;0.4576;28
+PA793756;Piquemal;François;LFI-NFP;Securite sociale & Protection;2.27;vote CONTRE plus que son groupe (36% vs 31%);0.52;0.609;0.36;0.3086;50
+PA793756;Piquemal;François;LFI-NFP;Logement & Urbanisme;2.24;vote POUR plus que son groupe (48% vs 32%);0.4762;0.3169;0.4762;0.6336;21
+PA793756;Piquemal;François;LFI-NFP;Ecologie & Environnement;2.05;vote CONTRE plus que son groupe (75% vs 55%);0.25;0.4136;0.75;0.5511;20
+PA335999;Batho;Delphine;EcoS;Institutions;2.63;vote CONTRE plus que son groupe (73% vs 51%);0.2683;0.4479;0.7317;0.5146;41
+PA335999;Batho;Delphine;EcoS;Sante;2.49;vote POUR plus que son groupe (64% vs 34%);0.6389;0.3373;0.3333;0.64;36
+PA774954;Blin;Anne-Laure;DR;Culture;2.62;vote POUR plus que son groupe (97% vs 36%);0.9677;0.3616;0.0323;0.6067;31
+PA795954;Ibled;Catherine;EPR;Institutions;2.62;vote POUR plus que son groupe (80% vs 46%);0.8;0.4567;0.2;0.5273;30
+PA793664;Pochon;Marie;EcoS;Sante;2.62;vote POUR plus que son groupe (54% vs 34%);0.5357;0.3373;0.2857;0.64;56
+PA793664;Pochon;Marie;EcoS;Securite & Justice;2.24;vote POUR plus que son groupe (76% vs 59%);0.7619;0.5879;0.1905;0.3257;21
+PA794154;Raux;Jean-Claude;EcoS;Economie & Finance;2.62;vote CONTRE plus que son groupe (49% vs 40%);0.4563;0.5395;0.488;0.4001;916
+PA794562;Ballard;Philippe;RN;Outre-mer;2.61;vote CONTRE plus que son groupe (61% vs 32%);0.3906;0.6529;0.6094;0.3184;64
+PA841845;Saint-Martin;Arnaud;LFI-NFP;Ecologie & Environnement;2.61;vote CONTRE plus que son groupe (80% vs 55%);0.1765;0.4136;0.8039;0.5511;51
+PA721134;Lescure;Roland;EPR;Economie & Finance;2.6;vote POUR plus que son groupe (41% vs 28%);0.4091;0.2775;0.5682;0.6969;88
+PA721134;Lescure;Roland;EPR;Culture;2.0;vote POUR plus que son groupe (85% vs 41%);0.85;0.4094;0.15;0.5876;20
+PA795722;Olive;Karl;EPR;Institutions;2.6;vote POUR plus que son groupe (79% vs 46%);0.7941;0.4567;0.1765;0.5273;34
+PA793708;Peytavie;Sébastien;EcoS;Securite & Justice;2.6;vote POUR plus que son groupe (78% vs 59%);0.7826;0.5879;0.1522;0.3257;46
+PA793330;Masson;Bryan;RN;Sante;2.59;vote CONTRE plus que son groupe (32% vs 21%);0.4375;0.7084;0.325;0.2142;80
+PA795844;Erodi;Karen;LFI-NFP;Ecologie & Environnement;2.58;vote CONTRE plus que son groupe (76% vs 55%);0.1707;0.4136;0.7561;0.5511;41
+PA795844;Erodi;Karen;LFI-NFP;Securite & Justice;2.28;vote POUR plus que son groupe (75% vs 59%);0.75;0.5863;0.2292;0.3767;48
+PA840143;Florquin;Guillaume;RN;Transport;2.58;vote CONTRE plus que son groupe (52% vs 27%);0.4762;0.6631;0.5238;0.2716;21
+PA718674;Givernet;Olga;EPR;Securite & Justice;2.58;vote POUR plus que son groupe (66% vs 43%);0.6562;0.4259;0.3438;0.5704;32
+PA841587;Magnier;David;RN;Defense;2.58;vote POUR plus que son groupe (15% vs 8%);0.1481;0.0794;0.8519;0.9206;27
+PA793852;Meurin;Pierre;RN;Transport;2.58;vote CONTRE plus que son groupe (52% vs 27%);0.4286;0.6631;0.5238;0.2716;21
+PA720468;Chenu;Sébastien;RN;Sante;2.56;vote CONTRE plus que son groupe (29% vs 21%);0.4405;0.7084;0.2857;0.2142;84
+PA720468;Chenu;Sébastien;RN;Economie & Finance;2.26;vote CONTRE plus que son groupe (52% vs 45%);0.4228;0.4539;0.518;0.4528;473
+PA793464;Delogu;Sébastien;LFI-NFP;Economie & Finance;2.56;vote CONTRE plus que son groupe (48% vs 42%);0.4258;0.5147;0.4794;0.4239;559
+PA793464;Delogu;Sébastien;LFI-NFP;Defense;2.25;vote CONTRE plus que son groupe (11% vs 8%);0.8519;0.9151;0.1111;0.0813;27
+PA842013;Gustave;Steevy;EcoS;Defense;2.55;vote POUR plus que son groupe (98% vs 92%);0.9778;0.9235;0.0;0.0553;45
+PA842013;Gustave;Steevy;EcoS;Culture;2.02;vote POUR plus que son groupe (67% vs 28%);0.669;0.2823;0.3239;0.6965;142
+PA719578;Prud'homme;Loïc;LFI-NFP;Ecologie & Environnement;2.55;vote CONTRE plus que son groupe (78% vs 55%);0.1739;0.4136;0.7826;0.5511;23
+PA719578;Prud'homme;Loïc;LFI-NFP;Economie & Finance;2.07;vote CONTRE plus que son groupe (47% vs 42%);0.4428;0.5147;0.4673;0.4239;612
+PA841769;Michoux;Éric;UDR;Securite & Justice;2.54;vote POUR plus que son groupe (67% vs 41%);0.6739;0.4055;0.3043;0.5606;46
+PA793354;Mélin;Joëlle;RN;Agriculture;2.54;vote POUR plus que son groupe (85% vs 76%);0.8519;0.7633;0.1481;0.2007;27
+PA795908;Chenevard;Yannick;EPR;Institutions;2.53;vote POUR plus que son groupe (79% vs 46%);0.7879;0.4567;0.2121;0.5273;33
+PA795908;Chenevard;Yannick;EPR;Securite & Justice;2.5;vote POUR plus que son groupe (65% vs 43%);0.6486;0.4259;0.3514;0.5704;37
+PA793246;Falcon;Frédéric;RN;Social & Travail;2.53;vote POUR plus que son groupe (57% vs 31%);0.5714;0.307;0.3929;0.6308;28
+PA793832;Gillet;Yoann;RN;Sante;2.53;vote CONTRE plus que son groupe (35% vs 21%);0.444;0.7084;0.3475;0.2142;259
+PA793832;Gillet;Yoann;RN;Immigration;2.41;vote POUR plus que son groupe (67% vs 59%);0.6667;0.5945;0.3333;0.3986;21
+PA795778;Tanguy;Jean-Philippe;RN;Sante;2.53;vote CONTRE plus que son groupe (38% vs 21%);0.4521;0.7084;0.3836;0.2142;73
+PA795778;Tanguy;Jean-Philippe;RN;Transport;2.34;vote CONTRE plus que son groupe (50% vs 27%);0.5;0.6631;0.5;0.2716;20
+PA795454;Ben Cheikh;Karim;EcoS;Outre-mer;2.52;vote POUR plus que son groupe (75% vs 45%);0.7467;0.4494;0.2267;0.5097;75
+PA795454;Ben Cheikh;Karim;EcoS;Education;2.15;vote CONTRE plus que son groupe (68% vs 43%);0.3182;0.5379;0.6818;0.4292;22
+PA793342;Martin;Alexandra;DR;Securite sociale & Protection;2.52;vote CONTRE plus que son groupe (72% vs 54%);0.2479;0.3734;0.7179;0.5358;117
+PA794478;Guiraud;David;LFI-NFP;Economie & Finance;2.51;vote POUR plus que son groupe (60% vs 51%);0.6018;0.5147;0.3446;0.4239;560
+PA794478;Guiraud;David;LFI-NFP;Outre-mer;2.45;vote POUR plus que son groupe (58% vs 40%);0.5758;0.3986;0.3333;0.5612;33
+PA719024;Blanchet;Christophe;Dem;Outre-mer;2.5;vote POUR plus que son groupe (62% vs 36%);0.625;0.3591;0.2917;0.6008;24
+PA793844;Bordes;Pascale;RN;Securite sociale & Protection;2.5;vote CONTRE plus que son groupe (62% vs 45%);0.2981;0.44;0.625;0.4475;208
+PA793844;Bordes;Pascale;RN;Logement & Urbanisme;2.24;vote POUR plus que son groupe (75% vs 64%);0.75;0.6445;0.15;0.2751;20
+PA793844;Bordes;Pascale;RN;Economie & Finance;2.22;vote CONTRE plus que son groupe (51% vs 45%);0.3947;0.4539;0.511;0.4528;1049
+PA841047;Ceccoli;François-Xavier;DR;Outre-mer;2.5;vote POUR plus que son groupe (71% vs 36%);0.7097;0.3558;0.2581;0.516;31
+PA794008;Chatelain;Cyrielle;EcoS;Agriculture;2.5;vote CONTRE plus que son groupe (71% vs 54%);0.2857;0.4548;0.7143;0.5366;21
+PA794008;Chatelain;Cyrielle;EcoS;Defense;2.46;vote CONTRE plus que son groupe (11% vs 6%);0.8696;0.9235;0.1087;0.0553;46
+PA793872;Oziol;Nathalie;LFI-NFP;Securite sociale & Protection;2.5;vote POUR moins que son groupe (51% vs 61%);0.5111;0.609;0.3259;0.3086;135
+PA793872;Oziol;Nathalie;LFI-NFP;Economie & Finance;2.36;vote CONTRE plus que son groupe (51% vs 42%);0.4326;0.5147;0.5056;0.4239;534
+PA793872;Oziol;Nathalie;LFI-NFP;Sante;2.26;vote CONTRE plus que son groupe (84% vs 69%);0.1508;0.2763;0.8413;0.6886;126
+PA759832;Pannier-Runacher;Agnès;EPR;Securite sociale & Protection;2.5;vote POUR plus que son groupe (43% vs 31%);0.4298;0.3108;0.4876;0.6559;121
+PA759832;Pannier-Runacher;Agnès;EPR;Institutions;2.47;vote POUR plus que son groupe (78% vs 46%);0.7812;0.4567;0.2188;0.5273;32
+PA759832;Pannier-Runacher;Agnès;EPR;Economie & Finance;2.32;vote POUR plus que son groupe (39% vs 28%);0.3875;0.2775;0.55;0.6969;400
+PA842195;Eskenazi;Romain;SOC;Agriculture;2.48;vote POUR plus que son groupe (65% vs 53%);0.6522;0.5267;0.3043;0.4637;23
+PA796026;Lechanteux;Julie;RN;Education;2.48;vote POUR plus que son groupe (79% vs 56%);0.7931;0.563;0.1724;0.4066;29
+PA722150;Houlié;Sacha;SOC;Securite sociale & Protection;2.46;vote POUR moins que son groupe (49% vs 59%);0.4905;0.5937;0.3346;0.315;263
+PA841013;Mesnard;Isabelle;HOR;Economie & Finance;2.46;vote CONTRE plus que son groupe (85% vs 65%);0.1525;0.29;0.8475;0.6542;59
+PA719550;Tanguy;Liliana;EPR;Sante;2.45;vote POUR plus que son groupe (62% vs 29%);0.619;0.2924;0.3306;0.6812;496
+PA794022;Iordanoff;Jérémie;EcoS;Outre-mer;2.44;vote POUR plus que son groupe (74% vs 45%);0.7368;0.4494;0.2368;0.5097;38
+PA841955;Renault;Matthias;RN;Culture;2.44;vote POUR plus que son groupe (63% vs 37%);0.6271;0.37;0.339;0.4653;59
+PA842155;Diouara;Aly;LFI-NFP;Securite & Justice;2.43;vote CONTRE plus que son groupe (49% vs 38%);0.4118;0.5863;0.4902;0.3767;51
+PA774960;Santiago;Isabelle;SOC;Institutions;2.42;vote POUR plus que son groupe (81% vs 51%);0.8095;0.5137;0.1905;0.4798;42
+PA793166;Dessigny;Jocelyn;RN;Ecologie & Environnement;2.41;vote POUR plus que son groupe (71% vs 50%);0.7073;0.4962;0.2683;0.4672;41
+PA722336;Thiébaut;Vincent;HOR;Outre-mer;2.41;vote POUR plus que son groupe (67% vs 32%);0.6667;0.3228;0.3056;0.6389;36
+PA794886;Blanc;Sophie;RN;Transport;2.4;vote POUR plus que son groupe (85% vs 66%);0.8519;0.6631;0.037;0.2716;27
+PA794886;Blanc;Sophie;RN;Securite sociale & Protection;2.1;vote CONTRE plus que son groupe (60% vs 45%);0.3529;0.44;0.598;0.4475;204
+PA606507;Boudié;Florent;EPR;Sante;2.4;vote POUR plus que son groupe (61% vs 29%);0.6129;0.2924;0.3871;0.6812;31
+PA606507;Boudié;Florent;EPR;Economie & Finance;2.3;vote POUR plus que son groupe (37% vs 28%);0.3741;0.2775;0.551;0.6969;147
+PA793122;Daubié;Romain;Dem;Sante;2.4;vote POUR plus que son groupe (70% vs 35%);0.7037;0.3489;0.2346;0.6039;81
+PA841067;Allegret-Pilot;Alexandre;UDR;Social & Travail;2.39;vote POUR plus que son groupe (41% vs 37%);0.4146;0.3716;0.2195;0.4111;41
+PA721158;Anglade;Pieyre-Alexandre;EPR;Numerique & Technologies;2.39;vote POUR plus que son groupe (65% vs 62%);0.65;0.6204;0.35;0.3796;20
+PA642935;Becht;Olivier;EPR;Economie & Finance;2.39;vote POUR plus que son groupe (40% vs 28%);0.3984;0.2775;0.5935;0.6969;123
+PA841507;Bonnet;Nicolas;EcoS;Defense;2.39;vote CONTRE plus que son groupe (11% vs 6%);0.8571;0.9235;0.1071;0.0553;28
+PA721750;Calvez;Céline;EPR;Numerique & Technologies;2.39;vote POUR plus que son groupe (65% vs 62%);0.65;0.6204;0.35;0.3796;20
+PA795120;Ferrari;Marina;Dem;Social & Travail;2.39;vote CONTRE plus que son groupe (81% vs 35%);0.1351;0.6102;0.8108;0.3547;37
+PA721932;Lorho;Marie-France;RN;Securite & Justice;2.39;vote CONTRE plus que son groupe (76% vs 53%);0.2034;0.4439;0.7627;0.5288;59
+PA793314;Masson;Alexandra;RN;Securite sociale & Protection;2.39;vote POUR plus que son groupe (52% vs 44%);0.5172;0.44;0.2759;0.4475;29
+PA793314;Masson;Alexandra;RN;Economie & Finance;2.29;vote CONTRE plus que son groupe (52% vs 45%);0.431;0.4539;0.519;0.4528;420
+PA793158;Beaurain;José;RN;Ecologie & Environnement;2.38;vote POUR plus que son groupe (70% vs 50%);0.7045;0.4962;0.2727;0.4672;44
+PA793158;Beaurain;José;RN;Institutions;2.25;vote POUR plus que son groupe (83% vs 70%);0.8286;0.7036;0.1143;0.2443;35
+PA712015;Dive;Julien;DR;Securite sociale & Protection;2.38;vote POUR plus que son groupe (54% vs 37%);0.5413;0.3734;0.3853;0.5358;109
+PA712015;Dive;Julien;DR;Economie & Finance;2.11;vote POUR plus que son groupe (49% vs 34%);0.489;0.3431;0.4337;0.5902;362
+PA610002;Sas;Eva;EcoS;Securite sociale & Protection;2.38;vote POUR plus que son groupe (73% vs 66%);0.7316;0.6551;0.1895;0.264;190
+PA610002;Sas;Eva;EcoS;Social & Travail;2.02;vote CONTRE plus que son groupe (96% vs 62%);0.037;0.3257;0.963;0.6176;27
+PA794686;Maximi;Marianne;LFI-NFP;Sante;2.37;vote CONTRE plus que son groupe (84% vs 69%);0.1449;0.2763;0.8406;0.6886;69
+PA719436;Meizonnet;Nicolas;RN;Institutions;2.37;vote CONTRE plus que son groupe (38% vs 24%);0.5818;0.7036;0.3818;0.2443;55
+PA721062;Ratenon;Jean-Hugues;LFI-NFP;Institutions;2.37;vote POUR plus que son groupe (76% vs 53%);0.76;0.5308;0.24;0.4576;25
+PA721062;Ratenon;Jean-Hugues;LFI-NFP;Sante;2.1;vote POUR plus que son groupe (39% vs 28%);0.3926;0.2763;0.5828;0.6886;163
+PA842037;Cernon;Bérenger;LFI-NFP;Sante;2.36;vote POUR plus que son groupe (41% vs 28%);0.4072;0.2763;0.5249;0.6886;221
+PA842037;Cernon;Bérenger;LFI-NFP;Immigration;2.17;vote POUR moins que son groupe (43% vs 47%);0.4286;0.4711;0.5238;0.5123;21
+PA840967;Lioret;René;RN;Agriculture;2.36;vote CONTRE plus que son groupe (26% vs 20%);0.6809;0.7633;0.2553;0.2007;47
+PA795786;Ménaché;Yaël;RN;Securite & Justice;2.36;vote POUR plus que son groupe (68% vs 44%);0.6818;0.4439;0.3182;0.5288;22
+PA795786;Ménaché;Yaël;RN;Logement & Urbanisme;2.04;vote CONTRE plus que son groupe (39% vs 28%);0.5556;0.6445;0.3889;0.2751;36
+PA841107;Oberti;Jacques;SOC;Transport;2.36;vote POUR plus que son groupe (46% vs 24%);0.4634;0.2417;0.4878;0.7256;41
+PA795164;Trouvé;Aurélie;LFI-NFP;Defense;2.36;vote CONTRE plus que son groupe (14% vs 8%);0.8636;0.9151;0.1364;0.0813;22
+PA267306;Chassaigne;André;GDR;Economie & Finance;2.35;vote POUR plus que son groupe (77% vs 53%);0.7679;0.5281;0.125;0.4102;56
+PA1654;Hollande;François;SOC;Education;2.35;vote CONTRE plus que son groupe (60% vs 47%);0.35;0.4831;0.6;0.4721;20
+PA1654;Hollande;François;SOC;Securite sociale & Protection;2.21;vote CONTRE plus que son groupe (39% vs 32%);0.5254;0.5937;0.3898;0.315;236
+PA840983;Lenoir;Bartolomé;UDR;Economie & Finance;2.35;vote POUR moins que son groupe (36% vs 42%);0.3629;0.4163;0.5085;0.4689;879
+PA840983;Lenoir;Bartolomé;UDR;Agriculture;2.2;vote CONTRE plus que son groupe (26% vs 20%);0.6154;0.74;0.2564;0.1962;39
+PA608016;Louwagie;Véronique;DR;Social & Travail;2.34;vote POUR plus que son groupe (73% vs 38%);0.7308;0.3836;0.0;0.3453;26
+PA841183;Mansouri;Hanane;UDR;Logement & Urbanisme;2.34;vote POUR plus que son groupe (75% vs 60%);0.75;0.6025;0.2222;0.2553;36
+PA717379;Maillard;Sylvain;EPR;Education;2.32;vote POUR plus que son groupe (44% vs 28%);0.4359;0.2834;0.5128;0.7069;39
+PA841381;Pantel;Sophie;SOC;Ecologie & Environnement;2.32;vote POUR plus que son groupe (56% vs 34%);0.5556;0.3426;0.2593;0.5665;81
+PA842105;Arnault;Raphaël;LFI-NFP;Securite & Justice;2.31;vote POUR plus que son groupe (74% vs 59%);0.74;0.5863;0.22;0.3767;50
+PA795310;Guetté;Clémence;LFI-NFP;Securite sociale & Protection;2.31;vote POUR plus que son groupe (70% vs 61%);0.6994;0.609;0.2577;0.3086;163
+PA795310;Guetté;Clémence;LFI-NFP;Sante;2.2;vote POUR plus que son groupe (40% vs 28%);0.3984;0.2763;0.5691;0.6886;123
+PA605782;Marcangeli;Laurent;HOR;Education;2.31;vote CONTRE plus que son groupe (84% vs 58%);0.1613;0.3637;0.8387;0.5835;31
+PA721336;Brocard;Blandine;Dem;Sante;2.29;vote POUR plus que son groupe (58% vs 35%);0.5793;0.3489;0.1829;0.6039;328
+PA794710;Brugerolles;Julien;GDR;Outre-mer;2.29;vote CONTRE plus que son groupe (82% vs 52%);0.18;0.444;0.82;0.5173;50
+PA794710;Brugerolles;Julien;GDR;Sante;2.14;vote POUR plus que son groupe (72% vs 42%);0.7222;0.4204;0.25;0.5239;36
+PA721210;Corbière;Alexis;EcoS;Securite & Justice;2.29;vote CONTRE plus que son groupe (48% vs 33%);0.4348;0.5879;0.4783;0.3257;23
+PA841075;Josserand;Sylvie;RN;Social & Travail;2.28;vote POUR plus que son groupe (55% vs 31%);0.5455;0.307;0.3636;0.6308;33
+PA795888;Rousselot;Marie-Ange;EPR;Economie & Finance;2.28;vote CONTRE plus que son groupe (82% vs 70%);0.162;0.2775;0.8169;0.6969;142
+PA795888;Rousselot;Marie-Ange;EPR;Agriculture;2.04;vote CONTRE plus que son groupe (73% vs 56%);0.2308;0.4264;0.7308;0.5624;26
+PA841315;Benbrahim;Karim;SOC;Agriculture;2.27;vote POUR plus que son groupe (67% vs 53%);0.6667;0.5267;0.3333;0.4637;21
+PA719890;Brulebois;Danielle;EPR;Transport;2.27;vote POUR plus que son groupe (66% vs 52%);0.6579;0.5181;0.3158;0.468;38
+PA840075;Casterman;Eddy;RN;Outre-mer;2.27;vote CONTRE plus que son groupe (57% vs 32%);0.4127;0.6529;0.5714;0.3184;63
+PA840075;Casterman;Eddy;RN;Culture;2.21;vote CONTRE plus que son groupe (73% vs 47%);0.1364;0.37;0.7273;0.4653;22
+PA841439;Jenft;Pascal;RN;Education;2.27;vote CONTRE plus que son groupe (61% vs 41%);0.3478;0.563;0.6087;0.4066;23
+PA720334;Pahun;Jimmy;Dem;Outre-mer;2.27;vote POUR plus que son groupe (63% vs 36%);0.6341;0.3591;0.3415;0.6008;41
+PA720256;Bannier;Géraldine;Dem;Institutions;2.26;vote POUR moins que son groupe (25% vs 42%);0.2549;0.4243;0.5686;0.5324;51
+PA795318;Boyard;Louis;LFI-NFP;Outre-mer;2.26;vote CONTRE plus que son groupe (77% vs 56%);0.2;0.3986;0.7714;0.5612;70
+PA795318;Boyard;Louis;LFI-NFP;Agriculture;2.05;vote CONTRE plus que son groupe (81% vs 61%);0.1905;0.3733;0.8095;0.6148;21
+PA795258;Gumbs;Frantz;Dem;Agriculture;2.26;vote CONTRE plus que son groupe (65% vs 50%);0.3043;0.4834;0.6522;0.4974;23
+PA720362;Belhaddad;Belkhir;SOC;Social & Travail;2.25;vote POUR plus que son groupe (68% vs 31%);0.6786;0.3071;0.25;0.6294;28
+PA720362;Belhaddad;Belkhir;SOC;Outre-mer;2.07;vote CONTRE plus que son groupe (66% vs 39%);0.3;0.5548;0.66;0.3855;50
+PA608264;Capdevielle;Colette;SOC;Institutions;2.25;vote CONTRE plus que son groupe (76% vs 48%);0.2439;0.5137;0.7561;0.4798;82
+PA794750;Liger;Thierry;DR;Sante;2.25;vote CONTRE plus que son groupe (66% vs 32%);0.3171;0.6031;0.6585;0.3173;41
+PA794750;Liger;Thierry;DR;Economie & Finance;2.07;vote CONTRE plus que son groupe (75% vs 59%);0.2105;0.3431;0.7544;0.5902;228
+PA841717;Runel;Sandrine;SOC;Logement & Urbanisme;2.25;vote POUR plus que son groupe (52% vs 26%);0.5172;0.2613;0.4828;0.7029;29
+PA795808;Sebaihi;Sabrina;EcoS;Defense;2.25;vote POUR moins que son groupe (85% vs 92%);0.8519;0.9235;0.0741;0.0553;27
+PA793780;Arrighi;Christine;EcoS;Institutions;2.24;vote POUR plus que son groupe (61% vs 45%);0.6075;0.4479;0.3645;0.5146;107
+PA793780;Arrighi;Christine;EcoS;Outre-mer;2.23;vote POUR plus que son groupe (70% vs 45%);0.7;0.4494;0.25;0.5097;20
+PA793780;Arrighi;Christine;EcoS;Economie & Finance;2.17;vote POUR plus que son groupe (61% vs 54%);0.6085;0.5395;0.3536;0.4001;1083
+PA870010;Martin;Sébastien;DR;Institutions;2.24;vote CONTRE plus que son groupe (58% vs 32%);0.3953;0.6348;0.5814;0.3226;43
+PA793696;Muller;Serge;RN;Institutions;2.24;vote POUR plus que son groupe (85% vs 70%);0.8523;0.7036;0.125;0.2443;88
+PA793948;Thierry;Nicolas;EcoS;Education;2.24;vote CONTRE plus que son groupe (69% vs 43%);0.3077;0.5379;0.6923;0.4292;26
+PA793238;Barthès;Christophe;RN;Economie & Finance;2.23;vote CONTRE plus que son groupe (51% vs 45%);0.3946;0.4539;0.5058;0.4528;1285
+PA793632;Houssin;Timothée;RN;Economie & Finance;2.23;vote POUR plus que son groupe (51% vs 45%);0.5071;0.4539;0.3882;0.4528;1749
+PA795076;Rousseau;Sandrine;EcoS;Logement & Urbanisme;2.23;vote POUR plus que son groupe (40% vs 26%);0.4;0.2591;0.6;0.7053;25
+PA840757;Griseti;Monique;RN;Ecologie & Environnement;2.22;vote POUR plus que son groupe (67% vs 50%);0.6735;0.4962;0.2653;0.4672;49
+PA794734;Guiniot;Michel;RN;Agriculture;2.22;vote CONTRE plus que son groupe (29% vs 20%);0.7143;0.7633;0.2857;0.2007;21
+PA793716;Croizier;Laurent;Dem;Outre-mer;2.21;vote POUR plus que son groupe (63% vs 36%);0.6279;0.3591;0.3488;0.6008;43
+PA841729;Lahmar;Abdelkader;LFI-NFP;Securite & Justice;2.21;vote POUR plus que son groupe (72% vs 59%);0.717;0.5863;0.2264;0.3767;53
+PA841729;Lahmar;Abdelkader;LFI-NFP;Sante;2.14;vote POUR moins que son groupe (16% vs 28%);0.1574;0.2763;0.6204;0.6886;108
+PA793892;Galzy;Stéphanie;RN;Outre-mer;2.2;vote POUR plus que son groupe (88% vs 65%);0.878;0.6529;0.0732;0.3184;41
+PA793892;Galzy;Stéphanie;RN;Securite & Justice;2.02;vote CONTRE plus que son groupe (73% vs 53%);0.2727;0.4439;0.7273;0.5288;22
+PA332228;Benoit;Thierry;HOR;Ecologie & Environnement;2.19;vote POUR plus que son groupe (60% vs 36%);0.6;0.358;0.275;0.5889;40
+PA841487;Boulogne;Anthony;RN;Transport;2.19;vote CONTRE plus que son groupe (43% vs 27%);0.4571;0.6631;0.4286;0.2716;35
+PA793182;Bovet;Jorys;RN;Institutions;2.18;vote POUR plus que son groupe (85% vs 70%);0.8485;0.7036;0.1212;0.2443;33
+PA721202;Coquerel;Éric;LFI-NFP;Institutions;2.18;vote POUR plus que son groupe (74% vs 53%);0.7391;0.5308;0.2391;0.4576;46
+PA721202;Coquerel;Éric;LFI-NFP;Outre-mer;2.18;vote POUR plus que son groupe (60% vs 40%);0.6038;0.3986;0.3585;0.5612;53
+PA722284;Fuchs;Bruno;Dem;Securite & Justice;2.18;vote CONTRE plus que son groupe (62% vs 52%);0.2759;0.4421;0.6207;0.523;29
+PA793992;Alfandari;Henri;HOR;Social & Travail;2.17;vote POUR plus que son groupe (96% vs 56%);0.963;0.5588;0.037;0.434;27
+PA793508;Brigand;Hubert;DR;Securite sociale & Protection;2.17;vote POUR plus que son groupe (49% vs 37%);0.4919;0.3734;0.379;0.5358;124
+PA840947;Hervieu;Catherine;EcoS;Transport;2.17;vote CONTRE plus que son groupe (83% vs 62%);0.087;0.2951;0.8261;0.6194;23
+PA795998;K/Bidi;Émeline;GDR;Securite & Justice;2.17;vote POUR plus que son groupe (67% vs 58%);0.6667;0.5849;0.1905;0.2747;21
+PA841495;Amblard;Maxime;RN;Sante;2.16;vote CONTRE plus que son groupe (36% vs 21%);0.5761;0.7084;0.3587;0.2142;92
+PA795402;Coggia;Nathalie;EPR;Outre-mer;2.16;vote CONTRE plus que son groupe (87% vs 65%);0.0727;0.33;0.8727;0.6457;55
+PA794786;Fernandes;Emmanuel;LFI-NFP;Transport;2.16;vote CONTRE plus que son groupe (83% vs 65%);0.1739;0.3259;0.8261;0.6518;23
+PA841737;Gery;Jonathan;RN;Economie & Finance;2.16;vote POUR plus que son groupe (50% vs 45%);0.4958;0.4539;0.3905;0.4528;1539
+PA720644;Nury;Jérôme;DR;Securite & Justice;2.16;vote CONTRE plus que son groupe (74% vs 61%);0.1471;0.3654;0.7353;0.6112;34
+PA721110;Sanquer;Nicole;LIOT;Ecologie & Environnement;2.16;vote POUR plus que son groupe (55% vs 32%);0.5455;0.3163;0.2727;0.5887;33
+PA793772;Bex;Christophe;LFI-NFP;Agriculture;2.15;vote POUR plus que son groupe (54% vs 37%);0.5385;0.3733;0.4103;0.6148;39
+PA793940;Cazenave;Thomas;EPR;Agriculture;2.15;vote CONTRE plus que son groupe (76% vs 56%);0.24;0.4264;0.76;0.5624;25
+PA606098;Marleix;Olivier;DR;Economie & Finance;2.15;vote CONTRE plus que son groupe (76% vs 59%);0.2188;0.3431;0.7604;0.5902;96
+PA795466;Soudais;Ersilia;LFI-NFP;Economie & Finance;2.15;vote CONTRE plus que son groupe (49% vs 42%);0.44;0.5147;0.4872;0.4239;934
+PA408578;Berger;Jean-Didier;DR;Outre-mer;2.14;vote POUR moins que son groupe (18% vs 36%);0.1846;0.3558;0.1692;0.516;65
+PA841919;Diop;Dieynaba;SOC;Defense;2.13;vote POUR plus que son groupe (57% vs 36%);0.5714;0.3634;0.0952;0.0915;21
+PA793218;Guitton;Jordan;RN;Agriculture;2.13;vote CONTRE plus que son groupe (28% vs 20%);0.7179;0.7633;0.2821;0.2007;39
+PA841947;Hamdane;Zahia;LFI-NFP;Logement & Urbanisme;2.13;vote POUR plus que son groupe (43% vs 32%);0.4348;0.3169;0.4348;0.6336;23
+PA722162;Turquois;Nicolas;Dem;Agriculture;2.13;vote POUR plus que son groupe (65% vs 48%);0.6522;0.4834;0.3478;0.4974;23
+PA719512;Vignon;Corinne;EPR;Securite & Justice;2.13;vote CONTRE plus que son groupe (76% vs 57%);0.2414;0.4259;0.7586;0.5704;29
+PA719512;Vignon;Corinne;EPR;Institutions;2.01;vote POUR plus que son groupe (70% vs 46%);0.6977;0.4567;0.2558;0.5273;43
+PA794430;Criaud;Michel;HOR;Ecologie & Environnement;2.12;vote POUR plus que son groupe (57% vs 36%);0.5714;0.358;0.2857;0.5889;35
+PA794762;Dogor-Such;Sandrine;RN;Education;2.12;vote CONTRE plus que son groupe (61% vs 41%);0.3929;0.563;0.6071;0.4066;28
+PA842125;Lam;Thomas;HOR;Sante;2.12;vote POUR plus que son groupe (47% vs 34%);0.469;0.3429;0.2621;0.5891;435
+PA842211;Bellay;Béatrice;SOC;Economie & Finance;2.11;vote POUR plus que son groupe (62% vs 54%);0.6205;0.5416;0.3226;0.3771;527
+PA720386;Di Filippo;Fabien;DR;Culture;2.11;vote POUR plus que son groupe (85% vs 36%);0.85;0.3616;0.15;0.6067;40
+PA795540;Grenon;Daniel;NI;Ecologie & Environnement;2.11;vote POUR plus que son groupe (62% vs 28%);0.6207;0.2764;0.3793;0.7004;29
+PA795540;Grenon;Daniel;NI;Economie & Finance;2.05;vote POUR plus que son groupe (54% vs 37%);0.5385;0.3722;0.4121;0.5612;182
+PA842121;Tryzna;Nicolas;DR;Securite sociale & Protection;2.11;vote POUR plus que son groupe (52% vs 37%);0.5222;0.3734;0.4556;0.5358;90
+PA841191;Nosbé;Sandrine;LFI-NFP;Sante;2.1;vote POUR plus que son groupe (39% vs 28%);0.3927;0.2763;0.583;0.6886;247
+PA793094;Ray;Nicolas;DR;Transport;2.09;vote CONTRE plus que son groupe (43% vs 28%);0.4783;0.6952;0.4348;0.2752;23
+PA267763;Bataille;Jean-Pierre;LIOT;Logement & Urbanisme;2.07;vote POUR plus que son groupe (56% vs 47%);0.5588;0.4674;0.4118;0.4764;34
+PA719938;Fesneau;Marc;Dem;Securite & Justice;2.07;vote POUR plus que son groupe (60% vs 44%);0.6;0.4421;0.4;0.523;30
+PA721442;Petex;Christelle;DR;Sante;2.07;vote CONTRE plus que son groupe (59% vs 32%);0.2821;0.6031;0.5897;0.3173;39
+PA794854;Echaniz;Inaki;SOC;Securite & Justice;2.06;vote POUR plus que son groupe (75% vs 58%);0.7465;0.5797;0.2113;0.3667;71
+PA795156;Keloua Hachi;Fatiha;SOC;Securite & Justice;2.06;vote POUR plus que son groupe (75% vs 58%);0.75;0.5797;0.25;0.3667;20
+PA795156;Keloua Hachi;Fatiha;SOC;Securite sociale & Protection;2.04;vote POUR plus que son groupe (68% vs 59%);0.6791;0.5937;0.246;0.315;187
+PA340343;Saulignac;Hervé;SOC;Securite & Justice;2.06;vote CONTRE plus que son groupe (49% vs 37%);0.4098;0.5797;0.4918;0.3667;61
+PA793444;Bompard;Manuel;LFI-NFP;Sante;2.05;vote CONTRE plus que son groupe (81% vs 69%);0.1623;0.2763;0.8117;0.6886;154
+PA841139;Gabarron;Julien;RN;Ecologie & Environnement;2.05;vote POUR plus que son groupe (68% vs 50%);0.6757;0.4962;0.3243;0.4672;37
+PA841869;Gonord;Michel;NI;Social & Travail;2.05;vote POUR plus que son groupe (59% vs 37%);0.5946;0.3738;0.0541;0.4933;37
+PA793134;Buisson;Jérôme;RN;Securite & Justice;2.04;vote CONTRE plus que son groupe (73% vs 53%);0.2432;0.4439;0.7297;0.5288;37
+PA719736;Galliard-Minier;Camille;EPR;Social & Travail;2.04;vote CONTRE plus que son groupe (63% vs 29%);0.3725;0.709;0.6275;0.2863;51
+PA841419;Girard;Damien;EcoS;Social & Travail;2.04;vote CONTRE plus que son groupe (97% vs 62%);0.0323;0.3257;0.9677;0.6176;31
+PA794114;Mandon;Emmanuel;Dem;Sante;2.04;vote POUR plus que son groupe (57% vs 35%);0.5714;0.3489;0.2286;0.6039;105
+PA841813;Herouin-Léautey;Florence;SOC;Institutions;2.03;vote POUR plus que son groupe (76% vs 51%);0.7619;0.5137;0.2381;0.4798;21
+PA841515;Le Coq;Aurélien;LFI-NFP;Logement & Urbanisme;2.03;vote POUR plus que son groupe (41% vs 32%);0.4074;0.3169;0.4444;0.6336;27
+PA719412;Le Feur;Sandrine;EPR;Sante;2.02;vote POUR plus que son groupe (56% vs 29%);0.561;0.2924;0.439;0.6812;41
+PA795046;Yadan;Caroline;EPR;Logement & Urbanisme;2.02;vote CONTRE plus que son groupe (75% vs 52%);0.25;0.4564;0.75;0.5242;24
+PA642988;de Lépinau;Hervé;RN;Ecologie & Environnement;2.02;vote POUR plus que son groupe (67% vs 50%);0.6731;0.4962;0.2885;0.4672;52
+PA794554;Castiglione;Salvatore;LIOT;Outre-mer;2.01;vote CONTRE plus que son groupe (66% vs 44%);0.3448;0.5006;0.6552;0.4385;29
+PA719756;Le Nabour;Christine;EPR;Culture;2.01;vote POUR plus que son groupe (85% vs 41%);0.8519;0.4094;0.1481;0.5876;27
+PA642725;Liégeon;Eric;DR;Sante;2.01;vote CONTRE plus que son groupe (59% vs 32%);0.2913;0.6031;0.5906;0.3173;127
+PA841575;Vos;Frédéric-Pierre;RN;Securite sociale & Protection;2.01;vote POUR plus que son groupe (55% vs 44%);0.5542;0.44;0.3253;0.4475;83
+PA841575;Vos;Frédéric-Pierre;RN;Securite & Justice;2.0;vote POUR plus que son groupe (65% vs 44%);0.6458;0.4439;0.3333;0.5288;48
+PA643192;Jourdan;Chantal;SOC;Immigration;2.0;vote POUR plus que son groupe (57% vs 47%);0.5652;0.4732;0.4348;0.5268;23
+PA227089;Létard;Valérie;LIOT;Economie & Finance;2.0;vote CONTRE plus que son groupe (64% vs 47%);0.2045;0.4281;0.6364;0.469;44
+PA796018;Simonnet;Danielle;EcoS;Outre-mer;2.0;vote CONTRE plus que son groupe (74% vs 51%);0.2131;0.4494;0.7377;0.5097;61
+PA793744;Stambach-Terrenoir;Anne;LFI-NFP;Transport;2.0;vote POUR plus que son groupe (48% vs 33%);0.4762;0.3259;0.5238;0.6518;21

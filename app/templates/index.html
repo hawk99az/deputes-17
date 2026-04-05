@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assemblee 17 - Analyse des Deputes</title>
+    <style>
+        :root {
+            --bg-dark: #0f1117;
+            --bg-card: #1a1d29;
+            --bg-card-hover: #232738;
+            --border: #2a2d3a;
+            --text: #e4e4e7;
+            --text-muted: #8b8d97;
+            --accent-blue: #3b82f6;
+            --accent-green: #22c55e;
+            --accent-red: #ef4444;
+            --accent-orange: #f59e0b;
+            --accent-purple: #a855f7;
+            --accent-cyan: #06b6d4;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: var(--bg-dark);
+            color: var(--text);
+            min-height: 100vh;
+        }
+
+        /* Navigation */
+        .nav {
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            display: flex;
+            align-items: center;
+            height: 64px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-logo {
+            font-size: 1.3rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-right: 2rem;
+        }
+
+        .nav-tabs {
+            display: flex;
+            gap: 0.5rem;
+            height: 100%;
+        }
+
+        .nav-tab {
+            padding: 0 1.2rem;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            color: var(--text-muted);
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s;
+            font-size: 0.9rem;
+            background: none;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            font-family: inherit;
+        }
+
+        .nav-tab:hover { color: var(--text); }
+        .nav-tab.active {
+            color: var(--accent-blue);
+            border-bottom-color: var(--accent-blue);
+        }
+
+        /* Main content */
+        .main { padding: 1.5rem 2rem; max-width: 1600px; margin: 0 auto; }
+
+        .section { display: none; }
+        .section.active { display: block; }
+
+        /* Cards */
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .card-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text);
+        }
+
+        /* Stats row */
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.2rem;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+
+        .stat-label {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Table */
+        .table-container { overflow-x: auto; }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85rem;
+        }
+
+        th {
+            text-align: left;
+            padding: 0.75rem;
+            border-bottom: 2px solid var(--border);
+            color: var(--text-muted);
+            font-weight: 600;
+            cursor: pointer;
+            user-select: none;
+            white-space: nowrap;
+        }
+
+        th:hover { color: var(--accent-blue); }
+
+        td {
+            padding: 0.6rem 0.75rem;
+            border-bottom: 1px solid var(--border);
+            vertical-align: middle;
+        }
+
+        tr:hover td { background: var(--bg-card-hover); }
+
+        /* Badges */
+        .badge {
+            display: inline-block;
+            padding: 0.2rem 0.6rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .badge-rn { background: #1e3a5f; color: #60a5fa; }
+        .badge-epr { background: #1e3a1e; color: #86efac; }
+        .badge-lfi { background: #3b1e1e; color: #fca5a5; }
+        .badge-soc { background: #3b1e2e; color: #f9a8d4; }
+        .badge-dr { background: #2e2e1e; color: #fde68a; }
+        .badge-ecos { background: #1e3b2e; color: #6ee7b7; }
+        .badge-dem { background: #2e1e3b; color: #c4b5fd; }
+        .badge-hor { background: #1e2e3b; color: #93c5fd; }
+        .badge-liot { background: #3b2e1e; color: #fdba74; }
+        .badge-gdr { background: #3b1e1e; color: #fca5a5; }
+        .badge-udr { background: #2e2e3b; color: #a5b4fc; }
+        .badge-ni { background: #2e2e2e; color: #a1a1aa; }
+
+        /* Progress bars */
+        .progress-bar {
+            width: 100%;
+            height: 6px;
+            background: var(--border);
+            border-radius: 3px;
+            overflow: hidden;
+            margin-top: 4px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            border-radius: 3px;
+            transition: width 0.3s;
+        }
+
+        /* Search */
+        .search-bar {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .search-input, .search-select {
+            padding: 0.6rem 1rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--text);
+            font-size: 0.9rem;
+            font-family: inherit;
+        }
+
+        .search-input { flex: 1; min-width: 200px; }
+        .search-input:focus, .search-select:focus {
+            outline: none;
+            border-color: var(--accent-blue);
+        }
+
+        /* Simulator */
+        .simulator-input {
+            width: 100%;
+            padding: 1rem;
+            background: var(--bg-dark);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--text);
+            font-size: 1rem;
+            font-family: inherit;
+            margin-bottom: 1rem;
+        }
+
+        .simulator-input:focus {
+            outline: none;
+            border-color: var(--accent-blue);
+        }
+
+        .btn {
+            padding: 0.6rem 1.5rem;
+            border-radius: 8px;
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+            font-family: inherit;
+        }
+
+        .btn-primary {
+            background: var(--accent-blue);
+            color: white;
+        }
+
+        .btn-primary:hover { background: #2563eb; }
+
+        /* Hemicycle visualization */
+        .hemicycle-chart {
+            display: flex;
+            gap: 2px;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 1rem;
+        }
+
+        .hemicycle-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .hemicycle-dot:hover { transform: scale(2); }
+
+        /* Radar chart (CSS-based) */
+        .theme-bar {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .theme-bar-label {
+            width: 200px;
+            font-size: 0.8rem;
+            text-align: right;
+            color: var(--text-muted);
+            flex-shrink: 0;
+        }
+
+        .theme-bar-fill {
+            height: 20px;
+            border-radius: 4px;
+            transition: width 0.5s;
+            display: flex;
+            align-items: center;
+            padding-left: 8px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+
+        /* Grid layouts */
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+        .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; }
+
+        @media (max-width: 768px) {
+            .grid-2, .grid-3 { grid-template-columns: 1fr; }
+            .nav { padding: 0 1rem; }
+            .main { padding: 1rem; }
+        }
+
+        /* Tooltip */
+        .tooltip {
+            position: relative;
+        }
+
+        .tooltip .tooltip-text {
+            visibility: hidden;
+            background: #333;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            white-space: nowrap;
+            font-size: 0.75rem;
+            z-index: 10;
+        }
+
+        .tooltip:hover .tooltip-text { visibility: visible; }
+
+        /* Vote result bars */
+        .vote-result-bar {
+            display: flex;
+            height: 30px;
+            border-radius: 6px;
+            overflow: hidden;
+            margin: 0.5rem 0;
+        }
+
+        .vote-pour { background: var(--accent-green); }
+        .vote-contre { background: var(--accent-red); }
+        .vote-abstention { background: var(--accent-orange); }
+
+        .vote-result-segment {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: white;
+            min-width: 30px;
+        }
+
+        /* Deputy detail modal */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.7);
+            z-index: 200;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 2rem;
+            overflow-y: auto;
+        }
+
+        .modal-overlay.active { display: flex; }
+
+        .modal {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            width: 100%;
+            max-width: 900px;
+            padding: 2rem;
+        }
+
+        .modal-close {
+            float: right;
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* Cluster visualization */
+        .cluster-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            margin: 0.5rem 0;
+        }
+
+        .cluster-member {
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+        }
+
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border: 3px solid var(--border);
+            border-top-color: var(--accent-blue);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* Anomaly cards */
+        .anomaly-card {
+            background: var(--bg-dark);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .anomaly-theme {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            background: var(--accent-purple);
+            color: white;
+            font-size: 0.75rem;
+            margin-right: 0.5rem;
+        }
+
+        .z-score {
+            font-weight: 700;
+            color: var(--accent-orange);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="nav">
+    <div class="nav-logo">Assemblee 17</div>
+    <div class="nav-tabs">
+        <button class="nav-tab active" data-section="dashboard">Tableau de bord</button>
+        <button class="nav-tab" data-section="deputes">Deputes</button>
+        <button class="nav-tab" data-section="groupes">Groupes</button>
+        <button class="nav-tab" data-section="simulator">Simulateur</button>
+        <button class="nav-tab" data-section="anomalies">Profils atypiques</button>
+        <button class="nav-tab" data-section="clusters">Clusters</button>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<div class="main">
+
+    <!-- Dashboard -->
+    <section id="section-dashboard" class="section active">
+        <div class="stats-row" id="stats-row"></div>
+
+        <div class="grid-2">
+            <div class="card">
+                <div class="card-title">Loyaute moyenne par groupe</div>
+                <div id="loyalty-chart"></div>
+            </div>
+            <div class="card">
+                <div class="card-title">Participation moyenne par groupe</div>
+                <div id="participation-chart"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Top 10 - Deputes les plus rebelles</div>
+            <div id="top-rebels"></div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Top 10 - Deputes les plus assidus</div>
+            <div id="top-participants"></div>
+        </div>
+    </section>
+
+    <!-- Deputes list -->
+    <section id="section-deputes" class="section">
+        <div class="search-bar">
+            <input type="text" class="search-input" id="search-depute" placeholder="Rechercher un depute (nom, prenom, departement)...">
+            <select class="search-select" id="filter-groupe">
+                <option value="">Tous les groupes</option>
+            </select>
+            <select class="search-select" id="sort-by">
+                <option value="nom">Nom</option>
+                <option value="loyaute">Loyaute</option>
+                <option value="participation">Participation</option>
+                <option value="rebelles">Votes rebelles</option>
+            </select>
+            <select class="search-select" id="sort-order">
+                <option value="asc">Croissant</option>
+                <option value="desc">Decroissant</option>
+            </select>
+        </div>
+
+        <div class="card">
+            <div id="deputes-count" style="margin-bottom:0.5rem;color:var(--text-muted);font-size:0.85rem;"></div>
+            <div class="table-container">
+                <table id="deputes-table">
+                    <thead>
+                        <tr>
+                            <th>Nom</th>
+                            <th>Groupe</th>
+                            <th>Departement</th>
+                            <th>Circo</th>
+                            <th>Profession</th>
+                            <th>Mandats</th>
+                            <th>Participation</th>
+                            <th>Loyaute</th>
+                            <th>Votes rebelles</th>
+                            <th>Specialite</th>
+                        </tr>
+                    </thead>
+                    <tbody id="deputes-tbody"></tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Groupes -->
+    <section id="section-groupes" class="section">
+        <div id="groupes-grid" class="grid-3"></div>
+    </section>
+
+    <!-- Simulator -->
+    <section id="section-simulator" class="section">
+        <div class="card">
+            <div class="card-title">Simulateur de vote</div>
+            <p style="color:var(--text-muted);margin-bottom:1rem;">
+                Entrez le titre d'un projet de loi (reel ou fictif) et l'algorithme predit le vote de chaque depute.
+            </p>
+            <input type="text" class="simulator-input" id="sim-title"
+                   placeholder="Ex: Projet de loi sur la reforme des retraites, Loi climat et resilience...">
+            <div style="margin-bottom:1rem;">
+                <label style="color:var(--text-muted);font-size:0.85rem;">Ou selectionnez des themes :</label>
+                <div id="theme-checkboxes" style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.5rem;"></div>
+            </div>
+            <button class="btn btn-primary" id="btn-simulate" onclick="runSimulation()">Lancer la simulation</button>
+        </div>
+
+        <div id="sim-results" style="display:none;">
+            <div class="card">
+                <div class="card-title">Resultat du vote simule</div>
+                <div id="sim-themes" style="margin-bottom:1rem;"></div>
+                <div id="sim-total-bar"></div>
+                <div id="sim-group-results"></div>
+            </div>
+            <div class="card">
+                <div class="card-title">Detail par depute</div>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Depute</th>
+                                <th>Groupe</th>
+                                <th>Vote predit</th>
+                                <th>Confiance</th>
+                                <th>Pour</th>
+                                <th>Contre</th>
+                                <th>Abstention</th>
+                            </tr>
+                        </thead>
+                        <tbody id="sim-detail-tbody"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profils atypiques -->
+    <section id="section-anomalies" class="section">
+        <div class="search-bar">
+            <select class="search-select" id="anomaly-groupe">
+                <option value="">Tous les groupes</option>
+            </select>
+            <select class="search-select" id="anomaly-theme">
+                <option value="">Tous les themes</option>
+            </select>
+            <input type="number" class="search-input" id="anomaly-z" value="2" min="1" max="10" step="0.5"
+                   style="max-width:120px;" placeholder="Z-score min">
+            <button class="btn btn-primary" onclick="loadProfilsAtypiques()">Filtrer</button>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Deputes au comportement atypique</div>
+            <p style="color:var(--text-muted);margin-bottom:1rem;font-size:0.85rem;">
+                Deputes dont le vote devie significativement de leur groupe sur certains themes.
+                Le z-score mesure l'ecart : plus il est eleve, plus le comportement est atypique.
+            </p>
+            <div id="anomalies-list"></div>
+        </div>
+    </section>
+
+    <!-- Clusters -->
+    <section id="section-clusters" class="section">
+        <div class="card">
+            <div class="card-title">Blocs de vote transpartisans</div>
+            <p style="color:var(--text-muted);margin-bottom:1rem;font-size:0.85rem;">
+                Clustering K-Means sur les profils de vote thematiques. Identifie des blocs qui transcendent les partis.
+            </p>
+            <div id="clusters-content"></div>
+        </div>
+    </section>
+</div>
+
+<!-- Deputy Detail Modal -->
+<div class="modal-overlay" id="modal-overlay">
+    <div class="modal">
+        <button class="modal-close" onclick="closeModal()">&times;</button>
+        <div id="modal-content"></div>
+    </div>
+</div>
+
+<script>
+// ─── Color mappings ────────────────────────────────────────────────────────
+
+const GROUP_COLORS = {
+    'RN': '#3b82f6', 'EPR': '#22c55e', 'LFI-NFP': '#ef4444',
+    'SOC': '#ec4899', 'DR': '#f59e0b', 'EcoS': '#10b981',
+    'Dem': '#a855f7', 'HOR': '#6366f1', 'LIOT': '#f97316',
+    'GDR': '#dc2626', 'UDR': '#8b5cf6', 'NI': '#6b7280'
+};
+
+const GROUP_BADGE_CLASS = {
+    'RN': 'badge-rn', 'EPR': 'badge-epr', 'LFI-NFP': 'badge-lfi',
+    'SOC': 'badge-soc', 'DR': 'badge-dr', 'EcoS': 'badge-ecos',
+    'Dem': 'badge-dem', 'HOR': 'badge-hor', 'LIOT': 'badge-liot',
+    'GDR': 'badge-gdr', 'UDR': 'badge-udr', 'NI': 'badge-ni'
+};
+
+// ─── Navigation ────────────────────────────────────────────────────────────
+
+document.querySelectorAll('.nav-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+        document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+        tab.classList.add('active');
+        document.getElementById('section-' + tab.dataset.section).classList.add('active');
+    });
+});
+
+// ─── API calls ─────────────────────────────────────────────────────────────
+
+async function fetchAPI(path) {
+    const resp = await fetch(path);
+    return resp.json();
+}
+
+// ─── Dashboard ─────────────────────────────────────────────────────────────
+
+async function loadDashboard() {
+    const [stats, groupes, deputes] = await Promise.all([
+        fetchAPI('/api/stats'),
+        fetchAPI('/api/groupes'),
+        fetchAPI('/api/deputes?sort=rebelles&order=desc'),
+    ]);
+
+    // Stats row
+    document.getElementById('stats-row').innerHTML = `
+        <div class="stat-card">
+            <div class="stat-value" style="color:var(--accent-blue)">${stats.total_deputes}</div>
+            <div class="stat-label">Deputes</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value" style="color:var(--accent-green)">${stats.total_scrutins}</div>
+            <div class="stat-label">Scrutins analyses</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value" style="color:var(--accent-purple)">${stats.groupes}</div>
+            <div class="stat-label">Groupes politiques</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value" style="color:var(--accent-orange)">${Object.values(groupes).reduce((s,g) => s + g.loyaute_moyenne, 0) / Object.keys(groupes).length | 0}%</div>
+            <div class="stat-label">Loyaute moyenne</div>
+        </div>
+    `;
+
+    // Group charts
+    const sortedGroups = Object.values(groupes).sort((a, b) => b.loyaute_moyenne - a.loyaute_moyenne);
+
+    document.getElementById('loyalty-chart').innerHTML = sortedGroups.map(g => `
+        <div class="theme-bar">
+            <div class="theme-bar-label">${g.sigle} (${g.nb_deputes})</div>
+            <div style="flex:1;">
+                <div class="theme-bar-fill" style="width:${g.loyaute_moyenne}%;background:${GROUP_COLORS[g.sigle] || '#666'}">
+                    ${g.loyaute_moyenne}%
+                </div>
+            </div>
+        </div>
+    `).join('');
+
+    const sortedByPart = Object.values(groupes).sort((a, b) => b.participation_moyenne - a.participation_moyenne);
+    document.getElementById('participation-chart').innerHTML = sortedByPart.map(g => `
+        <div class="theme-bar">
+            <div class="theme-bar-label">${g.sigle} (${g.nb_deputes})</div>
+            <div style="flex:1;">
+                <div class="theme-bar-fill" style="width:${Math.min(g.participation_moyenne * 3, 100)}%;background:${GROUP_COLORS[g.sigle] || '#666'}">
+                    ${g.participation_moyenne}%
+                </div>
+            </div>
+        </div>
+    `).join('');
+
+    // Top rebels
+    const rebels = deputes.slice(0, 10);
+    document.getElementById('top-rebels').innerHTML = `<table><thead><tr>
+        <th>Depute</th><th>Groupe</th><th>Votes rebelles</th><th>Loyaute</th>
+    </tr></thead><tbody>${rebels.map(d => `<tr style="cursor:pointer" onclick="showDepute('${d.uid}')">
+        <td><strong>${d.prenom} ${d.nom}</strong></td>
+        <td><span class="badge ${GROUP_BADGE_CLASS[d.groupe_sigle] || ''}">${d.groupe_sigle}</span></td>
+        <td style="color:var(--accent-red);font-weight:700">${d.votes_rebelles}</td>
+        <td>${d.score_loyaute != null ? d.score_loyaute + '%' : '-'}</td>
+    </tr>`).join('')}</tbody></table>`;
+
+    // Top participants
+    const participants = [...deputes].sort((a, b) => b.taux_participation - a.taux_participation).slice(0, 10);
+    document.getElementById('top-participants').innerHTML = `<table><thead><tr>
+        <th>Depute</th><th>Groupe</th><th>Taux participation</th><th>Scrutins votes</th>
+    </tr></thead><tbody>${participants.map(d => `<tr style="cursor:pointer" onclick="showDepute('${d.uid}')">
+        <td><strong>${d.prenom} ${d.nom}</strong></td>
+        <td><span class="badge ${GROUP_BADGE_CLASS[d.groupe_sigle] || ''}">${d.groupe_sigle}</span></td>
+        <td style="color:var(--accent-green);font-weight:700">${d.taux_participation}%</td>
+        <td>${d.scrutins_votes} / ${d.total_scrutins}</td>
+    </tr>`).join('')}</tbody></table>`;
+
+    // Populate group filters
+    const groupOptions = sortedGroups.map(g =>
+        `<option value="${g.sigle}">${g.sigle} - ${g.nom} (${g.nb_deputes})</option>`
+    ).join('');
+    document.getElementById('filter-groupe').innerHTML = '<option value="">Tous les groupes</option>' + groupOptions;
+    document.getElementById('anomaly-groupe').innerHTML = '<option value="">Tous les groupes</option>' + groupOptions;
+}
+
+// ─── Deputes list ──────────────────────────────────────────────────────────
+
+let allDeputes = [];
+let currentPage = 0;
+const PAGE_SIZE = 30;
+
+function renderDeputeRow(d) {
+    return `<tr style="cursor:pointer" onclick="showDepute('${d.uid}')">
+        <td><strong>${d.prenom} ${d.nom}</strong></td>
+        <td><span class="badge ${GROUP_BADGE_CLASS[d.groupe_sigle] || ''}">${d.groupe_sigle}</span></td>
+        <td>${d.departement || '-'}</td>
+        <td>${d.num_circonscription || '-'}</td>
+        <td style="max-width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;"
+            title="${d.profession_avant_mandat || ''}">${d.profession_avant_mandat || '-'}</td>
+        <td>${d.nb_mandats_depute || '-'}</td>
+        <td>
+            <span style="font-weight:600">${d.taux_participation}%</span>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width:${Math.min(d.taux_participation * 1.5, 100)}%;background:${d.taux_participation > 40 ? 'var(--accent-green)' : d.taux_participation > 20 ? 'var(--accent-orange)' : 'var(--accent-red)'}"></div>
+            </div>
+        </td>
+        <td>
+            <span style="font-weight:600">${d.score_loyaute != null ? d.score_loyaute + '%' : '-'}</span>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width:${d.score_loyaute || 0}%;background:${(d.score_loyaute||0) > 90 ? 'var(--accent-green)' : (d.score_loyaute||0) > 75 ? 'var(--accent-orange)' : 'var(--accent-red)'}"></div>
+            </div>
+        </td>
+        <td style="color:var(--accent-red);font-weight:600">${d.votes_rebelles || 0}</td>
+        <td style="font-size:0.8rem;color:var(--text-muted)">${d.specialite_principale || '-'}</td>
+    </tr>`;
+}
+
+function renderPage() {
+    const start = currentPage * PAGE_SIZE;
+    const pageData = allDeputes.slice(start, start + PAGE_SIZE);
+    const totalPages = Math.ceil(allDeputes.length / PAGE_SIZE);
+
+    document.getElementById('deputes-tbody').innerHTML = pageData.map(renderDeputeRow).join('');
+    document.getElementById('deputes-count').innerHTML =
+        `${allDeputes.length} deputes | Page ${currentPage + 1}/${totalPages} ` +
+        `<button class="btn" style="padding:2px 10px;font-size:0.8rem;" onclick="changePage(-1)" ${currentPage === 0 ? 'disabled' : ''}>&laquo; Prec</button> ` +
+        `<button class="btn" style="padding:2px 10px;font-size:0.8rem;" onclick="changePage(1)" ${currentPage >= totalPages - 1 ? 'disabled' : ''}>Suiv &raquo;</button>`;
+}
+
+function changePage(delta) {
+    const totalPages = Math.ceil(allDeputes.length / PAGE_SIZE);
+    currentPage = Math.max(0, Math.min(totalPages - 1, currentPage + delta));
+    renderPage();
+}
+
+async function loadDeputes() {
+    const search = document.getElementById('search-depute').value;
+    const groupe = document.getElementById('filter-groupe').value;
+    const sort = document.getElementById('sort-by').value;
+    const order = document.getElementById('sort-order').value;
+
+    const params = new URLSearchParams({search, groupe, sort, order});
+    allDeputes = await fetchAPI('/api/deputes?' + params);
+    currentPage = 0;
+    renderPage();
+}
+
+// Debounced search
+let searchTimeout;
+document.getElementById('search-depute').addEventListener('input', () => {
+    clearTimeout(searchTimeout);
+    searchTimeout = setTimeout(loadDeputes, 300);
+});
+document.getElementById('filter-groupe').addEventListener('change', loadDeputes);
+document.getElementById('sort-by').addEventListener('change', loadDeputes);
+document.getElementById('sort-order').addEventListener('change', loadDeputes);
+
+// ─── Deputy detail ─────────────────────────────────────────────────────────
+
+async function showDepute(uid) {
+    const data = await fetchAPI('/api/depute/' + uid);
+    const d = data.depute;
+    const p = data.profile || {};
+    const a = data.anomalies;
+
+    const themes = (p.theme_profiles || {});
+    const themeHtml = Object.entries(themes)
+        .sort((a, b) => b[1].total_votes - a[1].total_votes)
+        .slice(0, 10)
+        .map(([theme, stats]) => `
+            <div style="margin-bottom:0.75rem;">
+                <div style="display:flex;justify-content:space-between;font-size:0.85rem;margin-bottom:4px;">
+                    <span>${theme}</span>
+                    <span style="color:var(--text-muted)">${stats.total_votes} votes</span>
+                </div>
+                <div class="vote-result-bar">
+                    <div class="vote-result-segment vote-pour" style="width:${stats.pour_rate*100}%">${Math.round(stats.pour_rate*100)}%</div>
+                    <div class="vote-result-segment vote-contre" style="width:${stats.contre_rate*100}%">${Math.round(stats.contre_rate*100)}%</div>
+                    <div class="vote-result-segment vote-abstention" style="width:${stats.abstention_rate*100}%">${Math.round(stats.abstention_rate*100)}%</div>
+                </div>
+            </div>
+        `).join('');
+
+    const anomalyHtml = a && a.anomalies ? a.anomalies.map(an => `
+        <div class="anomaly-card">
+            <span class="anomaly-theme">${an.theme}</span>
+            <span class="z-score">z=${an.z_score}</span>
+            <div style="margin-top:0.5rem;font-size:0.85rem;color:var(--text-muted)">${an.direction}</div>
+        </div>
+    `).join('') : '<p style="color:var(--text-muted)">Aucune anomalie detectee</p>';
+
+    document.getElementById('modal-content').innerHTML = `
+        <h2 style="margin-bottom:0.5rem;">${d.civilite} ${d.prenom} ${d.nom}</h2>
+        <span class="badge ${GROUP_BADGE_CLASS[d.groupe_sigle] || ''}" style="font-size:0.9rem;padding:0.3rem 1rem;">${d.groupe_sigle} - ${d.groupe_nom}</span>
+
+        <div class="grid-2" style="margin-top:1.5rem;">
+            <div>
+                <h3 style="margin-bottom:1rem;color:var(--accent-blue);">Informations</h3>
+                <table style="font-size:0.85rem;">
+                    <tr><td style="color:var(--text-muted);padding-right:1rem;">Date de naissance</td><td>${d.date_naissance || '-'}</td></tr>
+                    <tr><td style="color:var(--text-muted);">Departement</td><td>${d.departement || '-'}</td></tr>
+                    <tr><td style="color:var(--text-muted);">Circonscription</td><td>${d.num_circonscription || '-'}</td></tr>
+                    <tr><td style="color:var(--text-muted);">Region</td><td>${d.region || '-'}</td></tr>
+                    <tr><td style="color:var(--text-muted);">Profession</td><td>${d.profession_avant_mandat || '-'}</td></tr>
+                    <tr><td style="color:var(--text-muted);">Categorie sociopro</td><td>${d.categorie_socpro || '-'}</td></tr>
+                    <tr><td style="color:var(--text-muted);">Nb mandats</td><td>${d.nb_mandats_depute || '-'}</td></tr>
+                    <tr><td style="color:var(--text-muted);">Debut mandat</td><td>${d.date_debut_mandat || '-'}</td></tr>
+                </table>
+            </div>
+            <div>
+                <h3 style="margin-bottom:1rem;color:var(--accent-green);">Activite</h3>
+                <div class="stats-row" style="grid-template-columns:1fr 1fr;">
+                    <div class="stat-card">
+                        <div class="stat-value" style="color:var(--accent-green);font-size:1.5rem;">${d.taux_participation}%</div>
+                        <div class="stat-label">Participation</div>
+                        <div style="font-size:0.8rem;color:var(--text-muted)">${d.scrutins_votes} / ${d.total_scrutins}</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" style="color:${(d.score_loyaute||0) > 90 ? 'var(--accent-green)' : 'var(--accent-orange)'};font-size:1.5rem;">${d.score_loyaute != null ? d.score_loyaute + '%' : '-'}</div>
+                        <div class="stat-label">Loyaute</div>
+                        <div style="font-size:0.8rem;color:var(--text-muted)">${d.votes_rebelles} votes rebelles</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3 style="margin:1.5rem 0 1rem;color:var(--accent-purple);">Profil de vote par theme</h3>
+        <div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:0.5rem;">
+            <span style="color:var(--accent-green);">Vert = Pour</span> |
+            <span style="color:var(--accent-red);">Rouge = Contre</span> |
+            <span style="color:var(--accent-orange);">Orange = Abstention</span>
+        </div>
+        ${themeHtml || '<p style="color:var(--text-muted)">Pas de donnees thematiques</p>'}
+
+        <h3 style="margin:1.5rem 0 1rem;color:var(--accent-orange);">Profils atypiques detectees</h3>
+        ${anomalyHtml}
+    `;
+
+    document.getElementById('modal-overlay').classList.add('active');
+}
+
+function closeModal() {
+    document.getElementById('modal-overlay').classList.remove('active');
+}
+
+document.getElementById('modal-overlay').addEventListener('click', (e) => {
+    if (e.target === document.getElementById('modal-overlay')) closeModal();
+});
+
+// ─── Groupes ───────────────────────────────────────────────────────────────
+
+async function loadGroupes() {
+    const groupes = await fetchAPI('/api/groupes');
+    const grid = document.getElementById('groupes-grid');
+
+    grid.innerHTML = Object.values(groupes).sort((a, b) => b.nb_deputes - a.nb_deputes).map(g => `
+        <div class="card" style="border-left:4px solid ${GROUP_COLORS[g.sigle] || '#666'}">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+                <div>
+                    <div style="font-size:1.3rem;font-weight:700;">${g.sigle}</div>
+                    <div style="font-size:0.8rem;color:var(--text-muted);">${g.nom}</div>
+                </div>
+                <div class="stat-value" style="color:${GROUP_COLORS[g.sigle] || '#666'}">${g.nb_deputes}</div>
+            </div>
+            <div style="display:flex;gap:1rem;">
+                <div style="flex:1;">
+                    <div style="font-size:0.8rem;color:var(--text-muted);">Loyaute moy.</div>
+                    <div style="font-weight:700;color:${g.loyaute_moyenne > 90 ? 'var(--accent-green)' : 'var(--accent-orange)'}">${g.loyaute_moyenne}%</div>
+                    <div class="progress-bar"><div class="progress-fill" style="width:${g.loyaute_moyenne}%;background:${GROUP_COLORS[g.sigle]}"></div></div>
+                </div>
+                <div style="flex:1;">
+                    <div style="font-size:0.8rem;color:var(--text-muted);">Participation moy.</div>
+                    <div style="font-weight:700;">${g.participation_moyenne}%</div>
+                    <div class="progress-bar"><div class="progress-fill" style="width:${Math.min(g.participation_moyenne * 2, 100)}%;background:${GROUP_COLORS[g.sigle]}"></div></div>
+                </div>
+            </div>
+        </div>
+    `).join('');
+}
+
+// ─── Simulator ─────────────────────────────────────────────────────────────
+
+async function loadThemes() {
+    const themes = await fetchAPI('/api/themes');
+    document.getElementById('theme-checkboxes').innerHTML = themes.map(t => `
+        <label style="display:flex;align-items:center;gap:4px;font-size:0.8rem;background:var(--bg-dark);padding:4px 8px;border-radius:4px;cursor:pointer;">
+            <input type="checkbox" class="theme-checkbox" value="${t}"> ${t}
+        </label>
+    `).join('');
+
+    // Also populate anomaly theme filter
+    document.getElementById('anomaly-theme').innerHTML = '<option value="">Tous les themes</option>' +
+        themes.map(t => `<option value="${t}">${t}</option>`).join('');
+}
+
+async function runSimulation() {
+    const title = document.getElementById('sim-title').value;
+    const checkedThemes = [...document.querySelectorAll('.theme-checkbox:checked')].map(c => c.value);
+
+    if (!title && checkedThemes.length === 0) {
+        alert('Veuillez entrer un titre ou selectionner des themes.');
+        return;
+    }
+
+    document.getElementById('btn-simulate').textContent = 'Simulation en cours...';
+    document.getElementById('btn-simulate').disabled = true;
+
+    try {
+        const result = await fetch('/api/simulate', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({title, themes: checkedThemes})
+        }).then(r => r.json());
+
+        document.getElementById('sim-results').style.display = 'block';
+
+        // Themes detected
+        document.getElementById('sim-themes').innerHTML =
+            '<strong>Themes detectes :</strong> ' +
+            result.themes_detected.map(t => `<span class="anomaly-theme">${t}</span>`).join(' ');
+
+        // Total bar
+        const total = result.total_pour + result.total_contre + result.total_abstention;
+        document.getElementById('sim-total-bar').innerHTML = `
+            <div style="display:flex;gap:2rem;margin-bottom:1rem;">
+                <div><span style="font-size:2rem;font-weight:700;color:var(--accent-green);">${result.total_pour}</span> Pour</div>
+                <div><span style="font-size:2rem;font-weight:700;color:var(--accent-red);">${result.total_contre}</span> Contre</div>
+                <div><span style="font-size:2rem;font-weight:700;color:var(--accent-orange);">${result.total_abstention}</span> Abstention</div>
+            </div>
+            <div class="vote-result-bar" style="height:40px;">
+                <div class="vote-result-segment vote-pour" style="width:${result.total_pour/total*100}%">${result.total_pour}</div>
+                <div class="vote-result-segment vote-contre" style="width:${result.total_contre/total*100}%">${result.total_contre}</div>
+                <div class="vote-result-segment vote-abstention" style="width:${result.total_abstention/total*100}%">${result.total_abstention}</div>
+            </div>
+            <div style="text-align:center;margin-top:0.5rem;font-size:1.2rem;font-weight:700;color:${result.total_pour > result.total_contre ? 'var(--accent-green)' : 'var(--accent-red)'}">
+                ${result.total_pour > result.total_contre ? 'ADOPTE' : 'REJETE'} (${result.total_pour > result.total_contre ? result.total_pour : result.total_contre}/${total})
+            </div>
+        `;
+
+        // Group results
+        document.getElementById('sim-group-results').innerHTML = '<h4 style="margin:1rem 0 0.5rem;">Par groupe :</h4>' +
+            Object.entries(result.group_summary).sort((a, b) => b[1].total - a[1].total).map(([g, s]) => `
+                <div style="margin-bottom:0.5rem;">
+                    <div style="display:flex;justify-content:space-between;font-size:0.85rem;">
+                        <span class="badge ${GROUP_BADGE_CLASS[g] || ''}">${g}</span>
+                        <span style="color:var(--text-muted)">${s.total} deputes</span>
+                    </div>
+                    <div class="vote-result-bar" style="height:20px;">
+                        <div class="vote-result-segment vote-pour" style="width:${s.pour/s.total*100}%">${s.pour}</div>
+                        <div class="vote-result-segment vote-contre" style="width:${s.contre/s.total*100}%">${s.contre}</div>
+                        <div class="vote-result-segment vote-abstention" style="width:${s.abstention/s.total*100}%">${s.abstention}</div>
+                    </div>
+                </div>
+            `).join('');
+
+        // Detail table
+        document.getElementById('sim-detail-tbody').innerHTML = result.predictions
+            .sort((a, b) => b.confidence - a.confidence)
+            .map(r => `
+                <tr>
+                    <td><strong>${r.prenom} ${r.nom}</strong></td>
+                    <td><span class="badge ${GROUP_BADGE_CLASS[r.groupe] || ''}">${r.groupe}</span></td>
+                    <td style="font-weight:700;color:${r.predicted_vote === 'pour' ? 'var(--accent-green)' : r.predicted_vote === 'contre' ? 'var(--accent-red)' : 'var(--accent-orange)'}">
+                        ${r.predicted_vote.toUpperCase()}
+                    </td>
+                    <td>${Math.round(r.confidence * 100)}%</td>
+                    <td style="color:var(--accent-green)">${Math.round(r.pour * 100)}%</td>
+                    <td style="color:var(--accent-red)">${Math.round(r.contre * 100)}%</td>
+                    <td style="color:var(--accent-orange)">${Math.round(r.abstention * 100)}%</td>
+                </tr>
+            `).join('');
+
+    } finally {
+        document.getElementById('btn-simulate').textContent = 'Lancer la simulation';
+        document.getElementById('btn-simulate').disabled = false;
+    }
+}
+
+// ─── Profils atypiques ─────────────────────────────────────────────────────────────
+
+async function loadProfilsAtypiques() {
+    const groupe = document.getElementById('anomaly-groupe').value;
+    const theme = document.getElementById('anomaly-theme').value;
+    const minZ = document.getElementById('anomaly-z').value;
+
+    const params = new URLSearchParams({groupe, theme, min_z: minZ});
+    const anomalies = await fetchAPI('/api/anomalies?' + params);
+
+    document.getElementById('anomalies-list').innerHTML = anomalies.length === 0 ?
+        '<p style="color:var(--text-muted)">Aucune anomalie trouvee avec ces criteres.</p>' :
+        anomalies.map(a => `
+            <div class="anomaly-card" style="cursor:pointer" onclick="showDepute('${a.uid}')">
+                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem;">
+                    <div>
+                        <strong>${a.prenom} ${a.nom}</strong>
+                        <span class="badge ${GROUP_BADGE_CLASS[a.groupe] || ''}" style="margin-left:0.5rem;">${a.groupe}</span>
+                    </div>
+                    <div style="text-align:right;">
+                        <span style="color:var(--text-muted);font-size:0.8rem;">Loyaute globale:</span>
+                        <span style="font-weight:700;color:${(a.loyalty_global||0) > 90 ? 'var(--accent-green)' : 'var(--accent-orange)'}">
+                            ${a.loyalty_global != null ? a.loyalty_global + '%' : '-'}
+                        </span>
+                    </div>
+                </div>
+                ${a.anomalies.slice(0, 3).map(an => `
+                    <div style="margin-left:1rem;margin-bottom:0.25rem;font-size:0.85rem;">
+                        <span class="anomaly-theme">${an.theme}</span>
+                        <span class="z-score">z=${an.z_score}</span>
+                        <span style="color:var(--text-muted);margin-left:0.5rem;">${an.direction}</span>
+                    </div>
+                `).join('')}
+                ${a.anomalies.length > 3 ? `<div style="margin-left:1rem;font-size:0.8rem;color:var(--text-muted);">+ ${a.anomalies.length - 3} autres themes atypiques</div>` : ''}
+            </div>
+        `).join('');
+}
+
+// ─── Clusters ──────────────────────────────────────────────────────────────
+
+async function loadClusters() {
+    const clusters = await fetchAPI('/api/clusters');
+
+    document.getElementById('clusters-content').innerHTML = Object.entries(clusters)
+        .sort((a, b) => b[1].size - a[1].size)
+        .map(([id, c]) => `
+            <div class="card" style="background:var(--bg-dark);">
+                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+                    <div class="card-title" style="margin:0;">Cluster ${id}</div>
+                    <div style="font-size:1.5rem;font-weight:700;color:var(--accent-blue);">${c.size} deputes</div>
+                </div>
+                <div style="margin-bottom:1rem;">
+                    <strong>Composition :</strong>
+                    <div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-top:0.5rem;">
+                        ${Object.entries(c.group_distribution).sort((a,b) => b[1] - a[1]).map(([g, n]) => `
+                            <span class="badge ${GROUP_BADGE_CLASS[g] || ''}" style="font-size:0.85rem;">
+                                ${g}: ${n}
+                            </span>
+                        `).join('')}
+                    </div>
+                </div>
+                ${c.is_cross_party ? '<div style="color:var(--accent-purple);font-size:0.85rem;font-weight:600;">Bloc transpartisan</div>' : ''}
+                <div style="margin-top:0.5rem;">
+                    <details>
+                        <summary style="cursor:pointer;color:var(--text-muted);font-size:0.85rem;">Voir les membres (echantillon)</summary>
+                        <div class="cluster-group" style="margin-top:0.5rem;">
+                            ${(c.members_sample || []).map(m => `
+                                <span class="cluster-member" style="background:${GROUP_COLORS[m.groupe] || '#666'}22;color:${GROUP_COLORS[m.groupe] || '#666'};cursor:pointer;"
+                                      onclick="showDepute('${m.uid}')">
+                                    ${m.prenom} ${m.nom}
+                                </span>
+                            `).join('')}
+                        </div>
+                    </details>
+                </div>
+            </div>
+        `).join('');
+}
+
+// ─── Init ──────────────────────────────────────────────────────────────────
+
+async function init() {
+    await Promise.all([
+        loadDashboard(),
+        loadDeputes(),
+        loadGroupes(),
+        loadThemes(),
+        loadProfilsAtypiques(),
+        loadClusters(),
+    ]);
+}
+
+init();
+</script>
+
+</body>
+</html>
